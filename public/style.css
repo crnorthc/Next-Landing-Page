@@ -112,7 +112,6 @@ section * {
 }
 
 .bodyClass {
- position: absolute;
  width: 100%;
  height: inherit;
  overflow-x: hidden;
