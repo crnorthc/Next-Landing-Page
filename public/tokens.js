@@ -1,12 +1,4 @@
-let nav = document.querySelector(".home-nav");
-
-   if (nav) {
-    window.addEventListener("scroll", () => {
-     nav.classList.toggle("scrolling-active", window.scrollY > 0);
-    });
-   }
-
-   function createToken() {
+function createToken() {
     let top = Math.random();
     let fuck;
     let showcase;
@@ -61,12 +53,3 @@ let nav = document.querySelector(".home-nav");
     }, 200000);
    }
    setInterval(createToken, 2500);
-
-   // accordion
-   const accordion = document.getElementsByClassName("accordionContentBx");
-
-   for (i = 0; i < accordion.length; i++) {
-    accordion[i].addEventListener("click", function () {
-     this.classList.toggle("active");
-    });
-   }

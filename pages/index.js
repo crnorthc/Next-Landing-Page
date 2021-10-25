@@ -4,7 +4,7 @@ import '../public/tokens.js'
 
 export default function Home() {
   return (
-	<div className="flex flex-col items-center justify-center min-h-screen py-2">
+	<div className="bodyClass bg-dark">
 		<Head>
 			<meta charset="UTF-8" />
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +12,6 @@ export default function Home() {
 			<link rel="shortcut icon" type="image/svg" href="vapur.svg"/>
 			<title>Vapur</title>
 		</Head>	  
-		<div className="bodyClass bg-dark">
   <div className="tokenCont"></div>
   <div className="fixed w-full z-20">
     <div className="
@@ -1791,7 +1790,6 @@ export default function Home() {
     </div>
   </div>
 
-</div>
     <Script src='../public/tokens' strategy='lazyOnload' />
 		</div>
   )
