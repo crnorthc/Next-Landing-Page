@@ -1,0 +1,487 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* page dividers */
+body {
+ scroll-behavior: smooth;
+}
+
+.custom-shape-divider-top-1631037182 {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ overflow: hidden;
+ line-height: 0;
+}
+
+.custom-shape-divider-top-1631037182 svg {
+ position: relative;
+ display: block;
+ width: calc(136% + 1.3px);
+ height: 150px;
+}
+
+.custom-shape-divider-top-1631037182 .shape-fill {
+ fill: #00c2ef;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+}
+
+.glory {
+ font-family: "Glory", sans-serif !important;
+}
+
+/* Navbar */
+.scrolling-active {
+ background-color: #1e292a;
+ transition: background-color 0.3s ease-in-out 0.2s;
+}
+
+.nav-item-active {
+ color: #f38a8a;
+ border-bottom: 3px solid;
+}
+
+/* showcase */
+.showcase {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background: #1e292a;
+ overflow: hidden;
+}
+
+.follow-us img {
+ padding: 0px 10px;
+ transition: transform 0.2s ease-in-out;
+ cursor: pointer;
+}
+.follow-us img:hover {
+ transform: scale(1.2);
+}
+
+.moving-chart {
+ animation: chartAnimate 20s linear infinite;
+}
+
+@keyframes chartAnimate {
+ 0% {
+  transform: translateY(0);
+ }
+
+ 100% {
+  transform: translateY(-14.151%);
+ }
+}
+
+.chart-width {
+ width: 2px;
+}
+.chart-height {
+ height: 2px;
+}
+
+section * {
+ z-index: 8;
+}
+
+.token {
+ position: absolute;
+ cursor: default;
+ animation: tokenAnimate 180s linear infinite;
+ transition: background-color 0.2s linear;
+}
+
+.tokenCont {
+ overflow: hidden;
+}
+
+.token:hover {
+ background-color: #eee;
+}
+
+.over-tokens {
+ z-index: 8;
+ position: relative;
+}
+
+body {
+ position: absolute;
+ width: 100%;
+ height: inherit;
+ overflow-x: hidden;
+}
+
+@keyframes tokenAnimate {
+ 0% {
+  transform: scale(0.5) translateY(0) rotate(0deg);
+  opacity: 0;
+  filter: blur(6px);
+ }
+
+ 10% {
+  opacity: 0.3;
+  filter: blur(0px);
+ }
+
+ 80% {
+  opacity: 0.3;
+ }
+
+ 100% {
+  transform: scale(1) translateY(-15000%) rotate(0deg);
+  opacity: 0.3;
+ }
+}
+
+.vapur {
+ position: absolute;
+ cursor: default;
+ background: #eee;
+ animation: vapurAnimate 30s linear infinite;
+ transition: background-color 0.2s linear;
+ z-index: 0;
+ filter: blur(20px);
+}
+
+@keyframes vapurAnimate {
+ 0% {
+  transform: scale(0.2) translateY(0) rotate(0deg);
+  opacity: 0;
+ }
+
+ 10% {
+  opacity: 1;
+ }
+
+ 80% {
+  opacity: 1;
+ }
+
+ 100% {
+  transform: scale(8) translateY(-550%) rotate(0deg);
+  opacity: 0;
+  opacity: 0;
+ }
+}
+
+/* ocean */
+
+section .ocean {
+ position: absolute;
+ z-index: 0 !important;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 70px;
+ background: #00a2c7;
+ background-size: 1000px 100px;
+ filter: blur(2px);
+}
+section .ocean-front {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 10px;
+ background: #00c2ef;
+ background-size: 1000px 100px;
+ z-index: 6 !important;
+}
+
+section .wave {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ background: url(wavey.png);
+ background-size: 1000px 100px;
+ filter: blur(2px);
+}
+
+section .wave.wave1 {
+ animation: animate 45s linear infinite;
+ z-index: 3 !important;
+ opacity: 1;
+ animation-delay: 0s;
+ bottom: 33px;
+ height: 70px;
+}
+
+section .wave.wave2 {
+ animation: animate2 30s linear infinite;
+ z-index: 4 !important;
+ opacity: 1;
+ animation-delay: -7s;
+ bottom: 22px;
+ height: 80px;
+}
+
+section .wave.wave3 {
+ animation: animate3 35s linear infinite;
+ z-index: 5 !important;
+ opacity: 1;
+ animation-delay: -2s;
+ bottom: 11px;
+ height: 90px;
+}
+
+section .wave.wave4 {
+ animation: animate4 30s linear infinite;
+ z-index: 6 !important;
+ opacity: 1;
+ animation-delay: -5s;
+ bottom: 0px;
+ height: 100px;
+}
+
+section .low-1 {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 130px;
+ background: rgba(146, 146, 146, 0.4);
+ filter: blur(10px);
+ background-size: 1000px 100px;
+ z-index: 3 !important;
+}
+
+section .low-2 {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 130px;
+ background: rgba(146, 146, 146, 0.3);
+ filter: blur(20px);
+ background-size: 1000px 100px;
+ z-index: 4 !important;
+}
+section .low-3 {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 130px;
+ background: rgba(146, 146, 146, 0.2);
+ filter: blur(20px);
+ background-size: 1000px 100px;
+ z-index: 5 !important;
+}
+/* section .low-4 {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 130px;
+ background: rgba(146, 146, 146, 0.1);
+ filter: blur(30px);
+ background-size: 1000px 100px;
+ z-index: 6;
+} */
+
+@keyframes animate {
+ 0% {
+  background-position-x: 0;
+ }
+ 100% {
+  background-position-x: 1000px;
+ }
+}
+
+@keyframes animate2 {
+ 0% {
+  background-position-x: 0;
+ }
+ 100% {
+  background-position-x: -1000px;
+ }
+}
+
+@keyframes animate3 {
+ 0% {
+  background-position-x: 0;
+ }
+ 100% {
+  background-position-x: 1000px;
+ }
+}
+
+@keyframes animate4 {
+ 0% {
+  background-position-x: 0;
+ }
+ 100% {
+  background-position-x: -1000px;
+ }
+}
+
+/* Game Modes */
+.myAccordion .accordionContentBx .content {
+ overflow: hidden;
+ transition: 0.5s;
+ overflow-y: auto;
+}
+
+.myAccordion .accordionContentBx.active .content {
+ height: 150px;
+}
+
+/* Features */
+.graphy {
+ background-image: url("graph.png"); /* The image used */
+ height: 45vh; /* You must set a specified height */
+ background-position: center center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+/* Roadmap */
+
+.roadmapRow section {
+ width: calc(50% - 60px);
+}
+
+.wrapper .roadmapCenter-line {
+ height: 69% !important;
+}
+
+.roadmapRow-1 section::before {
+ right: -14px;
+}
+
+.roadmapRow-2 section::before {
+ left: -14px;
+}
+
+.roadmapRow-3 section::before {
+ right: -14px;
+}
+
+.roadmapRow-4 section::before {
+ left: -14px;
+}
+
+.roadmapRow-1 section .roadmapCenterSticker,
+.roadmapRow-3 section .roadmapCenterSticker {
+ right: -92px;
+ top: 25px;
+}
+
+.roadmapRow-2 section .roadmapCenterSticker,
+.roadmapRow-4 section .roadmapCenterSticker {
+ left: -92px;
+ top: 25px;
+}
+
+@media (max-width: 768px) {
+ .graphy {
+  height: 40vw;
+ }
+ .wrapper .roadmapRow section {
+  width: 100%;
+ }
+
+ .roadmapRow-1 section::before,
+ .roadmapRow-2 section::before,
+ .roadmapRow-3 section::before,
+ .roadmapRow-4 section::before {
+  display: none;
+ }
+}
+
+@media only screen and (max-width: 650px) {
+ section .step {
+  display: none;
+ }
+
+ .title-div .title {
+  padding-top: 2rem;
+  width: 12rem;
+  padding-right: 10px;
+ }
+
+ /* 
+@keyframes tokenAnimate {
+ 0% {
+  transform: scale(.5) translateY(0) rotate(0deg);
+  opacity: 0;
+ }
+ 10% {
+  opacity: 1;
+ }
+ 80% {
+  opacity: 1;
+ }
+ 100% {
+  transform: scale(1) translateY(-300%) rotate(0deg);
+  opacity: 0;
+  opacity: 0;
+ }
+} */
+}
+
+/* section .step {
+ position: absolute;
+ bottom:0;
+ width: 20vw;
+ min-width: 200px;
+ height: 150px;
+ background: #FFB900;
+}
+section .step1 {
+ z-index: 2000;
+ left: 0;
+ border-radius: 0 30px 0 0;
+}
+section .step2 {
+ z-index: 2000;
+ right: 0;
+ border-radius: 30px 0 0 0;
+}
+section .vapur {
+ position:absolute;
+ bottom:0;
+ display:flex;
+ z-index:0;
+ padding:0 20px;
+}
+section .vapur span {
+ position:relative;
+ bottom:0;
+ display: block;
+ margin: 0 2px 20px;
+ min-width: 8px;
+ height: 50px;
+ padding:0 20px;
+ background: #fff;
+ border-radius: 50%;
+ animation: vapurAnimate 8s linear infinite;
+ opacity:1;
+ filter: blur(20px);
+ animation-delay: calc(var(--i) * -0.5s);
+}
+@keyframes vapurAnimate {
+ 0%{
+  transform: translateY(0) scale(1);
+  opacity:1;
+ }
+ 15%{
+  opacity:1;
+ }
+ 50%{
+    transform: translateY(-400px) scale(5);
+ }
+ 100%{
+    transform: translateY(-800px) scale(10);
+ }
+} */
