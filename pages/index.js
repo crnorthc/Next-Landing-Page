@@ -1,8 +1,69 @@
 import Head from 'next/head'
 import Script from "next/script";
+import { useEffect, useState } from 'react';
+import axios from 'axios'
+import Cookies from 'universal-cookie'
 import '../public/tokens.js'
 
 export default function Home() {
+  const [spot, setSpot] = useState(null)
+  const [total, setTotal] = useState(null)
+  const [referral_link, setReferralLink] = useState(null)
+  const [referrals, setReferrals] = useState(null)
+
+  const handleScroll = () => {
+    let nav = document.querySelector(".home-nav");
+     nav.classList.toggle("scrolling-active", window.scrollY > 0);
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, {passive: true})
+  })
+
+  useEffect(() => {
+    const cookies = new Cookies()
+    const cookie = cookies.getAll()
+
+    const config = {
+      headers: {
+          'Content-Type': 'application/json'
+      }
+  }  
+
+    if ('user_email' in cookie){
+      const body = JSON.stringify({ 'email': cookie['user_email'], 'api_key': 'QZ83SF'})
+
+
+      axios.post('https://getwaitlist.com/api/v1/users/status', body, config)
+      .then(res => {
+          setSpot(res.data.current_priority)
+          setTotal(res.data.total_users)
+          setReferralLink(res.data_referral_link)
+          setReferrals(res.data.total_referrals)
+      })
+    }
+  }, [])
+
+  const addToWaitlist = (email) => {
+    const config = {
+      headers: {
+          'Content-Type': 'application/json'
+      }
+  }
+
+  const body = JSON.stringify({ email, 'api_key': 'QZ83SF', 'referral_link': document.URL})
+
+  axios.post('https://getwaitlist.com/api/v1/waitlists/submit', body, config)
+      .then(res => {
+          setSpot(res.data.current_priority)
+          setTotal(res.data.total_users)
+          setReferralLink(res.data_referral_link)
+          const cookie = new Cookies()
+          cookie.set('user_email', email, {'maxAge': 31540000})
+      })
+  }
+
+
   return (
 	<div className="bodyClass bg-dark">
 		<Head>
@@ -35,7 +96,7 @@ export default function Home() {
         <a className="transition-colors duration-100 hover:text-primary glory" href="#team">Team</a>
       </div>
     </div>
-  </div>
+  </div>    
   <div className="showcase">
     <div className="
      flex
@@ -199,6 +260,7 @@ export default function Home() {
     <h2 className="text-light text-5xl sm:text-6xl pt-3 pb-10 text-center glory">
       Game Overview
     </h2>
+    <button onClick={() => addToWaitlist('crnorthc99@gmail.com')}>CLICK</button>
 
     <p className="text-light mx-auto max-w-4xl text-xl sm:text-2xl text-center p-5 bg-ocean rounded-xl">
       Fantasy trading on Vapur is modeled after the core concepts of fantasy
