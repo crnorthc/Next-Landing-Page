@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Script from "next/script";
+import '../public/tokens.js'
 
 export default function Home() {
   return (
@@ -1790,7 +1792,7 @@ export default function Home() {
   </div>
 
 </div>
-
+    <Script src='../public/tokens' strategy='lazyOnload' />
 		</div>
   )
 }
