@@ -10,6 +10,7 @@ export default function Home() {
   const [total, setTotal] = useState(null)
   const [referral_link, setReferralLink] = useState(null)
   const [referrals, setReferrals] = useState(null)
+  const [hasJOined, setJoined] = useState(false)
 
   const handleScroll = () => {
     let nav = document.querySelector(".home-nav");
@@ -32,7 +33,7 @@ export default function Home() {
 
     if ('user_email' in cookie){
       const body = JSON.stringify({ 'email': cookie['user_email'], 'api_key': 'QZ83SF'})
-
+      setJoined(true)
 
       axios.post('https://getwaitlist.com/api/v1/users/status', body, config)
       .then(res => {
