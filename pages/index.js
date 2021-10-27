@@ -9,8 +9,8 @@ export default function Home() {
   const [spot, setSpot] = useState(null)
   const [total, setTotal] = useState(null)
   const [referral_link, setReferralLink] = useState(null)
-  const [referrals, setReferrals] = useState(null)
-  const [hasJOined, setJoined] = useState(false)
+  const [referrals, setReferrals] = useState(null) 
+  const [hasJoined, setJoined] = useState(false) 
 
   const handleScroll = () => {
     let nav = document.querySelector(".home-nav");
