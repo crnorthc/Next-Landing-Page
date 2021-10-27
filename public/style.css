@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Glory:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 /* page dividers */
 .bodyClass {
@@ -57,6 +57,10 @@
  overflow: hidden;
 }
 
+.medium-shadow-big {
+ box-shadow: 0px 8px 0px #0f1415ff;
+}
+
 .follow-us img {
  padding: 0px 10px;
  transition: transform 0.2s ease-in-out;
@@ -112,7 +116,7 @@ section * {
 }
 
 .bodyClass {
- position:absolute;
+ position: absolute;
  width: 100%;
  height: inherit;
  overflow-x: hidden;
