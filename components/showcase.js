@@ -14,7 +14,7 @@ const showcase = () => {
  const [referrals, setReferrals] = useState(null); // number of referrals person has
  const [hasJoined, setJoined] = useState(false); // has joined waitlist
  const [submittedEmail, setSubmittedEmail] = useState("");
- const [coppied, setCoppied] = useState("Copy");
+ const [copied, setCopied] = useState("Copy");
 
  const handleScroll = () => {
   let nav = document.querySelector(".home-nav");
@@ -119,7 +119,7 @@ const showcase = () => {
       text-center
       z-10
   
-      pb-2 sm:pb-4
+      pb-2 
       
      
      '
@@ -165,17 +165,17 @@ const showcase = () => {
         </p>
         <div className='flex items-center justify-center rounded flex-1 bg-light'>
          <input
-          className='p-4 rounded-l bg-light w-full text-xs sm:text-md'
+          className='p-4 rounded-l bg-light w-full text-xs sm:text-lg'
           readOnly
           type='text'
           value={referral_link}
          />
          <CopyToClipboard
           text={referral_link}
-          onCopy={() => setCoppied("Coppied!")}
+          onCopy={() => setCopied("Copied!")}
          >
-          <button className='bg-primary w-24 py-4 text-xs sm:text-md text-white rounded '>
-           {coppied}
+          <button className='bg-primary w-24 py-4 text-xs sm:text-lg text-white rounded '>
+           {copied}
           </button>
          </CopyToClipboard>
 
