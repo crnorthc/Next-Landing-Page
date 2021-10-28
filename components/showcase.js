@@ -358,9 +358,9 @@ const showcase = () => {
      <div className='wave wave2'></div>
      <div className='wave wave3'></div>
      <div className='wave wave4'></div>
-     {/* <div className='low-1'></div>
+     <div className='low-1'></div>
      <div className='low-2'></div>
-     <div className='low-3'></div> */}
+     <div className='low-3'></div>
     </section>
    </div>
   </div>

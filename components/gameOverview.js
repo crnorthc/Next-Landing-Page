@@ -6,9 +6,32 @@ const gameOverview = () => {
    id='gameplay'
    className='bg-secondary pt-20 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens'
   >
-   <h2 className='text-light text-5xl sm:text-6xl pt-3 pb-10 text-center glory'>
+   {/* <h2 className='text-light text-5xl sm:text-6xl pt-3 pb-10 text-center glory'>
     Game Overview
-   </h2>
+   </h2> */}
+
+   <div className='flex items-center justify-center'>
+    <div className='flex flex-col items-center justify-center'>
+     <h3>Current Lineup</h3>
+     <div className='flex flex-col items-center justify-center'>
+      <div className='flex items-center justify-between rounded-xl w-96  ring-8 ring-red bg-redHue'>
+       <img className='rounded-l-xl w-32' src='/doge.svg' alt='' />
+
+       <div className='flex flex-1 items-center justify-between px-2'>
+        <div className=''>
+         <p className=''>Doge</p>
+         <p className=''>Doge</p>
+        </div>
+
+        <div className=''>
+         <p className=''>$1.75</p>
+         <p className=''>+0.54</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
 
    <p className='text-light mx-auto max-w-4xl text-xl sm:text-2xl text-center p-5 bg-ocean rounded-xl'>
     Fantasy trading on Vapur is modeled after the core concepts of fantasy
