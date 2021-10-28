@@ -1,5 +1,5 @@
-// import Script from "next/script";
-// import "../public/tokens.js";
+import Script from "next/script";
+import "../public/tokens.js";
 import Navbar from "../components/navbar";
 import Showcase from "../components/showcase";
 import GameOverview from "../components/gameOverview";
@@ -11,6 +11,7 @@ import Footer from "../components/footer";
 export default function Home() {
  return (
   <div className='bg-dark bodyClass'>
+  <div className="tokenCont"></div>
    <Navbar />
    <Showcase />
    <GameOverview />
@@ -18,7 +19,7 @@ export default function Home() {
    <Roadmap />
    <Team />
    <Footer />
-   {/* <Script src='../public/tokens' strategy='lazyOnload' /> */}
+   <Script src='../public/tokens' strategy='lazyOnload' /> 
   </div>
  );
 }
