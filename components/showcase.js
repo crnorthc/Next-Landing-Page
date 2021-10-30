@@ -25,6 +25,10 @@ const showcase = () => {
   window.addEventListener("scroll", handleScroll, { passive: true });
  });
 
+ const handleSubmit = () => {
+  addToWaitlist(submittedEmail)
+ }
+
  useEffect(() => {
   const cookies = new Cookies();
   const cookie = cookies.getAll();
@@ -54,7 +58,6 @@ const showcase = () => {
  }, []);
 
  const addToWaitlist = (email) => {
-  console.log("Fuck");
   setJoined(true);
   const config = {
    headers: {
@@ -188,16 +191,15 @@ const showcase = () => {
       <div className='flex items-start justify-center bg-white rounded-md z-10 w-full medium-shadow-big'>
        <input
         type='text'
-        value={submittedEmail}
         onChange={(e) => setSubmittedEmail(e.target.value)}
         className='rounded-l-md px-2 sm:px-4 text-xs sm:text-xl text-dark poppins h-12 flex-1'
         placeholder='ex: elonmusk@spacex.com'
        />
        <button
         type='submit'
-        onClick={() => {
-         addToWaitlist(submittedEmail);
-        }}
+        onClick={() => 
+         handleSubmit()
+        }
         className='rounded-md px-2 sm:px-4 text-sm sm:text-xl  bg-primary text-white h-12 transition-colors duration-100 hover:bg-primaryTransition'
        >
         Get Early Access
