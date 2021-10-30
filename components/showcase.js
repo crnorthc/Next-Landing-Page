@@ -35,22 +35,22 @@ const showcase = () => {
    },
   };
 
-  if ("user_email" in cookie) {
-   const body = JSON.stringify({
-    email: cookie["user_email"],
-    api_key: "QZ83SF",
-   });
-   setJoined(true);
+  // if ("user_email" in cookie) {
+  //  const body = JSON.stringify({
+  //   email: cookie["user_email"],
+  //   api_key: "QZ83SF",
+  //  });
+  //  setJoined(true);
 
-   axios
-    .post("https://getwaitlist.com/api/v1/users/status", body, config)
-    .then((res) => {
-     setSpot(res.data.current_priority);
-     setTotal(res.data.total_users);
-     setReferralLink(res.data.referral_link);
-     setReferrals(res.data.total_referrals);
-    });
-  }
+  //  axios
+  //   .post("https://getwaitlist.com/api/v1/users/status", body, config)
+  //   .then((res) => {
+  //    setSpot(res.data.current_priority);
+  //    setTotal(res.data.total_users);
+  //    setReferralLink(res.data.referral_link);
+  //    setReferrals(res.data.total_referrals);
+  //   });
+  // }
  }, []);
 
  const addToWaitlist = (email) => {
@@ -124,9 +124,8 @@ const showcase = () => {
      
      '
      >
-      Vapur is a fantasy trading platform where players compete in wagered
-      competitions by predicting which stocks and cryptocurrencies will perform
-      the best in an allotted amount of time.
+      Vapur is the largest fantasy financial trading platform in the world,
+      disrupting the market with cryptocurrency wagers.
      </p>
      {hasJoined ? (
       <div className='z-10 bg-medium p-4 rounded-xl medium-shadow-big'>
@@ -140,8 +139,8 @@ const showcase = () => {
       '
        >
         Thanks for signing up! The top{" "}
-        <span className='text-primary font-bold'> 10,000</span> people will be
-        invited to early access! Move up{" "}
+        <span className='text-primary font-bold'> 10,000</span> peopplayersle
+        will be invited to early access! Move up{" "}
         <span className='text-secondary font-bold'> 50</span> spots when someone
         signs up using your referral link.
         <br />
@@ -157,8 +156,8 @@ const showcase = () => {
       text-center
       '
         >
-         Your spot:<span className='text-secondary font-bold'> {spot}</span> |
-         Total spots:
+         Your position:<span className='text-secondary font-bold'> {spot}</span>{" "}
+         | Total players:
          <span className='text-primary font-bold'> {total}</span> <br />
          You currently have{" "}
          <span className='text-green font-bold'> {referrals}</span> referrals.

@@ -33,6 +33,8 @@
  font-family: "Poppins", sans-serif;
 }
 
+/* Fonts */
+
 .glory {
  font-family: "Glory", sans-serif !important;
 }
@@ -48,6 +50,38 @@
  border-bottom: 3px solid;
 }
 
+/* Utility */
+
+.medium-shadow-big {
+ box-shadow: 0px 10px 0px #0f1415ff;
+}
+
+.medium-shadow-xl {
+ box-shadow: 0px 15px 0px #0f1415ff;
+}
+
+.dark-shadow-big {
+ box-shadow: 0px 10px 0px rgb(35, 47, 49);
+}
+
+.pipe-primary-shadow {
+ box-shadow: 0px 2px 0px #ffb900;
+}
+
+.red-shadow-big {
+ box-shadow: 0px 10px 0px #ff0000, 0px 10px 6px #ff0000;
+ background: #1e292a;
+}
+
+.green-shadow-big {
+ box-shadow: 0px 10px 0px #00ff00, 0px 10px 6px #00ff00;
+ background: #1e292a;
+}
+
+.white-text-shadow {
+ text-shadow: 5px 5px #000000;
+}
+
 /* showcase */
 .showcase {
  position: relative;
@@ -57,8 +91,191 @@
  overflow: hidden;
 }
 
-.medium-shadow-big {
- box-shadow: 0px 8px 0px #0f1415ff;
+/* Game Overview */
+
+.lineup-1 {
+ animation: lineup-1Amimate 6s 0s infinite alternate ease-in-out none running;
+}
+
+.lineup-2 {
+ animation: lineup-2Amimate 6s 0.2s infinite alternate ease-in-out none running;
+}
+
+.lineup-3 {
+ animation: lineup-3Amimate 6s 0.4s infinite alternate ease-in-out none running;
+}
+
+.lineup-4 {
+ animation: lineup-4Amimate 6s 0.6s infinite alternate ease-in-out none running;
+}
+
+@keyframes lineup-1Amimate {
+ 0% {
+  transform: translateY(0);
+ }
+
+ 50% {
+  transform: translateY(-20%);
+ }
+
+ 100% {
+  transform: translateY(0);
+ }
+}
+
+@keyframes lineup-2Amimate {
+ 0% {
+  transform: translateY(0);
+ }
+
+ 50% {
+  transform: translateY(-20%);
+ }
+
+ 100% {
+  transform: translateY(0);
+ }
+}
+
+@keyframes lineup-3Amimate {
+ 0% {
+  transform: translateY(0);
+ }
+
+ 50% {
+  transform: translateY(-20%);
+ }
+
+ 100% {
+  transform: translateY(0);
+ }
+}
+
+@keyframes lineup-4Amimate {
+ 0% {
+  transform: translateY(0);
+ }
+
+ 50% {
+  transform: translateY(-20%);
+ }
+
+ 100% {
+  transform: translateY(0);
+ }
+}
+
+/* Pick a Tournament */
+.whiteVapurToken {
+ animation: whiteVapurToken 6s 0s infinite alternate ease-in-out none running;
+}
+.darkVapurToken {
+ animation: darkVapurToken 6s 0.6s infinite alternate ease-in-out none running;
+ filter: blur(2px);
+}
+
+@keyframes whiteVapurToken {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(-3%);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+
+@keyframes darkVapurToken {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(0%);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+
+/* Choose a Tier */
+
+.sexyRobard {
+ animation: sexyRobard 6s 0.6s infinite alternate ease-in-out none running;
+}
+
+@keyframes sexyRobard {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+
+/* Create a Lineup */
+
+.nikeBlock {
+ animation: nikeBlock 6s 0s infinite alternate ease-in-out none running;
+}
+
+.appleBlock {
+ animation: appleBlock 6s 0.6s infinite alternate ease-in-out none running;
+ filter: blur(0px);
+}
+
+.pepsiBlock {
+ animation: pepsiBlock 6s 1.2s infinite alternate ease-in-out none running;
+ filter: blur(2px);
+}
+
+@keyframes appleBlock {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(-3%);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+@keyframes nikeBlock {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(-5%);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+@keyframes pepsiBlock {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(0%);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
 }
 
 .follow-us img {

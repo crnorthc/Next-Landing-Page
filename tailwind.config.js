@@ -10,6 +10,7 @@ module.exports = {
   },
   colors: {
    white: "#ffffff",
+   black: "#000000",
    light: "#eeeeee",
    lightmedium: "#8e8e8e",
    medium: "#344246",
@@ -23,8 +24,8 @@ module.exports = {
    green: "#00ff00",
    blue: "#0000ff",
    skyblue: "#209fff",
-   greenHue: "#28a74542",
-   redHue: "#ff5353",
+   greenHue: "#6aff8d",
+   redHue: "#ff8e8e",
    greenHueHover: "#28a74667",
    redHueHover: "#ff00005d",
    extend: {},

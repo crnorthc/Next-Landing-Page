@@ -2,7 +2,7 @@ import React from "react";
 
 const roadmap = () => {
  return (
-  <section className='bg-dark' id='roadmap'>
+  <section className='bg-dark relative' id='roadmap'>
    <h2
     className='
      text-light text-5xl
@@ -129,6 +129,8 @@ const roadmap = () => {
      </section>
     </div>
    </div>
+   <div className='hidden xl:block absolute bottom-0 left-0 h-full w-20 bg-medium'></div>
+   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium'></div>
   </section>
  );
 };
