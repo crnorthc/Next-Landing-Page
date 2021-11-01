@@ -68,8 +68,6 @@
  box-shadow: 0px 2px 0px #ffb900;
 }
 
-
-
 .pipe-shine {
  filter: blur(10px);
 }
@@ -605,6 +603,58 @@ section .low-3 {
 .roadmapRow-4 section .roadmapCenterSticker {
  left: -92px;
  top: 25px;
+}
+
+/* Team */
+
+#team {
+ height: 15 0vh;
+}
+
+.caleb-head {
+ left: 35%;
+ animation: CalebHead 6s 0s infinite alternate ease-in-out none running;
+}
+
+@keyframes CalebHead {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(0);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+
+.matt-head {
+ left: 68%;
+ animation: MattHead 6s 0.8s infinite alternate ease-in-out none running;
+}
+
+@keyframes MattHead {
+ 0% {
+  transform: translateY(0) translateX(0);
+ }
+
+ 50% {
+  transform: translateY(-10%) translateX(0);
+ }
+
+ 100% {
+  transform: translateY(0) translateX(0);
+ }
+}
+
+.bottom-right-team {
+ bottom: 41.8%;
+}
+
+.bottom-right-team-shine {
+ bottom: 44.5%;
 }
 
 @media (max-width: 768px) {
