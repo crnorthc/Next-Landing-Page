@@ -6,7 +6,37 @@ const pickAGame = () => {
    id='pickAGame'
    className='bg-dark pt-20 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
-   <div className='flex flex-col md:flex-row items-center justify-center space-x-0 sm: space-x-8 lg:space-x-16  space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-40'>
+   {/* top pipe */}
+   <div className='absolute top-0 right-0 xl:right-20 w-screen h-20 bg-medium xl:border-r-8 xl:border-primary'></div>
+   <div className='absolute top-8 right-0 xl:right-20 w-screen h-3 bg-light pipe-shine'></div>
+
+   {/* right pipe */}
+   <div className='hidden xl:block absolute top-0 right-0 h-20 w-20 bg-secondary '></div>
+   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium rounded-r-2xl'></div>
+   <div className='hidden xl:block absolute top-8 bottom-8 right-8 w-3  bg-light pipe-shine '></div>
+   <div
+    className='hidden xl:block absolute top-8 right-10 w-10 h-3 bg-light pipe-shine
+'
+   ></div>
+
+   {/* Robard */}
+   <div className='absolute bottom-20 right-5 xl:right-40 w-28 h-16 rounded-t-xl bg-medium '></div>
+   <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
+
+   <img
+    className='absolute bottom-32 pb-1 right-9 xl:right-44 w-20'
+    src='/robard-head-left-3D.png'
+    alt=''
+   />
+
+   {/* Bottom pipe */}
+   <div className='absolute bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:border-r-8 xl:border-primary rounded-tl-2xl'></div>
+   <div className='absolute bottom-8 left-8 right-0 xl:right-20  h-3 bg-light pipe-shine'></div>
+   <div className='hidden xl:block absolute bottom-8 right-10 w-10 h-3 bg-light pipe-shine'></div>
+   <div className='hidden xl:block absolute bottom-0 left-10 h-10 w-3 bg-light pipe-shine'></div>
+
+   {/* page content */}
+   <div className='flex flex-col md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16  space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-40'>
     <div className='w-full md:w-1/2 lg:w-2/3'>
      <h2 className='text-4xl lg:text-5xl glory text-light glory pb-5'>
       1. Pick a Tournament
@@ -41,17 +71,6 @@ const pickAGame = () => {
      </div>
     </div>
    </div>
-
-   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium'></div>
-   <div className='absolute bottom-0 left-0 w-screen h-20 bg-medium'></div>
-   <div className='absolute bottom-20 right-5 xl:right-40 w-28 h-16 rounded-t-xl bg-medium '></div>
-   <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
-
-   <img
-    className='absolute bottom-32 pb-1 right-9 xl:right-44 w-20'
-    src='/robard-head-left-3D.png'
-    alt=''
-   />
   </section>
  );
 };

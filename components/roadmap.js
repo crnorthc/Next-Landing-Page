@@ -2,7 +2,15 @@ import React from "react";
 
 const roadmap = () => {
  return (
-  <section className='bg-dark relative' id='roadmap'>
+  <section
+   className='bg-dark pt-20 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens relative'
+   id='roadmap'
+  >
+   <div className='hidden xl:block absolute bottom-0 top-0 left-0 h w-20 bg-medium border-t-8 border-primary'></div>
+   <div className='hidden xl:block absolute top-0 bottom-0 left-8 w-3  bg-light pipe-shine '></div>
+   <div className='hidden xl:block absolute bottom-0 top-0 right-0 w-20 bg-medium border-t-8 border-primary'></div>
+   <div className='hidden xl:block absolute top-0 bottom-0 right-8 w-3 h-full bg-light pipe-shine '></div>
+
    <h2
     className='
      text-light text-5xl
@@ -21,7 +29,7 @@ const roadmap = () => {
      className='
       roadmapCenter-line
       hidden
-      md:block md:left-1/2 md:block
+      md:block md:left-1/2 
       left-16
       transform
       -translate-x-1/2
@@ -129,8 +137,6 @@ const roadmap = () => {
      </section>
     </div>
    </div>
-   <div className='hidden xl:block absolute bottom-0 left-0 h-full w-20 bg-medium'></div>
-   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium'></div>
   </section>
  );
 };

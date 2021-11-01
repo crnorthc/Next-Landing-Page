@@ -81,12 +81,11 @@ const gameOverview = () => {
     </div>
    </div>
 
-   <div className='absolute bottom-0 left-0 w-screen h-20 bg-medium'></div>
-   <div className='absolute bottom-20 right-5 2xl:right-40 w-28 h-16 rounded-t-xl bg-medium '></div>
-   <div className='absolute bottom-32 right-5 2xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
-
+   {/* Robard */}
+   <div className='absolute bottom-0 right-5 xl:right-40 w-28 h-16 rounded-t-xl bg-medium '></div>
+   <div className='absolute bottom-12 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
    <img
-    className='absolute bottom-32 pb-1 right-9 2xl:right-44 w-20'
+    className='absolute bottom-12 pb-1 right-9 xl:right-44 w-20'
     src='/robard-head-left-3D.png'
     alt=''
    />

@@ -68,6 +68,12 @@
  box-shadow: 0px 2px 0px #ffb900;
 }
 
+
+
+.pipe-shine {
+ filter: blur(10px);
+}
+
 .red-shadow-big {
  box-shadow: 0px 10px 0px #ff0000, 0px 10px 6px #ff0000;
  background: #1e292a;
