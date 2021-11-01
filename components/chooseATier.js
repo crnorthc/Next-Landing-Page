@@ -32,14 +32,14 @@ const chooseATier = () => {
      <div className='flex  items-center justify-center pb-10'>
       <img className='sexyRobard w-64 lg:w-96' src='/FrameWithRobard.png' alt='' />
      </div>
-     <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
-      <p className='  pb-6'>
-       Wagers on Vapur come in many different forms. There are Multiplier Tournaments where you can double and 8x your wager!
-      </p>
-      <p className=''>
-       This is a Tiered Tournament, where your tier determines your winning bonus.
-      </p>
-     </div>
+     <div className='relative text-center'>
+        <img className='' src='/CloudLeft.png' alt='' />
+        <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
+            <p className='pb-3'>
+                This is a Tiered Tournament, the tier you select determines your winning bonus.
+            </p>
+        </div>
+     </div>          
     </div>
     <div className='pb-10 sm:pb-0 w-full md:w-1/2 lg:w-2/3'>
      <h2 className='text-4xl lg:text-5xl glory text-light glory pb-5'>

@@ -56,11 +56,14 @@ const winCryptocurrency = () => {
        alt=''
       />
      </div>
-     <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
-      <p className='  pb-6'>
+     <div className='relative text-center'>
+        <img className='' src='/CloudRight.png' alt='' />
+        <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
+        <p className='  pb-6'>
        If you make the cut, you take your share of the tournament's pot!
       </p>
-     </div>
+        </div>
+     </div>          
     </div>
    </div>
   </section>
