@@ -34,7 +34,7 @@ const winCryptocurrency = () => {
      <img
       width='800'
       class='border-8 border-light medium-shadow-big rounded-md '
-      src='/newGames.png'
+      src='/WinCrypto.png'
       alt=''
      />
     </div>
@@ -58,9 +58,7 @@ const winCryptocurrency = () => {
      </div>
      <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
       <p className='  pb-6'>
-       On Vapur instead of your lineup consisting of football players, it
-       consist of stocks and/or cryptos that you think will preform well in a
-       tournament.
+       If you make the cut, you take your share of the tournament's pot!
       </p>
      </div>
     </div>

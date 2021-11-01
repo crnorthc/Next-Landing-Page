@@ -171,6 +171,30 @@
  }
 }
 
+.tag-sm {
+   position: relative;
+   width: 45%
+}
+
+.tag {
+   position: relative;
+   width: 30%;
+}
+
+@keyframes tagAnimation {
+   0% {
+    transform: translateY(0) translateX(0);
+   }
+  
+   50% {
+    transform: translateY(-5%) translateX(-3%);
+   }
+  
+   100% {
+    transform: translateY(0) translateX(0);
+   }
+  }
+
 /* Pick a Tournament */
 .whiteVapurToken {
  animation: whiteVapurToken 6s 0s infinite alternate ease-in-out none running;

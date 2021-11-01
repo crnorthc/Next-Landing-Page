@@ -35,7 +35,7 @@ const createALineup = () => {
      <img
       width='800'
       class='border-8 border-light medium-shadow-big rounded-md '
-      src='/newGames.png'
+      src='/Lineup.png'
       alt=''
      />
     </div>
@@ -59,9 +59,10 @@ const createALineup = () => {
      </div>
      <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
       <p className='  pb-6'>
-       On Vapur instead of your lineup consisting of football players, it
-       consist of stocks and/or cryptos that you think will preform well in a
-       tournament.
+       Allocate $100,000* to your favorite stocks and/or cryptos!
+      </p>
+      <p className='text-xs pb-6'>
+       *Simulated Tournament Cash
       </p>
      </div>
     </div>

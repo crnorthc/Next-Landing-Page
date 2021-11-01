@@ -33,11 +33,7 @@ const portfolioCompete = () => {
      </div>
      <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
       <p className='  pb-6'>
-       On Vapur instead of your lineup consisting of football players
-      </p>
-      <p className=''>
-       God that painting makes me so hard... Might just sell it as an NFT
-       someday.
+       Watch as your lineup competes against your competition!
       </p>
      </div>
     </div>
