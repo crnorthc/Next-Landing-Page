@@ -87,7 +87,7 @@ const roadmap = () => {
       </div>
       <p className='text-xl px-10 pt-3'>Seed Allocation</p>
       <p className='text-xl px-10 pt-2'>Launch Vapor Beta</p>
-      <p className='text-xl px-10 pt-2'>Begin Marketing Platform</p>
+      <p className='text-xl px-10 pt-2'>Grow Community</p>
      </section>
     </div>
     <div className='roadmapRow mb-10 roadmapRow-3 flex justify-start'>

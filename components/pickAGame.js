@@ -36,20 +36,39 @@ const pickAGame = () => {
    <div className='hidden xl:block absolute bottom-0 left-10 h-10 w-3 bg-light pipe-shine'></div>
 
    {/* page content */}
-   <div className='flex flex-col md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16  space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-40'>
+   <div className='flex flex-col md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16  space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-40 sm:pb-0'>
     <div className='w-full md:w-1/2 lg:w-2/3'>
      <h2 className='text-4xl lg:text-5xl glory text-light glory pb-5'>
       1. Pick a Tournament
      </h2>
      <img
       width='800'
-      class='border-8 border-light medium-shadow-big rounded-md '
+      class='border-4 border-light medium-shadow-big rounded-md '
       src='/newGames.png'
       alt=''
      />
     </div>
+    <div className='flex sm:hidden flex-col items-center w-full justify-between'>
+        <div className='flex flex-row justify-between pb-4'>
+            <img        
+            src='/LeagueTag.png'
+            className='tag-sm'
+            alt=''
+            />
+            <img        
+            src='/DurationTag.png'
+            className='tag-sm'
+            alt=''
+            />            
+        </div>
+        <img        
+            src='/WinCryptoTag.png'
+            className='tag-sm'
+            alt=''
+            />
+    </div>   
     <div className='w-full md:w-1/2 lg:w-1/3'>
-     <div className='flex  items-center justify-center pb-10'>
+     <div className='sm:flex hidden items-center justify-center pb-10'>
       <img
        class='-mr-10 darkVapurToken w-28 lg:w-40'
        width='150'
@@ -62,15 +81,35 @@ const pickAGame = () => {
        alt=''
       />
      </div>
-     <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
-      <p className='  pb-6'>
-       On Vapur instead of your lineup consisting of football players, it
-       consist of stocks and/or cryptos that you think will preform well in a
-       tournament.
-      </p>
-     </div>
-    </div>
+     <div className='relative text-center'>
+        <img className='' src='/CloudRight.png' alt='' />
+        <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
+            <p className=''>
+                There is a tournament for everyone!
+            </p>
+        </div>
+     </div>     
+    </div>    
    </div>
+   <div className='w-full flex xl:justify-center xl:-ml-32 justify-start'>
+    <div className='flex flex-row justify-between hidden max-w-4xl sm:flex py-10 w-3/4'>
+            <img        
+            src='/LeagueTag.png'
+            className='tag'
+            alt=''
+            />
+            <img        
+            src='/DurationTag.png'
+            className='tag'
+            alt=''
+            />
+            <img        
+            src='/WinCryptoTag.png'
+            className='tag'
+            alt=''
+            />
+        </div>
+     </div>
   </section>
  );
 };
