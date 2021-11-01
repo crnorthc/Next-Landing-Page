@@ -127,7 +127,7 @@ const showcase = () => {
      
      '
      >
-      Vapur is the largest fantasy financial trading platform in the world,
+      Vapur will be the largest fantasy financial trading platform in the world,
       disrupting the market with cryptocurrency wagers.
      </p>
      {hasJoined ? (

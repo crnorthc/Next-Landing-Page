@@ -9,7 +9,7 @@ const portfolioCompete = () => {
    <div className='flex flex-col-reverse md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16 container max-w-6xl mx-auto pb-60'>
     <div className='w-full md:w-1/2 lg:w-1/3'>
      <div className='flex  items-center justify-center pb-10'>
-      <img className='sexyRobard w-64 lg:w-96' src='/robardSexy.png' alt='' />
+      <img className='sexyRobard w-64 lg:w-96' src='/FrameWithRobard.png' alt='' />
      </div>
      <div className='text-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8'>
       <p className='  pb-6'>
