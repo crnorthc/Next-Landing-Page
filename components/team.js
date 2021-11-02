@@ -32,7 +32,7 @@ function team() {
 
     <img
      className='absolute bottom-40 caleb-head w-20'
-     src='/Caleb.png'
+     src='/Caleb.webp'
      alt=''
     />
 
@@ -41,7 +41,7 @@ function team() {
     <div className='absolute bottom-20 left-2/3 w-28 h-16 rounded-t-xl bg-medium '></div>
     <div className='absolute bottom-32 left-2/3 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
-    <img className='absolute bottom-40 matt-head w-20' src='/Matt.png' alt='' />
+    <img className='absolute bottom-40 matt-head w-20' src='/Matt.webp' alt='' />
    </div>
 
    <div className='relative h-96 mb-96 w-3/4 mr-auto mt-40'>
@@ -59,7 +59,7 @@ function team() {
 
     <img
      className='absolute bottom-40 caleb-head w-20'
-     src='/Caleb.png'
+     src='/Caleb.webp'
      alt=''
     />
 
@@ -68,7 +68,7 @@ function team() {
     <div className='absolute bottom-20 left-2/3 w-28 h-16 rounded-t-xl bg-medium '></div>
     <div className='absolute bottom-32 left-2/3 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
-    <img className='absolute bottom-40 matt-head w-20' src='/Matt.png' alt='' />
+    <img className='absolute bottom-40 matt-head w-20' src='/Matt.webp' alt='' />
    </div>
 
    {/* white blur left */}
@@ -79,7 +79,7 @@ function team() {
 
    {/* <div className='flex flex-col items-center justify-center lg:items-start lg:flex-row'>
     <div className='flex-1 p-5 flex flex-col items-center justify-center'>
-     <img className='w-2/4 lg:w-1/3 rounded-md' src='profile.png' alt='' />
+     <img className='w-2/4 lg:w-1/3 rounded-md' src='profile.webp' alt='' />
 
      <a
       className='
@@ -114,7 +114,7 @@ function team() {
      </p>
     </div>
     <div className='flex-1 p-5 flex flex-col items-center justify-center'>
-     <img className='w-2/4 lg:w-1/3 rounded-md' src='matt.png' alt='' />
+     <img className='w-2/4 lg:w-1/3 rounded-md' src='matt.webp' alt='' />
 
      <a
       className='

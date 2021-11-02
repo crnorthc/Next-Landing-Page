@@ -25,7 +25,7 @@ const portfolioCompete = () => {
    <div className='flex flex-col-reverse md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16 container max-w-6xl mx-auto pb-40 md:pb-0'>
     <div className='w-full md:w-1/2 lg:w-1/3'>
      <div className='hidden md:flex items-center justify-center pb-10'>
-      <img className='sexyRobard w-64 pt-10 lg:w-96' src='/FrameWithRobard.png' alt='' />
+      <img className='sexyRobard w-64 pt-10 lg:w-96' src='/FrameWithRobard.webp' alt='' />
      </div>         
     </div>
     <div className='pb-10 sm:pb-0 w-full md:w-1/2 lg:w-2/3'>
@@ -35,16 +35,16 @@ const portfolioCompete = () => {
      <img
       width='800'
       class='border-8 border-light medium-shadow-big rounded-md '
-      src='/portfolioCompete.png'
+      src='/portfolioCompete.webp'
       alt=''
      />
     </div>
    </div>
    <div className='absolute bottom-52 xl:bottom-56 left-8 xl:left-40 w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
-        <img className='' src='/PickATier.png' alt='' />
+        <img className='' src='/PickATier.webp' alt='' />
     </div>
     <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
-            <img className='pb-28 ml-4 sm:ml-0 xl:ml-32 -mb-4 sm:pb-16 sm:-mb-2 z-50 relative w-20' src='/robard-head-left-3D.png' alt=''/>
+            <img className='pb-28 ml-4 sm:ml-0 xl:ml-32 -mb-4 sm:pb-16 sm:-mb-2 z-50 relative w-20' src='/robard-head-left-3D.webp' alt=''/>
         </ScrollAnimation>
   </section>
  );

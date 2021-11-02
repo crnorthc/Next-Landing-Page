@@ -773,7 +773,7 @@ const features = () => {
                my-4
               '
            >
-            <img className='h-20 w-20 rounded-full' src='Guy4.png' alt='' />
+            <img className='h-20 w-20 rounded-full' src='Guy4.webp' alt='' />
             <h4 className='text-center text-3xl text-secondary p-2'>
              Dana Boreg
             </h4>
@@ -834,7 +834,7 @@ const features = () => {
               my-4
              '
            >
-            <img className='h-20 w-20 rounded-full' src='Girl1.png' alt='' />
+            <img className='h-20 w-20 rounded-full' src='Girl1.webp' alt='' />
             <h4 className='text-center text-3xl text-secondary p-2'>
              Riley Bewer
             </h4>
@@ -895,7 +895,7 @@ const features = () => {
              my-4
             '
            >
-            <img className='h-20 w-20 rounded-full' src='Guy5.png' alt='' />
+            <img className='h-20 w-20 rounded-full' src='Guy5.webp' alt='' />
             <h4 className='text-center text-3xl text-secondary p-2'>
              Owen Richards
             </h4>
@@ -1022,7 +1022,7 @@ const features = () => {
            my-4
           '
            >
-            <img className='h-20 w-20 rounded-full' src='Guy6.png' alt='' />
+            <img className='h-20 w-20 rounded-full' src='Guy6.webp' alt='' />
             <h4 className='text-center text-3xl text-secondary p-2'>
              Luca Minter
             </h4>
@@ -1167,7 +1167,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Guy4.png'
+                  src='Guy4.webp'
                   alt=''
                  />
                 </div>
@@ -1192,7 +1192,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Girl1.png'
+                  src='Girl1.webp'
                   alt=''
                  />
                 </div>
@@ -1217,7 +1217,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Guy5.png'
+                  src='Guy5.webp'
                   alt=''
                  />
                 </div>
@@ -1267,7 +1267,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Guy6.png'
+                  src='Guy6.webp'
                   alt=''
                  />
                 </div>
@@ -1292,7 +1292,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Girl2.png'
+                  src='Girl2.webp'
                   alt=''
                  />
                 </div>
@@ -1317,7 +1317,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Joey.png'
+                  src='Joey.webp'
                   alt=''
                  />
                 </div>
@@ -1343,7 +1343,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Guy2.png'
+                  src='Guy2.webp'
                   alt=''
                  />
                 </div>
@@ -1369,7 +1369,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Guy1.png'
+                  src='Guy1.webp'
                   alt=''
                  />
                 </div>
@@ -1395,7 +1395,7 @@ const features = () => {
                 <div className='flex-shrink-0 h-10 w-10'>
                  <img
                   className='h-10 w-10 rounded-full'
-                  src='Guy3.png'
+                  src='Guy3.webp'
                   alt=''
                  />
                 </div>

@@ -30,7 +30,7 @@ const createALineup = () => {
      <img
       width='800'
       class='border-8 border-light medium-shadow-big rounded-md '
-      src='/Lineup.png'
+      src='/Lineup.webp'
       alt=''
      />
     </div>
@@ -38,28 +38,28 @@ const createALineup = () => {
      <div className='hidden md:flex items-start justify-center pb-10'>
       <img
        className='z-20 appleBlock w-24 lg:w-40'
-       src='/apple3D.png'
+       src='/apple3D.webp'
        alt=''
       />
       <img
        className='z-30 nikeBlock w-24 lg:w-44 -m-10 lg:-m-14'
-       src='/nike3D.png'
+       src='/nike3D.webp'
        alt=''
       />
       <img
        className='z-10 pepsiBlock w-24 lg:w-36'
-       src='/pepsi3D.png'
+       src='/pepsi3D.webp'
        alt=''
       />
      </div>             
     </div>
    </div>
    <div className='absolute w-2/3 sm:w-2/5 pl-12 md:w-1/4 lg:w-1/4 xl:w-1/5 bottom-56 right-28 md:right-28 md:bottom-56 xl:right-60'>
-         <img className='' src='/Allocate.png' alt='' />
+         <img className='' src='/Allocate.webp' alt='' />
     </div>  
     <div className='flex flex-row justify-end'>
     <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
-         <img className='relative z-40 mb-24 sm:mb-14 xl:mr-32 mr-4 md:-mr-2 w-20' src='/robard-head-left-3D.png' alt=''/>
+         <img className='relative z-40 mb-24 sm:mb-14 xl:mr-32 mr-4 md:-mr-2 w-20' src='/robard-head-left-3D.webp' alt=''/>
    </ScrollAnimation>
     </div>
   </section>

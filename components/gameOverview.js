@@ -95,7 +95,7 @@ const gameOverview = () => {
        <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
        <img
             className='pb-5 z-40 relative sm:pb-1 mr-4 sm:mr-0 xl:mr-2 w-20'
-            src='/robard-head-left-3D.png'
+            src='/robard-head-left-3D.webp'
             alt=''
             />
             </ScrollAnimation>

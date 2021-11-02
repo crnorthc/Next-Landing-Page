@@ -41,14 +41,14 @@ const pickAGame = () => {
         <img
         width='800'
         class='border-4 border-light medium-shadow-big rounded-md '
-        src='/newGames.png'
+        src='/newGames.webp'
         alt=''
         />
         <div className='w-full flex xl:justify-center justify-start'>
             <div className='hidden sm:flex md:hidden lg:flex flex-row justify-between max-w-4xl pt-10'>
-                <img src='/LeagueTag.png' className='tag' alt=''/>
-                <img src='/DurationTag.png' className='tag' alt=''/>
-                <img src='/WinCryptoTag.png' className='tag' alt=''/>
+                <img src='/LeagueTag.webp' className='tag' alt=''/>
+                <img src='/DurationTag.webp' className='tag' alt=''/>
+                <img src='/WinCryptoTag.webp' className='tag' alt=''/>
             </div>
         </div>  
     </div>     
@@ -56,18 +56,18 @@ const pickAGame = () => {
     <div className='flex sm:hidden flex-col pb-20 items-center w-full justify-between'>
         <div className='flex flex-row justify-between pb-4'>
             <img        
-            src='/LeagueTag.png'
+            src='/LeagueTag.webp'
             className='tag-sm'
             alt=''
             />
             <img        
-            src='/DurationTag.png'
+            src='/DurationTag.webp'
             className='tag-sm'
             alt=''
             />            
         </div>
         <img        
-            src='/WinCryptoTag.png'
+            src='/WinCryptoTag.webp'
             className='tag-sm'
             alt=''
             />
@@ -77,39 +77,39 @@ const pickAGame = () => {
             <img
             class='-mr-10 darkVapurToken w-28 lg:w-40'
             width='150'
-            src='/DarkLogo3D.png'
+            src='/DarkLogo3D.webp'
             alt=''
             />
             <img
             className='whiteVapurToken w-36 lg:w-52'
-            src='/LightLogo3D.png'
+            src='/LightLogo3D.webp'
             alt=''
             />
         </div>     
     </div>      
     </div>   
     <div className='absolute hidden md:block w-1/3 md:w-1/4 lg:w-1/4 xl:1/5 bottom-64 right-32 md:right-28 md:bottom-56 xl:right-60'>
-            <img className='' src='/PickAGame.png' alt='' />
+            <img className='' src='/PickAGame.webp' alt='' />
     </div>
     <div className='flex flex-row hidden md:flex lg:hidden justify-start sm:justify-between lg:justify-end items-end'>
         <div className='flex py-5 flex-row items-center w-1/2 max-w-lg justify-between'>
-            <img src='/LeagueTag.png' className='tag-sm' alt=''/>
-            <img src='/DurationTag.png' className='tag-sm mx-2' alt=''/>            
-            <img src='/WinCryptoTag.png' className='tag-sm' alt=''/>
+            <img src='/LeagueTag.webp' className='tag-sm' alt=''/>
+            <img src='/DurationTag.webp' className='tag-sm mx-2' alt=''/>            
+            <img src='/WinCryptoTag.webp' className='tag-sm' alt=''/>
         </div> 
         <div className='mb-44 md:hidden sm:ml-44 md:ml-0 lg:mt-8'>
-            <img className='' src='/PickAGame.png' alt='' />
+            <img className='' src='/PickAGame.webp' alt='' />
         </div>
         <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
-            <img className='relative z-40 mb-24 sm:mb-14 xl:mr-32 mr-4 md:-mr-2 w-20' src='/robard-head-left-3D.png' alt=''/>
+            <img className='relative z-40 mb-24 sm:mb-14 xl:mr-32 mr-4 md:-mr-2 w-20' src='/robard-head-left-3D.webp' alt=''/>
         </ScrollAnimation>
     </div>    
     <div className='absolute block md:hidden w-2/3 sm:w-2/5 pl-12 md:w-1/4 lg:w-1/4 xl:w-1/5 bottom-56 right-28 md:right-28 md:bottom-56 xl:right-60'>
-         <img className='' src='/PickAGame.png' alt='' />
+         <img className='' src='/PickAGame.webp' alt='' />
     </div>  
     <div className='flex md:hidden lg:flex flex-row justify-end'>
     <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
-         <img className='relative z-40 mb-24 sm:mb-14 xl:mr-32 mr-4 md:-mr-2 w-20' src='/robard-head-left-3D.png' alt=''/>
+         <img className='relative z-40 mb-24 sm:mb-14 xl:mr-32 mr-4 md:-mr-2 w-20' src='/robard-head-left-3D.webp' alt=''/>
    </ScrollAnimation>
     </div> 
   </section>
