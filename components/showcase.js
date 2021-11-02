@@ -106,7 +106,7 @@ const showcase = () => {
      sm:space-y-6
      max-w-3xl
      mx-auto
-     pt-20
+     pt-40
     '
     >
      <h1 className='text-light text-5xl sm:text-8xl text-center z-10 glory'>

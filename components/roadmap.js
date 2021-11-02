@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const roadmap = () => {
  return (
@@ -39,7 +40,7 @@ const roadmap = () => {
       top-40
      '
     ></div>
-    <div className='roadmapRow mb-10 roadmapRow-1 flex justify-start'>
+    <div className='roadmapRow mb-10 roadmapRow-1 flex justify-start'>    
      <section className='relative bg-medium text-light ring-4 ring-primary rounded-md pb-10'>
       <div
        className='
@@ -53,7 +54,7 @@ const roadmap = () => {
        '
       >
        <img className='w-8 h-8' src='cash-on-delivery.svg' alt='' />
-      </div>
+      </div>      
       <div className='flex flex-col rounded-t-md justify-start items-start xl:flex-row xl:justify-between  mb-5 bg-dark px-10 py-5'>
        <h4 className='text-primary  text-3xl'>Stage 1</h4>
        <h4 className='text-lightmedium text-xl xl:text-3xl'>Development</h4>
@@ -61,8 +62,8 @@ const roadmap = () => {
       <p className='text-xl px-10 pt-3'>Pre-Seed Allocation</p>
       <p className='text-xl px-10 pt-2'>Consolidate Developers</p>
       <p className='text-xl px-10 pt-2'>Partner witha Market Data Provider</p>
-      <p className='text-xl px-10 pt-2'>Complete Vapur Devleopment</p>
-     </section>
+      <p className='text-xl px-10 pt-2'>Complete Vapur Devleopment</p>     
+     </section>    
     </div>
     <div className='roadmapRow mb-10 roadmapRow-2 flex justify-end'>
      <section className='relative bg-medium text-light ring-4 ring-primary rounded-md pb-10'>
