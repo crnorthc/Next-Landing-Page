@@ -21,10 +21,10 @@ const winCryptocurrency = () => {
    />
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium rounded-tl-2xl'></div>
-   <div className='absolute bottom-8 left-8 right-0 xl:right-12  h-3 bg-light pipe-shine'></div>
+   <div className='absolute bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:rounded-tl-2xl'></div>
+   <div className='absolute bottom-8 left-0 xl:left-10 right-0 xl:right-10  h-3 bg-light pipe-shine'></div>
 
-   <div className='hidden xl:block absolute bottom-0 left-8 h-10 w-3 bg-light pipe-shine'></div>
+   <div className='hidden xl:block absolute bottom-0 left-8 h-8 w-3 bg-light pipe-shine'></div>
 
    <div className='flex flex-col md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16  space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-40'>
     <div className='w-full md:w-1/2 lg:w-2/3'>
@@ -33,7 +33,7 @@ const winCryptocurrency = () => {
      </h2>
      <img
       width='800'
-      class='border-8 border-light medium-shadow-big rounded-md '
+      class='border-8 border-light light-shadow-big rounded-md '
       src='/WinCrypto.png'
       alt=''
      />
@@ -57,13 +57,13 @@ const winCryptocurrency = () => {
       />
      </div>
      <div className='relative text-center'>
-        <img className='' src='/CloudRight.png' alt='' />
-        <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
-        <p className='  pb-6'>
-       If you make the cut, you take your share of the tournament's pot!
-      </p>
-        </div>
-     </div>          
+      <img className='' src='/CloudRight.png' alt='' />
+      <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
+       <p className='  pb-6'>
+        If you make the cut, you take your share of the tournament's pot!
+       </p>
+      </div>
+     </div>
     </div>
    </div>
   </section>

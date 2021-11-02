@@ -3,32 +3,59 @@ import React from "react";
 function team() {
  return (
   <section
-   className='bg-dark pt-20 sm:pt-40  px-5 sm:px-10 over-tokens relative'
+   className='bg-dark pt-20 sm:pt-40 pb-96 over-tokens relative'
    id='team'
   >
    {/* left pipe */}
-   <div className='hidden xl:block absolute bottom-0 left-0 h-full w-20 bg-medium border-t-8 border-t-primary rounded-bl-2xl'></div>
+   <div className='hidden xl:block absolute top-0 bottom-0 left-0  w-20 bg-medium border-t-8 border-t-primary'></div>
 
    {/* right pipe */}
-   <div className='hidden xl:block absolute top-0 bottom-right-team right-0 w-20 bg-medium border-t-8 border-t-primary rounded-br-2xl'></div>
-   {/* <div className=''>
-    <h2 className='text-light text-5xl sm:text-6xl text-center pb-10 glory'>
-     Team
-    </h2>
-   </div> */}
+   <div className='hidden xl:block absolute top-0 bottom-0 right-0 w-20 bg-medium border-t-8 border-t-primary '></div>
 
-   <div className='relative h-96 w-3/4 ml-auto'>
-    <h3 className='text-light text-4xl sm:text-5xl text-center pl-20 glory'>
+   {/* white blur left */}
+   <div className='hidden xl:block absolute top-0 bottom-8 left-8 w-3 bg-light pipe-shine '></div>
+
+   {/* white blur right */}
+   <div className='hidden xl:block absolute top-0 bottom-8 right-8 w-3  bg-light pipe-shine '></div>
+
+   <div className='relative xl:hidden px-2 max-w-6xl'>
+    <h2 className='text-light text-5xl sm:text-6xl text-center pb-20 glory'>
+     Core Team
+    </h2>
+    <div className='flex items-end justify-evenly'>
+     <div className='flex flex-col items-center justify-center'>
+      <img className='w-1/2 md:w-1/4 caleb-head pb-4' src='/Caleb.png' alt='' />
+      <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+       Caleb Ryan
+      </h3>
+      <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+       Co-Founder & <br /> Software Developer
+      </h4>
+     </div>
+     <div className='flex flex-col items-center justify-center'>
+      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Matt.png' alt='' />
+      <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+       Matthew Klimek
+      </h3>
+      <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+       Co-Founder & <br /> Software Developer
+      </h4>
+     </div>
+    </div>
+   </div>
+
+   <div className='hidden xl:relative h-96 w-3/4 ml-auto'>
+    <h3 className='text-light text-5xl sm:text-6xl text-center pl-12 xl:pl-20 glory'>
      Core Team
     </h3>
     {/* Bottom pipe1 */}
-    <div className='absolute bottom-0 left-0 right-0 h-20 bg-medium  border-l-8 border-l-black rounded-l-md'></div>
-    <div className='absolute bottom-8 right-2 left-4  h-3 bg-light pipe-shine'></div>
+    <div className='absolute bottom-0 left-0 right-0 xl:right-20 h-20 bg-medium  border-l-8 border-l-primary rounded-l-md'></div>
+    <div className='absolute bottom-8 right-0 xl:right-10 left-4  h-3 bg-light pipe-shine'></div>
 
     {/* Caleb */}
 
-    <div className='absolute bottom-20 left-1/3 w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-1/3 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
+    <div className='absolute bottom-20 left-1/4 xl:left-1/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
+    <div className='absolute bottom-32 left-1/4 xl:left-1/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
     <img
      className='absolute bottom-40 caleb-head w-20'
@@ -38,24 +65,24 @@ function team() {
 
     {/* Matt */}
 
-    <div className='absolute bottom-20 left-2/3 w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-2/3 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
+    <div className='absolute bottom-20 left-2/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
+    <div className='absolute bottom-32 left-2/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
     <img className='absolute bottom-40 matt-head w-20' src='/Matt.png' alt='' />
    </div>
 
-   <div className='relative h-96 mb-96 w-3/4 mr-auto mt-40'>
+   <div className='hidden xl:relative h-96  w-3/4 mr-auto mt-40'>
     <h3 className='text-light text-4xl sm:text-5xl text-center pl-20 glory'>
      Advisors
     </h3>
     {/* Bottom pipe1 */}
-    <div className='absolute bottom-0 left-0 right-0 h-20 bg-medium  border-r-8 border-r-black rounded-r-md'></div>
-    <div className='absolute bottom-8 right-4 left-2  h-3 bg-light pipe-shine'></div>
+    <div className='absolute bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium  border-r-8 border-r-primary rounded-r-md'></div>
+    <div className='absolute bottom-8 right-4 left-10  h-3 bg-light pipe-shine'></div>
 
     {/* Caleb */}
 
-    <div className='absolute bottom-20 left-1/3 w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-1/3 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
+    <div className='absolute bottom-20 left-1/4 xl:left-1/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
+    <div className='absolute bottom-32 left-1/4 xl:left-1/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
     <img
      className='absolute bottom-40 caleb-head w-20'
@@ -65,17 +92,11 @@ function team() {
 
     {/* Matt */}
 
-    <div className='absolute bottom-20 left-2/3 w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-2/3 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
+    <div className='absolute bottom-20 left-2/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
+    <div className='absolute bottom-32 left-2/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
     <img className='absolute bottom-40 matt-head w-20' src='/Matt.png' alt='' />
    </div>
-
-   {/* white blur left */}
-   <div className='hidden xl:block absolute top-0 bottom-10 left-8 w-3 bg-light pipe-shine '></div>
-
-   {/* white blur right */}
-   <div className='hidden xl:block absolute top-0 bottom-right-team-shine right-8 w-3  bg-light pipe-shine '></div>
 
    {/* <div className='flex flex-col items-center justify-center lg:items-start lg:flex-row'>
     <div className='flex-1 p-5 flex flex-col items-center justify-center'>

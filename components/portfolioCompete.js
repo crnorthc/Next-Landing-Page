@@ -21,24 +21,28 @@ const portfolioCompete = () => {
    />
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium  rounded-tr-2xl'></div>
-   <div className='absolute bottom-8 right-8 left-0 xl:left-20  h-3 bg-light pipe-shine'></div>
-   <div className='hidden xl:block absolute bottom-8 left-10 w-10 h-3 bg-light pipe-shine'></div>
-   <div className='hidden xl:block absolute bottom-0 right-8 h-10 w-3 bg-light pipe-shine'></div>
+   <div className='absolute bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium  xl:rounded-tr-2xl'></div>
+   <div className='absolute bottom-8 right-0 xl:right-10 left-0 xl:left-10 h-3 bg-light pipe-shine'></div>
+
+   <div className='hidden xl:block absolute bottom-0 right-8 h-8 w-3 bg-light pipe-shine'></div>
 
    <div className='flex flex-col-reverse md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16 container max-w-6xl mx-auto pb-60'>
     <div className='w-full md:w-1/2 lg:w-1/3'>
      <div className='flex  items-center justify-center pb-10'>
-      <img className='sexyRobard w-64 pt-10 lg:w-96' src='/FrameWithRobard.png' alt='' />
-     </div>     
+      <img
+       className='sexyRobard w-64 pt-10 lg:w-96'
+       src='/FrameWithRobard.png'
+       alt=''
+      />
+     </div>
      <div className='relative text-center'>
-        <img className='' src='/CloudLeft.png' alt='' />
-        <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
-            <p className='pb-6'>
-                Watch as your lineup competes against your competition!
-            </p>
-        </div>
-     </div>     
+      <img className='' src='/CloudLeft.png' alt='' />
+      <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
+       <p className='pb-6'>
+        Watch as your lineup competes against your competition!
+       </p>
+      </div>
+     </div>
     </div>
     <div className='pb-10 sm:pb-0 w-full md:w-1/2 lg:w-2/3'>
      <h2 className='text-4xl lg:text-5xl glory text-light glory pb-5'>
@@ -46,7 +50,7 @@ const portfolioCompete = () => {
      </h2>
      <img
       width='800'
-      class='border-8 border-light medium-shadow-big rounded-md '
+      class='border-8 border-light light-shadow-big rounded-md '
       src='/portfolioCompete.png'
       alt=''
      />

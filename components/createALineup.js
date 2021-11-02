@@ -7,7 +7,7 @@ const createALineup = () => {
    className='bg-dark pt-20 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
    {/* right pipe */}
-   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium border-t-8 border-t-primary rounded-br-2xl'></div>
+   <div className='hidden xl:block absolute top-0 bottom-0 right-0 w-20 bg-medium border-t-8 border-t-primary rounded-br-2xl'></div>
    <div className='hidden xl:block absolute top-0 bottom-10 right-8 w-3  bg-light pipe-shine '></div>
 
    {/* Robard */}
@@ -21,9 +21,9 @@ const createALineup = () => {
    />
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium rounded-tl-2xl'></div>
-   <div className='absolute bottom-8 left-8 right-0 xl:right-20  h-3 bg-light pipe-shine'></div>
-   <div className='hidden xl:block absolute bottom-8 right-8 w-12 h-3 bg-light pipe-shine'></div>
+   <div className='absolute bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:rounded-tl-2xl'></div>
+   <div className='absolute bottom-8 left-0 xl:left-10 right-0 xl:right-10  h-3 bg-light pipe-shine'></div>
+
    <div className='hidden xl:block absolute bottom-0 left-8 h-10 w-3 bg-light pipe-shine'></div>
 
    {/* Content */}
@@ -34,7 +34,7 @@ const createALineup = () => {
      </h2>
      <img
       width='800'
-      class='border-8 border-light medium-shadow-big rounded-md '
+      class='border-8 border-light light-shadow-big rounded-md '
       src='/Lineup.png'
       alt=''
      />
@@ -58,16 +58,14 @@ const createALineup = () => {
       />
      </div>
      <div className='relative text-center'>
-        <img className='' src='/CloudRight.png' alt='' />
-        <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
-        <p className='pb-3'>
-       Allocate $100,000* to your favorite stocks and/or cryptos!
-      </p>
-      <p className='text-xs'>
-       *Simulated Tournament Cash
-      </p>
-        </div>
-     </div>               
+      <img className='' src='/CloudRight.png' alt='' />
+      <div className='text-dark text-over-image w-4/5 text-3xl leading-8 leading-7 md:text-2xl md:leading-8'>
+       <p className='pb-3'>
+        Allocate $100,000* to your favorite stocks and/or cryptos!
+       </p>
+       <p className='text-xs'>*Simulated Tournament Cash</p>
+      </div>
+     </div>
     </div>
    </div>
   </section>

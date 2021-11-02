@@ -55,6 +55,9 @@
 .medium-shadow-big {
  box-shadow: 0px 10px 0px #0f1415ff;
 }
+.light-shadow-big {
+ box-shadow: 0px 10px 0px #eee;
+}
 
 .medium-shadow-xl {
  box-shadow: 0px 15px 0px #0f1415ff;
@@ -643,7 +646,7 @@ section .low-3 {
 }
 
 .caleb-head {
- left: 35%;
+ left: 35.5%;
  animation: CalebHead 6s 0s infinite alternate ease-in-out none running;
 }
 
@@ -653,7 +656,7 @@ section .low-3 {
  }
 
  50% {
-  transform: translateY(-10%) translateX(0);
+  transform: translateY(-5%);
  }
 
  100% {
@@ -662,7 +665,7 @@ section .low-3 {
 }
 
 .matt-head {
- left: 68%;
+ left: 69%;
  animation: MattHead 6s 0.8s infinite alternate ease-in-out none running;
 }
 
@@ -672,20 +675,12 @@ section .low-3 {
  }
 
  50% {
-  transform: translateY(-10%) translateX(0);
+  transform: translateY(-5%) translateX(0);
  }
 
  100% {
   transform: translateY(0) translateX(0);
  }
-}
-
-.bottom-right-team {
- bottom: 41.8%;
-}
-
-.bottom-right-team-shine {
- bottom: 44.5%;
 }
 
 @media (max-width: 768px) {
@@ -733,6 +728,16 @@ section .low-3 {
   opacity: 0;
  }
 } */
+}
+
+@media (max-width: 1280px) {
+ .matt-head {
+  left: 67%;
+ }
+
+ .caleb-head {
+  left: 25%;
+ }
 }
 
 /* section .step {
