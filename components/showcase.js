@@ -91,13 +91,14 @@ const showcase = () => {
     <title>Vapur</title>
    </Head>
    <div className='tokenCont'></div>
+   <div className='hidden sm:block'>
    <Navbar />
+   </div>   
    <div className='showcase'>
     <div
      className='
      flex
      items-center
-     justify-center
      flex-col
      h-screen
      px-4
@@ -105,7 +106,7 @@ const showcase = () => {
      sm:space-y-6
      max-w-3xl
      mx-auto
-     
+     pt-20
     '
     >
      <h1 className='text-light text-5xl sm:text-8xl text-center z-10 glory'>
