@@ -55,7 +55,7 @@ const createALineup = () => {
     </div>
    </div>
    <div className='absolute w-2/3 sm:w-2/5 pl-12 md:w-1/4 lg:w-1/4 xl:w-1/5 bottom-56 right-28 md:right-28 md:bottom-56 xl:right-60'>
-         <img className='' src='/Allocate.webp' alt='' />
+         <img className='' src='/Allocate.png' alt='' />
     </div>  
     <div className='flex flex-row justify-end'>
     <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
