@@ -6,6 +6,7 @@ module.exports = {
  theme: {
   screens: {
    pics: "1080px",
+   xs: '460px',
    ...defaultTheme.screens,
   },
   colors: {

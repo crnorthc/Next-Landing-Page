@@ -5,7 +5,7 @@ const pickAGame = () => {
  return (
   <section
    id='pickAGame'
-   className='bg-dark pt-28 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
+   className='bg-dark pt-12 xs:pt-20 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
    {/* right pipe */}
 
@@ -17,7 +17,7 @@ const pickAGame = () => {
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute z-50 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:border-r-8 xl:border-primary rounded-tl-2xl'></div>
+   <div className='absolute z-50 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:border-r-8 xl:border-primary sm:rounded-tl-2xl'></div>
    <div className='absolute z-50 bottom-8 left-8 right-0 xl:right-20  h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-8 right-10 w-10 h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-0 left-10 h-10 w-3 bg-light pipe-shine'></div>

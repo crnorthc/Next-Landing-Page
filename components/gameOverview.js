@@ -1,10 +1,11 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const gameOverview = () => {
  return (
   <section
    id='gameOverview'
-   className='bg-secondary pt-20 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
+   className='bg-secondary pt-0 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
    {/* <h2 className='text-light text-5xl sm:text-6xl pt-3 pb-10 text-center glory'>
     Game Overview
@@ -24,7 +25,7 @@ const gameOverview = () => {
     alt=''
    />
 
-   <div className='flex flex-col md:flex-row justify-center md:space-x-16 space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-40  '>
+   <div className='flex flex-col md:flex-row justify-center md:space-x-16 space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-12'>
     <div class='block '>
      <h2 className='block md:hidden text-4xl lg:text-5xl glory text-dark glory pb-5'>
       Fantasy Football of the Stock and Crypto Markets...
@@ -39,54 +40,54 @@ const gameOverview = () => {
 
         <div className='flex flex-1 items-center justify-between px-2 text-white poppins'>
          <div className=''>
-          <p className=''>Doge</p>
-          <p className=''>Doge</p>
+          <p className=''>Bitcoin</p>
+          <p className=''>BTC</p>
          </div>
 
-         <div className='text-green'>
-          <p className=''>$1.75</p>
-          <p className=''>+0.54</p>
+         <div className='text-green flex flex-col items-end'>
+          <p className=''>$55,254</p>
+          <p className=''>+$540</p>
          </div>
         </div>
        </div>
        <div className='flex items-center justify-between rounded-xl w-full md:w-72 lg:w-96 p-2 lineup-2 bg-greenHue green-shadow-big'>
-        <img className=' w-24 p-4' src='/bitcoin.svg' alt='' />
+        <img className=' w-24 p-4' src='/doge.svg' alt='' />
 
         <div className='flex flex-1 items-center justify-between px-2 text-white font-bold poppins'>
          <div className=''>
-          <p className=''>Doge</p>
-          <p className=''>Doge</p>
+          <p className=''>Dogecoin</p>
+          <p className=''>DOGE</p>
          </div>
 
          <div className='text-green '>
-          <p className=''>$1.75</p>
-          <p className=''>+0.54</p>
+          <p className=''>$0.27</p>
+          <p className=''>+0.03</p>
          </div>
         </div>
        </div>
        <div className='flex items-center justify-between rounded-xl w-full md:w-72 lg:w-96 p-2 lineup-3  red-shadow-big'>
-        <img className=' w-24 p-4' src='/bitcoin.svg' alt='' />
+        <img className=' w-10 mx-6 ' src='/ether.svg' alt='' />
 
         <div className='flex flex-1 items-center justify-between px-2 text-white poppins'>
          <div className=''>
-          <p className=''>Doge</p>
-          <p className=''>Doge</p>
+          <p className=''>Ether</p>
+          <p className=''>ETH</p>
          </div>
 
-         <div className='text-green'>
-          <p className=''>$1.75</p>
-          <p className=''>+0.54</p>
+         <div className='text-green flex flex-col items-end'>
+          <p className=''>$4,585</p>
+          <p className=''>+$60</p>
          </div>
         </div>
        </div>
       </div>
      </div>
     </div>
-    <div className='flex flex-col items-center justify-between pb-16 sm:pb-10'>
+    <div className='flex flex-col items-center justify-between xs:pb-10'>
      <h2 className='hidden md:block text-4xl lg:text-5xl glory text-dark glory pb-5'>
       Fantasy Football of the Stock and Crypto Markets...
      </h2>
-     <div className='bg-light rounded-t-3xl rounded-l-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8 lg:text-3xl lg:leading-9 '>
+     <div className='bg-light rounded-3xl p-3 text-lg leading-7 md:text-2xl md:leading-8 lg:text-3xl lg:leading-9 '>
       <p className='  pb-6'>
        On Vapur instead of your lineup consisting of football players, it
        consist of stocks and/or cryptos that you think will preform well in a
@@ -98,7 +99,16 @@ const gameOverview = () => {
       </p>
      </div>
     </div>
-   </div>
+   </div>   
+       <div className='flex flex-row justify-end xl:mr-32'>
+       <ScrollAnimation animateIn='animate__fadeInUp' animateOut='animate__fadeOutDown' duration={.5}>
+       <img
+            className='mb-24 sm:mb-12 z-40 relative mr-4 sm:mr-0 xl:mr-2 w-20'
+            src='/robard-head-left-3D.webp'
+            alt=''
+            />
+            </ScrollAnimation>
+       </div>   
   </section>
  );
 };

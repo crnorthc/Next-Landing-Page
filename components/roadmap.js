@@ -12,7 +12,7 @@ const roadmap = () => {
      text-light text-5xl
      sm:text-6xl
      text-center
-     pt-10
+     xs:pt-10
      sm:pt-20
      over-tokens
      glory
@@ -50,14 +50,14 @@ const roadmap = () => {
       >
        <img className='w-8 h-8' src='cash-on-delivery.svg' alt='' />
       </div>      
-      <div className='flex flex-col rounded-t-md justify-start items-start xl:flex-row xl:justify-between  mb-5 bg-dark px-10 py-5'>
+      <div className='flex flex-col rounded-t-md justify-start items-center xs:items-start xl:flex-row xl:justify-between  mb-5 bg-dark px-10 py-5'>
        <h4 className='text-primary  text-3xl'>Stage 1</h4>
        <h4 className='text-lightmedium text-xl xl:text-3xl'>Development</h4>
       </div>
-      <p className='text-xl px-10 pt-3'>Pre-Seed Allocation</p>
-      <p className='text-xl px-10 pt-2'>Consolidate Developers</p>
-      <p className='text-xl px-10 pt-2'>Partner witha Market Data Provider</p>
-      <p className='text-xl px-10 pt-2'>Complete Vapur Devleopment</p>     
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Pre-Seed Allocation</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Consolidate Developers</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Partner witha Market Data Provider</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Complete Vapur Devleopment</p>     
      </section>    
     </div>
     <div className='roadmapRow mb-10 roadmapRow-2 flex justify-end'>
@@ -75,15 +75,15 @@ const roadmap = () => {
       >
        <img className='w-8 h-8 relative' src='rocket-launch.svg' alt='' />
       </div>
-      <div className='flex flex-col justify-start items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
+      <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
        <h4 className='text-primary  text-3xl'>Stage 2</h4>
        <h4 className='text-lightmedium text-xl xl:text-3xl'>
         Platform Release
        </h4>
       </div>
-      <p className='text-xl px-10 pt-3'>Seed Allocation</p>
-      <p className='text-xl px-10 pt-2'>Launch Vapor Beta</p>
-      <p className='text-xl px-10 pt-2'>Grow Community</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Seed Allocation</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Launch Vapor Beta</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Grow Community</p>
      </section>
     </div>
     <div className='roadmapRow mb-10 roadmapRow-3 flex justify-start'>
@@ -101,12 +101,15 @@ const roadmap = () => {
       >
        <img className='w-8 h-8 relative' src='rocket-launch.svg' alt='' />
       </div>
-      <div className='flex flex-col justify-start items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
-       <h4 className='text-primary  text-3xl'>Stage 3</h4>
+      <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
+       <h4 className='text-primary text-3xl'>Stage 3</h4>
        <h4 className='text-lightmedium text-xl xl:text-3xl'>Vapur Token</h4>
       </div>
-      <p className='text-xl px-10 pt-3'>Reach Target Circulating Supply</p>
-      <p className='text-xl px-10 pt-2'>Partner with Exchanges</p>
+      <div className='text-left'>
+            <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Reach Target Circulating Supply</p>
+            <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Partner with Exchanges</p>
+      </div>
+      
      </section>
     </div>
     <div className='roadmapRow mb-10 roadmapRow-4 flex justify-end'>
@@ -124,12 +127,12 @@ const roadmap = () => {
       >
        <img className='w-8 h-8 relative' src='hammer.svg' alt='' />
       </div>
-      <div className='flex flex-col justify-start items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
+      <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
        <h4 className='text-primary  text-3xl'>Stage 4</h4>
        <h4 className='text-lightmedium text-xl xl:text-3xl'>Go Public</h4>
       </div>
-      <p className='text-xl px-10 pt-3'>Vapur Token IEO</p>
-      <p className='text-xl px-10 pt-2'>Begin Series A Funding</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Vapur Token IEO</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Begin Series A Funding</p>
      </section>
     </div>
    </div>

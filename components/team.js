@@ -24,7 +24,7 @@ function team() {
 
  return (
   <section
-   className='bg-dark pt-20 sm:pt-40 pb-20 sm:pb-40 over-tokens relative'
+   className='bg-dark sm:pt-40 pb-20 sm:pb-40 over-tokens relative'
    id='team'
   >
    {/* page conter */}
@@ -33,7 +33,7 @@ function team() {
      Core Team
     </h2>
 
-    <div className='flex flex-col sm:flex-row space-y-10 items-end justify-evenly'>
+    <div className='flex flex-col sm:flex-row space-y-10 items-center sm:items-end justify-evenly'>
      <div className='flex flex-col items-center justify-center'>
       <img
        onClick={openModal2}
@@ -69,9 +69,66 @@ function team() {
     <h2 className='text-light text-5xl sm:text-6xl text-center pb-10 glory'>
      Advisors
     </h2>
-    <div className='flex flex-col sm:flex-row space-y-10 items-end justify-evenly'>
+
+    <div className='flex flex-col md:hidden space-y-10 items-end justify-evenly'>
+        <div className='flex flex-row justify-between items-end'>
+            <div className='flex-1 flex flex-col items-center justify-center'>
+            <a
+        className='no-underline text-center display-none'
+        href='https://www.linkedin.com/in/jack-northcott-9ab709/'
+        target='_blank'
+        >
+            <img className='w-1/2 inline-block caleb-head pb-4' src='/Jack.png' alt='' />
+    </a>
+                <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+                    Jack Northcott
+                </h3>
+                <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+                    Business Advisor
+                </h4>
+            </div>
+            <div className='flex-1 flex flex-col items-center justify-center'>
+            <a
+        className='no-underline text-center'
+        href='https://www.linkedin.com/in/hallzy/'
+        target='_blank'
+        >
+      <img className='w-1/2 inline-block matt-head pb-4' src='/Dave.png' alt='' />
+      </a>
+                <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+                    Dave Hall
+                </h3>
+                <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+                    Startup Advisor
+                </h4>
+            </div>
+        </div>
      <div className='flex-1 flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 caleb-head pb-4' src='/Jack.png' alt='' />
+     <a
+        className='no-underline text-center'
+        href='https://www.linkedin.com/in/gschwartzman/'
+        target='_blank'
+        >
+      <img className='w-1/4 inline-block matt-head pb-4' src='/Glenn.png' alt='' />
+      </a>
+      <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+       Glenn Schwartzman
+      </h3>
+      <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+       Legal Advisor
+      </h4>
+     </div>
+    </div>
+
+    <div className='hidden md:flex flex-row space-y-10 items-end justify-evenly'>
+     <div className='flex-1 flex flex-col items-center justify-center'>
+     <a
+        className='no-underline text-center display-none'
+        href='https://www.linkedin.com/in/jack-northcott-9ab709/'
+        target='_blank'
+        >
+            <img className='w-1/2 md:w-1/4 inline-block caleb-head pb-4' src='/Jack.png' alt='' />
+    </a>
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Jack Northcott
       </h3>
@@ -80,7 +137,13 @@ function team() {
       </h4>
      </div>
      <div className='flex-1 flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Dave.png' alt='' />
+     <a
+        className='no-underline text-center'
+        href='https://www.linkedin.com/in/hallzy/'
+        target='_blank'
+        >
+      <img className='w-1/2 md:w-1/4 inline-block matt-head pb-4' src='/Dave.png' alt='' />
+      </a>
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Dave Hall
       </h3>
@@ -89,7 +152,13 @@ function team() {
       </h4>
      </div>
      <div className='flex-1 flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Glenn.png' alt='' />
+     <a
+        className='no-underline text-center'
+        href='https://www.linkedin.com/in/gschwartzman/'
+        target='_blank'
+        >
+      <img className='w-1/2 md:w-1/4 inline-block matt-head pb-4' src='/Glenn.png' alt='' />
+      </a>
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Glenn Schwartzman
       </h3>

@@ -16,7 +16,7 @@ const chooseATier = () => {
    <div className='absolute z-40 bottom-32 left-5 xl:left-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute z-40 bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium  rounded-tr-2xl'></div>
+   <div className='absolute z-40 bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium rounded-tr-2xl'></div>
    <div className='absolute z-50 bottom-8 right-8 left-0 xl:left-20  h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-8 left-10 w-10 h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-0 right-8 h-10 w-3 bg-light pipe-shine'></div>
@@ -24,7 +24,7 @@ const chooseATier = () => {
    {/* content */}
    <div className='flex flex-col-reverse md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16 container max-w-6xl mx-auto pb-32 md:pb-16 '>
     <div className='w-full w-1/3'>
-     <div className='flex  items-center justify-center pb-10'>
+     <div className='flex  items-center justify-center xs:pb-10'>
       <img
        className='sexyRobard w-64 hidden md:block lg:w-96'
        src='/FrameWithRobard.webp'
@@ -32,8 +32,8 @@ const chooseATier = () => {
       />
      </div>
     </div>
-    <div className='pb-10 sm:pb-0 w-full md:w-2/3'>
-     <h2 className='text-4xl lg:text-5xl glory text-light glory pb-5'>
+    <div className='pb-5 sm:pb-0 w-full md:w-2/3'>
+     <h2 className='text-4xl pb-8 lg:text-5xl glory text-light glory'>
       2. Place Your Wagers
      </h2>
      <img
@@ -44,7 +44,7 @@ const chooseATier = () => {
      />
     </div>
    </div>
-   <div className='absolute bottom-52 xl:bottom-56 left-8 xl:left-40 w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
+   <div className='absolute bottom-56 xs:bottom-52 xl:bottom-56 left-8 xl:left-40 w-5/6 xs:w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
     <img className='' src='/PickATier.webp' alt='' />
    </div>
    <ScrollAnimation
