@@ -12,13 +12,13 @@ const gameOverview = () => {
    </h2> */}
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 left-0 right-0  h-20 bg-medium xl:rounded-tr-2xl'></div>
-   <div className='absolute bottom-8 left-0 right-0 xl:right-10  h-3 bg-light pipe-shine'></div>
+   <div className='absolute z-50 bottom-0 left-0 right-0  h-20 bg-medium xl:rounded-tr-2xl'></div>
+   <div className='absolute z-50  bottom-8 left-0 right-0 xl:right-10  h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-0 right-8 w-3 h-8 bg-light pipe-shine'></div>
 
    {/* Robard */}
-   <div className='absolute z-40 bottom-20 right-5 xl:right-40 w-28 h-12 bg-medium '></div>
-   <div className='absolute z-50 bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
+   <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 bg-medium '></div>
+   <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
    <img
     className='absolute bottom-32 pb-1 right-9 xl:right-44 w-20'
     src='/robard-head-left-3D.png'

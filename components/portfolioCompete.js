@@ -12,7 +12,7 @@ const portfolioCompete = () => {
    <div className='hidden xl:block absolute top-0 bottom-10 left-8 w-3  bg-light pipe-shine '></div>
 
    {/* Robard */}
-   <div className='absolute bottom-20 left-5 xl:left-40 w-28 h-16 rounded-t-xl bg-medium '></div>
+   <div className='absolute bottom-20 z-50 left-5 xl:left-40 w-28 h-12 bg-medium '></div>
    <div className='absolute bottom-32 left-5 xl:left-40 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
@@ -60,7 +60,7 @@ const portfolioCompete = () => {
     duration={0.5}
    >
     <img
-     className='pb-28 ml-4 sm:ml-0 xl:ml-32 -mb-4 sm:pb-16 sm:-mb-2 z-50 relative w-20'
+     className='pb-28 ml-4 sm:ml-0 xl:ml-32 -mb-4 sm:pb-16 sm:-mb-2 z-40 relative w-20'
      src='/robard-head-left-3D.webp'
      alt=''
     />

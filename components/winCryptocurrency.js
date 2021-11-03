@@ -12,7 +12,7 @@ const winCryptocurrency = () => {
    <div className='hidden xl:block absolute top-0 bottom-10 right-8 w-3  bg-light pipe-shine '></div>
 
    {/* Robard */}
-   <div className='absolute bottom-20 right-5 xl:right-40 w-28 h-12 z-50 bg-medium '></div>
+   <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 z-50 bg-medium '></div>
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
