@@ -8,18 +8,21 @@ const portfolioCompete = () => {
    className='bg-dark pt-12 xs:pt-20 sm:pt-10 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
    {/* left pipe */}
-   <div className='hidden xl:block absolute bottom-0 left-0 h-full w-20 bg-medium border-t-8 border-t-primary rounded-bl-2xl'></div>
+   <div className='hidden xl:block absolute bottom-0 left-0 h-full w-20 bg-medium border-t-8 border-t-primary rounded-bl-2xl'>
    <div className='hidden xl:block absolute top-0 bottom-10 left-8 w-3  bg-light pipe-shine '></div>
+   </div>
 
    {/* Robard */}
    <div className='absolute bottom-20 z-50 left-5 xl:left-40 w-28 h-12 bg-medium '></div>
    <div className='absolute bottom-32 left-5 xl:left-40 w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium  xl:rounded-tr-2xl'></div>
-   <div className='absolute bottom-8 right-0 xl:right-10 left-0 xl:left-10 h-3 bg-light pipe-shine'></div>
+   <div className='absolute z-50 bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium xl:rounded-tr-2xl'>
+   <div className='absolute z-50 bottom-8 right-0 xl:right-10 left-0 h-3 bg-light pipe-shine'></div>
+   <div className='hidden xl:block absolute bottom-0 right-8 h-10 w-3 bg-light pipe-shine'></div>
+   </div>   
 
-   <div className='hidden xl:block absolute bottom-0 right-8 h-8 w-3 bg-light pipe-shine'></div>
+   <div className='hidden xl:block absolute bottom-8 right-8 h-4 w-3 z-50 bg-light pipe-shine'></div>
 
    <div className='flex flex-col-reverse md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16 container max-w-6xl mx-auto md:pb-0 pb-20'>
     <div className='w-full md:w-1/2 lg:w-1/3'>

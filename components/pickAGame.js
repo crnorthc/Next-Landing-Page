@@ -7,20 +7,21 @@ const pickAGame = () => {
    id='pickAGame'
    className='bg-dark pt-12 xs:pt-20 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
-   {/* right pipe */}
-
-   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium border-t-8 border-primary '></div>
-   <div className='hidden xl:block absolute top-0 bottom-10 right-8 w-3  bg-light pipe-shine '></div>
+   {/* right pipe */}   
+   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium xl:rounded-br-2xl border-t-8 border-primary '>
+   <div className='hidden z-50 xl:block absolute top-0 bottom-10 right-8 w-3  bg-light pipe-shine '></div>
+    </div>   
 
    {/* Robard */}
    <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 bg-medium '></div>
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute z-50 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:border-r-8 xl:border-primary'></div>
-   <div className='absolute z-50 bottom-8 left-8 right-0 xl:right-20  h-3 bg-light pipe-shine'></div>
-   <div className='hidden xl:block absolute bottom-8 right-10 w-10 h-3 bg-light pipe-shine'></div>
-   <div className='hidden xl:block absolute bottom-0 left-10 h-10 w-3 bg-light pipe-shine'></div>
+   <div className='hidden z-50 xl:block absolute bottom-8 right-10 w-10 h-3 bg-light pipe-shine'></div>
+   <div className='hidden z-50  xl:block absolute bottom-0 left-10 h-10 w-3 bg-light pipe-shine'></div>     
+   <div className='absolute z-40 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:border-r-8 xl:border-primary xl:rounded-tl-2xl'>
+        <div className='absolute z-50 bottom-8 left-8 right-0 xl:right-20 w-full h-3 bg-light pipe-shine'></div> 
+    </div> 
 
    {/* page content */}
    <div className='flex flex-col md:flex-row items-between md:items-start justify-between space-x-0 sm:space-x-8 lg:space-x-16 lg:-mb-20 space-y-10 md:space-y-0 container max-w-6xl mx-auto sm:pb-0'>

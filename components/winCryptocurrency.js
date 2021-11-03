@@ -8,16 +8,18 @@ const winCryptocurrency = () => {
    className='bg-dark pt-12 xs:pt-20 sm:pt-10 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
    {/* right pipe */}
-   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium xl:rounded-br-2xl border-t-8 border-t-primary'></div>
-   <div className='hidden xl:block absolute top-0 bottom-10 right-8 w-3  bg-light pipe-shine '></div>
+   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium xl:rounded-br-2xl border-t-8 border-t-primary'>
+   <div className='hidden xl:block absolute top-0 bottom-8 right-8 w-3  bg-light pipe-shine '></div>
+   </div>
 
    {/* Robard */}
    <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 z-50 bg-medium '></div>
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 z-50 left-0 right-0 xl:right-20  h-20 bg-medium'></div>
-   <div className='absolute bottom-8 z-50 left-8 right-0 xl:right-12  h-3 bg-light pipe-shine'></div>
+   <div className='absolute bottom-0 z-50 left-0 right-0 xl:right-20  h-20 bg-medium'>
+   <div className='absolute w-full bottom-8 z-50 left-8 right-0 xl:right-12  h-3 bg-light pipe-shine'></div>
+   </div>   
 
    <div className='hidden xl:block absolute bottom-0 left-8 h-10 w-3 bg-light pipe-shine'></div>
 
