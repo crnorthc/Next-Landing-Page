@@ -101,13 +101,12 @@ const showcase = () => {
      items-center
      justify-center
      flex-col
-
+     pt-40
      px-4
      space-y-3
      sm:space-y-6
      max-w-3xl
      mx-auto
-     pb-40
     '
     >
      <h1 className='text-light text-5xl sm:text-8xl text-center z-10 glory'>
