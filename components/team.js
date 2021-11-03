@@ -38,7 +38,7 @@ function team() {
       <img
        onClick={openModal2}
        className='cursor-pointer w-1/2 md:w-1/4 caleb-head pb-4'
-       src='/Caleb.png'
+       src='/Caleb.webp'
        alt=''
       />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
@@ -52,7 +52,7 @@ function team() {
       <img
        onClick={openModal}
        className='cursor-pointer w-1/2 md:w-1/4 matt-head pb-4'
-       src='/Matt.png'
+       src='/Matt.webp'
        alt=''
       />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
@@ -71,7 +71,7 @@ function team() {
     </h2>
     <div className='flex flex-col sm:flex-row space-y-10 items-end justify-evenly'>
      <div className='flex-1 flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 caleb-head pb-4' src='/Jack.png' alt='' />
+      <img className='w-1/2 md:w-1/4 caleb-head pb-4' src='/Jack.webp' alt='' />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Jack Northcott
       </h3>
@@ -80,7 +80,7 @@ function team() {
       </h4>
      </div>
      <div className='flex-1 flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Dave.png' alt='' />
+      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Dave.webp' alt='' />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Dave Hall
       </h3>
@@ -89,7 +89,7 @@ function team() {
       </h4>
      </div>
      <div className='flex-1 flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Glenn.png' alt='' />
+      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Glenn.webp' alt='' />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Glenn Schwartzman
       </h3>
@@ -102,7 +102,7 @@ function team() {
 
    {/* <div className='flex flex-col items-center justify-center lg:items-start lg:flex-row'>
     <div className='flex-1 p-5 flex flex-col items-center justify-center'>
-     <img className='w-2/4 lg:w-1/3 rounded-md' src='profile.png' alt='' />
+     <img className='w-2/4 lg:w-1/3 rounded-md' src='profile.webp' alt='' />
 
      <a
       className='
@@ -137,7 +137,7 @@ function team() {
      </p>
     </div>
     <div className='flex-1 p-5 flex flex-col items-center justify-center'>
-     <img className='w-2/4 lg:w-1/3 rounded-md' src='matt.png' alt='' />
+     <img className='w-2/4 lg:w-1/3 rounded-md' src='matt.webp' alt='' />
 
      <a
       className='
@@ -209,7 +209,7 @@ function team() {
          <div className='flex-1 flex items-center justify-center'>
           <img
            className='rounded w-40 sm:w-full'
-           src='/Caleb-Real.png'
+           src='/Caleb-Real.webp'
            alt=''
           />
          </div>
@@ -305,7 +305,11 @@ function team() {
        <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big  rounded-2xl'>
         <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
          <div className='flex-1 flex items-center justify-center'>
-          <img className='rounded w-40 sm:w-full' src='/Matt-Real.png' alt='' />
+          <img
+           className='rounded w-40 sm:w-full'
+           src='/Matt-Real.webp'
+           alt=''
+          />
          </div>
 
          <div className='flex-1'>
