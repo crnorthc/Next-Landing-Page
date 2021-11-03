@@ -16,7 +16,7 @@ const createALineup = () => {
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute z-50 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium md:rounded-tl-2xl'></div>
+   <div className='absolute z-50 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium'></div>
    <div className='absolute z-50 bottom-8 left-8 right-0 xl:right-20  h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-8 right-8 w-12 h-3 bg-light pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-0 left-8 h-10 w-3 bg-light pipe-shine'></div>

@@ -50,7 +50,7 @@ const gameOverview = () => {
          </div>
         </div>
        </div>
-       <div className='flex items-center justify-between rounded-xl w-full md:w-72 lg:w-96 p-2 lineup-2 bg-greenHue green-shadow-big'>
+       <div className='flex items-center justify-between rounded-xl w-full md:w-72 lg:w-96 p-2 lineup-2 green-shadow-big'>
         <img className=' w-24 p-4' src='/doge.svg' alt='' />
 
         <div className='flex flex-1 items-center justify-between px-2 text-white font-bold poppins'>
