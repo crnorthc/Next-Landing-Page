@@ -66,7 +66,7 @@ const gameOverview = () => {
         </div>
        </div>
        <div className='flex items-center justify-between rounded-xl w-full md:w-72 lg:w-96 p-2 lineup-3  red-shadow-big'>
-        <img className=' w-10 mx-6 ' src='/ether.svg' alt='' />
+        <img className=' w-10 mx-6 my-2' src='/ether.svg' alt='' />
 
         <div className='flex flex-1 items-center justify-between px-2 text-white poppins'>
          <div className=''>
