@@ -101,7 +101,7 @@ const showcase = () => {
      items-center
      justify-center
      flex-col
-     h-screen
+
      px-4
      space-y-3
      sm:space-y-6
