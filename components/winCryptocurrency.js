@@ -10,6 +10,7 @@ const winCryptocurrency = () => {
    {/* right pipe */}
    <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium xl:rounded-br-2xl border-t-8 border-t-primary'>
    <div className='hidden xl:block absolute top-0 bottom-8 right-8 w-3  bg-light pipe-shine '></div>
+   <div className='hidden xl:block absolute bottom-8 right-8 h-3 w-10 bg-light pipe-shine'></div>
    </div>
 
    {/* Robard */}
@@ -17,11 +18,10 @@ const winCryptocurrency = () => {
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute bottom-0 z-50 left-0 right-0 xl:right-20  h-20 bg-medium'>
-   <div className='absolute w-full bottom-8 z-50 left-8 right-0 xl:right-12  h-3 bg-light pipe-shine'></div>
+   <div className='absolute bottom-0 z-50 left-0 right-0 xl:right-20 xl:border-r-8 border-primary  h-20 bg-medium'>
+   <div className='absolute w-full bottom-8 z-50 left-0 right-0 xl:right-12  h-3 bg-light pipe-shine'></div>
    </div>   
-
-   <div className='hidden xl:block absolute bottom-0 left-8 h-10 w-3 bg-light pipe-shine'></div>
+   
 
    <div className='flex flex-col md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16  space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-28 sm:32 md:pb-0'>
     <div className='w-full md:w-3/5 lg:w-2/3'>

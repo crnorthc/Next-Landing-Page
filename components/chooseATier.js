@@ -10,6 +10,7 @@ const chooseATier = () => {
    {/* left pipe */}
    <div className='hidden xl:block absolute bottom-0 left-0 h-full w-20 bg-medium border-t-8 border-t-primary rounded-bl-2xl'>
    <div className='hidden xl:block absolute top-0 bottom-10 left-8 w-3  bg-light pipe-shine '></div>
+   <div className='hidden xl:block absolute bottom-8 left-8 h-4 w-12 z-50 bg-light pipe-shine'></div>
    </div>   
 
    {/* Robard */}
@@ -17,8 +18,8 @@ const chooseATier = () => {
    <div className='absolute bottom-32 left-5 xl:left-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
 
    {/* Bottom pipe */}
-   <div className='absolute z-50 bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium xl:rounded-tr-2xl'>
-   <div className='absolute z-50 bottom-8 right-8 left-0 xl:left-20  h-3 bg-light pipe-shine'></div>   
+   <div className='absolute z-50 bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium xl:border-l-8 border-primary xl:rounded-tr-2xl'>
+   <div className='absolute z-50 bottom-8 right-0 xl:right-8 -left-2 xl:left-20 h-3 bg-light pipe-shine'></div>   
    <div className='hidden xl:block absolute bottom-0 right-8 h-10 w-3 bg-light pipe-shine'></div>
    <div className='hidden z-50 xl:block absolute bottom-8 w-20 h-3 bg-light pipe-shine'></div>
    </div>
