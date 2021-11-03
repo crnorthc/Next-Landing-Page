@@ -35,7 +35,7 @@ const pickAGame = () => {
      </h2>
      <img
       width='800'
-      class='border-4 border-light light-shadow-big rounded-md '
+      class='border-4 border-primary rounded-md'
       src='/newGames.png'
       alt=''
      />

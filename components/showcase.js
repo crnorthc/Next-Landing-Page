@@ -26,8 +26,8 @@ const showcase = () => {
  });
 
  const handleSubmit = () => {
-  addToWaitlist(submittedEmail)
- }
+  addToWaitlist(submittedEmail);
+ };
 
  useEffect(() => {
   const cookies = new Cookies();
@@ -91,7 +91,9 @@ const showcase = () => {
     <title>Vapur</title>
    </Head>
    <div className='tokenCont'></div>
-   <Navbar />
+   <div className='hidden sm:block'>
+    <Navbar />
+   </div>
    <div className='showcase'>
     <div
      className='
@@ -105,7 +107,7 @@ const showcase = () => {
      sm:space-y-6
      max-w-3xl
      mx-auto
-     
+     pt-20
     '
     >
      <h1 className='text-light text-5xl sm:text-8xl text-center z-10 glory'>
@@ -197,9 +199,7 @@ const showcase = () => {
        />
        <button
         type='submit'
-        onClick={() => 
-         handleSubmit()
-        }
+        onClick={() => handleSubmit()}
         className='rounded-md px-2 sm:px-4 text-sm sm:text-xl  bg-primary text-white h-12 transition-colors duration-100 hover:bg-primaryTransition'
        >
         Get Early Access

@@ -1,30 +1,46 @@
-import React from "react";
+import React, { useState, Fragment } from "react";
+
+import { Dialog, Transition } from "@headlessui/react";
 
 function team() {
+ let [isOpen, setIsOpen] = useState(false);
+ let [isOpen2, setIsOpen2] = useState(false);
+
+ function closeModal() {
+  setIsOpen(false);
+ }
+
+ function openModal() {
+  setIsOpen(true);
+ }
+
+ function closeModal2() {
+  setIsOpen2(false);
+ }
+
+ function openModal2() {
+  setIsOpen2(true);
+ }
+
  return (
   <section
-   className='bg-dark pt-20 sm:pt-40 pb-96 over-tokens relative'
+   className='bg-dark pt-20 sm:pt-40 pb-20 sm:pb-40 over-tokens relative'
    id='team'
   >
-   {/* left pipe */}
-   <div className='hidden xl:block absolute top-0 bottom-0 left-0  w-20 bg-medium border-t-8 border-t-primary'></div>
-
-   {/* right pipe */}
-   <div className='hidden xl:block absolute top-0 bottom-0 right-0 w-20 bg-medium border-t-8 border-t-primary '></div>
-
-   {/* white blur left */}
-   <div className='hidden xl:block absolute top-0 bottom-8 left-8 w-3 bg-light pipe-shine '></div>
-
-   {/* white blur right */}
-   <div className='hidden xl:block absolute top-0 bottom-8 right-8 w-3  bg-light pipe-shine '></div>
-
-   <div className='relative xl:hidden px-2 max-w-6xl'>
-    <h2 className='text-light text-5xl sm:text-6xl text-center pb-20 glory'>
+   {/* page conter */}
+   <div className='relative pb-20  px-2 max-w-6xl mx-auto'>
+    <h2 className='text-light text-5xl sm:text-6xl text-center pb-10 glory'>
      Core Team
     </h2>
-    <div className='flex items-end justify-evenly'>
+
+    <div className='flex flex-col sm:flex-row space-y-10 items-end justify-evenly'>
      <div className='flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 caleb-head pb-4' src='/Caleb.png' alt='' />
+      <img
+       onClick={openModal2}
+       className='cursor-pointer w-1/2 md:w-1/4 caleb-head pb-4'
+       src='/Caleb.png'
+       alt=''
+      />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Caleb Ryan
       </h3>
@@ -33,7 +49,12 @@ function team() {
       </h4>
      </div>
      <div className='flex flex-col items-center justify-center'>
-      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Matt.png' alt='' />
+      <img
+       onClick={openModal}
+       className='cursor-pointer w-1/2 md:w-1/4 matt-head pb-4'
+       src='/Matt.png'
+       alt=''
+      />
       <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
        Matthew Klimek
       </h3>
@@ -44,58 +65,39 @@ function team() {
     </div>
    </div>
 
-   <div className='hidden xl:relative h-96 w-3/4 ml-auto'>
-    <h3 className='text-light text-5xl sm:text-6xl text-center pl-12 xl:pl-20 glory'>
-     Core Team
-    </h3>
-    {/* Bottom pipe1 */}
-    <div className='absolute bottom-0 left-0 right-0 xl:right-20 h-20 bg-medium  border-l-8 border-l-primary rounded-l-md'></div>
-    <div className='absolute bottom-8 right-0 xl:right-10 left-4  h-3 bg-light pipe-shine'></div>
-
-    {/* Caleb */}
-
-    <div className='absolute bottom-20 left-1/4 xl:left-1/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-1/4 xl:left-1/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
-
-    <img
-     className='absolute bottom-40 caleb-head w-20'
-     src='/Caleb.png'
-     alt=''
-    />
-
-    {/* Matt */}
-
-    <div className='absolute bottom-20 left-2/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-2/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
-
-    <img className='absolute bottom-40 matt-head w-20' src='/Matt.png' alt='' />
-   </div>
-
-   <div className='hidden xl:relative h-96  w-3/4 mr-auto mt-40'>
-    <h3 className='text-light text-4xl sm:text-5xl text-center pl-20 glory'>
+   <div className='relative  px-2 max-w-6xl mx-auto'>
+    <h2 className='text-light text-5xl sm:text-6xl text-center pb-10 glory'>
      Advisors
-    </h3>
-    {/* Bottom pipe1 */}
-    <div className='absolute bottom-0 left-0 xl:left-20 right-0 h-20 bg-medium  border-r-8 border-r-primary rounded-r-md'></div>
-    <div className='absolute bottom-8 right-4 left-10  h-3 bg-light pipe-shine'></div>
-
-    {/* Caleb */}
-
-    <div className='absolute bottom-20 left-1/4 xl:left-1/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-1/4 xl:left-1/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
-
-    <img
-     className='absolute bottom-40 caleb-head w-20'
-     src='/Caleb.png'
-     alt=''
-    />
-
-    {/* Matt */}
-
-    <div className='absolute bottom-20 left-2/3 w-20 xl:w-28 h-16 rounded-t-xl bg-medium '></div>
-    <div className='absolute bottom-32 left-2/3 w-20 xl:w-28 h-4 rounded-full bg-black border-4 border-primary  pipe-primary-shadow'></div>
-
-    <img className='absolute bottom-40 matt-head w-20' src='/Matt.png' alt='' />
+    </h2>
+    <div className='flex flex-col sm:flex-row space-y-10 items-end justify-evenly'>
+     <div className='flex-1 flex flex-col items-center justify-center'>
+      <img className='w-1/2 md:w-1/4 caleb-head pb-4' src='/Jack.png' alt='' />
+      <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+       Jack Northcott
+      </h3>
+      <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+       Business Advisor
+      </h4>
+     </div>
+     <div className='flex-1 flex flex-col items-center justify-center'>
+      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Dave.png' alt='' />
+      <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+       Dave Hall
+      </h3>
+      <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+       Startup Advisor
+      </h4>
+     </div>
+     <div className='flex-1 flex flex-col items-center justify-center'>
+      <img className='w-1/2 md:w-1/4 matt-head pb-4' src='/Glenn.png' alt='' />
+      <h3 className='text-center text-2xl sm:text-4xl text-light glory'>
+       Glenn Schwartzman
+      </h3>
+      <h4 className='text-center text-xl sm:text-2xl  text-primary glory'>
+       Legal Advisor
+      </h4>
+     </div>
+    </div>
    </div>
 
    {/* <div className='flex flex-col items-center justify-center lg:items-start lg:flex-row'>
@@ -167,6 +169,209 @@ function team() {
     </div>
    </div>
    */}
+
+   {/* Caleb's Modal */}
+
+   <Transition appear show={isOpen2} as={Fragment}>
+    <Dialog
+     as='div'
+     className='fixed inset-0 z-10 overflow-y-auto'
+     onClose={closeModal2}
+    >
+     <div className='min-h-screen px-4 text-center'>
+      <Transition.Child
+       as={Fragment}
+       enter='ease-out duration-300'
+       enterFrom='opacity-0'
+       enterTo='opacity-100'
+       leave='ease-in duration-200'
+       leaveFrom='opacity-100'
+       leaveTo='opacity-0'
+      >
+       <Dialog.Overlay className='fixed inset-0 bg-dark opacity-70' />
+      </Transition.Child>
+
+      {/* This element is to trick the browser into centering the modal contents. */}
+      <span className='inline-block h-screen align-middle' aria-hidden='true'>
+       &#8203;
+      </span>
+      <Transition.Child
+       as={Fragment}
+       enter='ease-out duration-300'
+       enterFrom='opacity-0 scale-95'
+       enterTo='opacity-100 scale-100'
+       leave='ease-in duration-200'
+       leaveFrom='opacity-100 scale-100'
+       leaveTo='opacity-0 scale-95'
+      >
+       <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big  rounded-2xl'>
+        <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
+         <div className='flex-1 flex items-center justify-center'>
+          <img
+           className='rounded w-40 sm:w-full'
+           src='/Caleb-Real.png'
+           alt=''
+          />
+         </div>
+
+         <div className='flex-1'>
+          <div className='border-b-2 border-medium pb-2'>
+           <div className='flex items-end justify-between space-x-4'>
+            <Dialog.Title
+             as='h3'
+             className='text-2xl font-medium leading-6 text-dark'
+            >
+             Caleb Ryan
+            </Dialog.Title>
+            <div className='flex items-center justify-start'>
+             <a
+              className='no-underline'
+              href='https://www.linkedin.com/in/caleb--ryan/'
+              target='_blank'
+             >
+              <img
+               className='mr-2 w-6 h-6 sm:w-9 sm:h-9'
+               src='005-linkedin.svg'
+               alt=''
+              />
+             </a>
+            </div>
+           </div>
+           <Dialog.Title as='h4' className='text-sm  leading-6 text-medium'>
+            Co-Founder & Software Developer
+           </Dialog.Title>
+          </div>
+          <div className='mt-2'>
+           <p className='text-dark text-sm leading-5 sm:text-md sm:leading-6'>
+            Graduating from Eckerd College with a Bachelor of Science in
+            Computer Science and Economics, Blockchain technology has always
+            been an interest of Caleb’s. Since 2017, Caleb has actively traded
+            both cryptocurrencies and U.S equities, where the inspiration for
+            Vapur was born.
+           </p>
+          </div>
+
+          <div className='mt-4'>
+           <button
+            type='button'
+            className='inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500'
+            onClick={closeModal2}
+           >
+            X
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </Transition.Child>
+     </div>
+    </Dialog>
+   </Transition>
+
+   {/* Matt's Modal */}
+
+   <Transition appear show={isOpen} as={Fragment}>
+    <Dialog
+     as='div'
+     className='fixed inset-0 z-10 overflow-y-auto'
+     onClose={closeModal}
+    >
+     <div className='min-h-screen px-4 text-center'>
+      <Transition.Child
+       as={Fragment}
+       enter='ease-out duration-300'
+       enterFrom='opacity-0'
+       enterTo='opacity-100'
+       leave='ease-in duration-200'
+       leaveFrom='opacity-100'
+       leaveTo='opacity-0'
+      >
+       <Dialog.Overlay className='fixed inset-0 bg-dark opacity-70' />
+      </Transition.Child>
+
+      {/* This element is to trick the browser into centering the modal contents. */}
+      <span className='inline-block h-screen align-middle' aria-hidden='true'>
+       &#8203;
+      </span>
+      <Transition.Child
+       as={Fragment}
+       enter='ease-out duration-300'
+       enterFrom='opacity-0 scale-95'
+       enterTo='opacity-100 scale-100'
+       leave='ease-in duration-200'
+       leaveFrom='opacity-100 scale-100'
+       leaveTo='opacity-0 scale-95'
+      >
+       <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big  rounded-2xl'>
+        <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
+         <div className='flex-1 flex items-center justify-center'>
+          <img className='rounded w-40 sm:w-full' src='/Matt-Real.png' alt='' />
+         </div>
+
+         <div className='flex-1'>
+          <div className='border-b-2 border-medium pb-2'>
+           <div className='flex items-end justify-between '>
+            <Dialog.Title
+             as='h3'
+             className='text-xl sm:text-2xl  font-medium leading-6 text-dark flex-1'
+            >
+             Matthew Klimek
+            </Dialog.Title>
+            <div className='flex items-center justify-start'>
+             <a
+              className='no-underline'
+              href='https://www.linkedin.com/in/matthew-klimek-37629b153/'
+              target='_blank'
+             >
+              <img
+               className='mr-2 w-6 h-6 sm:w-9 sm:h-9'
+               src='005-linkedin.svg'
+               alt=''
+              />
+             </a>
+             <a
+              className='no-underline'
+              href='https://twitter.com/gravityhaha'
+              target='_blank'
+             >
+              <img
+               className='mr-2 w-6 h-6 sm:w-9 sm:h-9'
+               src='004-twitter.svg'
+               alt=''
+              />
+             </a>
+            </div>
+           </div>
+           <Dialog.Title as='h4' className='text-sm leading-6 text-medium'>
+            Co-Founder & Software Developer
+           </Dialog.Title>
+          </div>
+          <div className='mt-2'>
+           <p className='text-dark text-sm leading-5 sm:text-md sm:leading-6'>
+            Matthew began his official digital exploration back in 2015 when he
+            co-authored a book about digital marketing with Jay Berkowitz. In
+            2020 he recieved a bachelor's degree in Computer Science. His
+            attention shifted towards investing in stocks and cryptocurrency in
+            early 2018, and blockchain technology soon after.
+           </p>
+          </div>
+
+          <div className='mt-4'>
+           <button
+            type='button'
+            className='inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500'
+            onClick={closeModal}
+           >
+            X
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </Transition.Child>
+     </div>
+    </Dialog>
+   </Transition>
   </section>
  );
 }
