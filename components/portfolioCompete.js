@@ -23,7 +23,6 @@ const portfolioCompete = () => {
 
    <div className='flex flex-col-reverse md:flex-row items-center justify-center space-x-0 sm:space-x-8 lg:space-x-16 container max-w-6xl mx-auto md:pb-0 pb-20'>
     <div className='w-full md:w-1/2 lg:w-1/3'>
-<<<<<<< HEAD
      <div className='relative text-center'>
       <img className='' src='/CloudLeft.png' alt='' />
       <div className='text-dark text-over-image w-4/5 text-3xl leading-7 md:text-2xl md:leading-8'>
@@ -36,24 +35,6 @@ const portfolioCompete = () => {
       <img
        className='sexyRobard w-64 pt-10 lg:w-96'
        src='/FrameWithRobard.webp'
-=======
-     <div className='flex  items-start justify-center pb-10'>
-      <div>
-       <img
-        className='z-20 appleBlock mt-24 w-20 lg:w-32 light-shadow-small rounded-full'
-        src='/Guy2.webp'
-        alt=''
-       />
-      </div>
-      <img
-       className='z-30 nikeBlock w-20 lg:w-36 -m-20 lg:-m-14 light-shadow-small rounded-full'
-       src='/Girl1.webp'
-       alt=''
-      />
-      <img
-       className='z-10 rightOrbBlock w-16 mt-20 light-shadow-small lg:w-28 rounded-full'
-       src='/Guy3.webp'
->>>>>>> 38f1b2a5f12d5cff79c9396130754709cfc519bd
        alt=''
       />
      </div>
@@ -70,12 +51,7 @@ const portfolioCompete = () => {
      />
     </div>
    </div>
-<<<<<<< HEAD
    <div className='absolute bottom-52 xl:bottom-56 left-8 xl:left-40 w-5/6 xs:w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
-=======
-
-   <div className='absolute bottom-52 xl:bottom-56 left-8 xl:left-40 w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
->>>>>>> 38f1b2a5f12d5cff79c9396130754709cfc519bd
     <img className='' src='/PickATier.webp' alt='' />
    </div>
    <ScrollAnimation
