@@ -8,7 +8,7 @@ const createALineup = () => {
    className='bg-dark pt-20 sm:pt-20 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
    {/* right pipe */}
-   <div className='hidden xl:block absolute bottom-0 right-0 h-full w-20 bg-medium border-t-8 border-t-primary rounded-br-2xl'></div>
+   <div className='hidden xl:block absolute top-0 bottom-0 right-0 w-20 bg-medium border-t-8 border-t-primary rounded-br-2xl'></div>
    <div className='hidden xl:block absolute top-0 bottom-10 right-8 w-3  bg-light pipe-shine '></div>
 
    {/* Robard */}
@@ -51,7 +51,7 @@ const createALineup = () => {
        src='/pepsi3D.webp'
        alt=''
       />
-     </div>             
+     </div>
     </div>
    </div>
    <div className='absolute w-2/3 sm:w-2/5 pl-12 md:w-1/4 lg:w-1/4 xl:w-1/5 bottom-56 right-28 md:right-28 md:bottom-56 xl:right-60'>

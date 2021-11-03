@@ -7,11 +7,6 @@ const roadmap = () => {
    className='bg-dark pt-20 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens relative'
    id='roadmap'
   >
-   <div className='hidden xl:block absolute bottom-0 top-0 left-0 h w-20 bg-medium border-t-8 border-primary'></div>
-   <div className='hidden xl:block absolute top-0 bottom-0 left-8 w-3  bg-light pipe-shine '></div>
-   <div className='hidden xl:block absolute bottom-0 top-0 right-0 w-20 bg-medium border-t-8 border-primary'></div>
-   <div className='hidden xl:block absolute top-0 bottom-0 right-8 w-3 h-full bg-light pipe-shine '></div>
-
    <h2
     className='
      text-light text-5xl

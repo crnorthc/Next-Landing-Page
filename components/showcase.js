@@ -26,8 +26,8 @@ const showcase = () => {
  });
 
  const handleSubmit = () => {
-  addToWaitlist(submittedEmail)
- }
+  addToWaitlist(submittedEmail);
+ };
 
  useEffect(() => {
   const cookies = new Cookies();
@@ -92,13 +92,14 @@ const showcase = () => {
    </Head>
    <div className='tokenCont'></div>
    <div className='hidden sm:block'>
-   <Navbar />
-   </div>   
+    <Navbar />
+   </div>
    <div className='showcase'>
     <div
      className='
      flex
      items-center
+     justify-center
      flex-col
      h-screen
      px-4
@@ -198,9 +199,7 @@ const showcase = () => {
        />
        <button
         type='submit'
-        onClick={() => 
-         handleSubmit()
-        }
+        onClick={() => handleSubmit()}
         className='rounded-md px-2 sm:px-4 text-sm sm:text-xl  bg-primary text-white h-12 transition-colors duration-100 hover:bg-primaryTransition'
        >
         Get Early Access
