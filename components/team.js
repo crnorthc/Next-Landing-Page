@@ -278,12 +278,12 @@ function team() {
          <div className='flex-1 flex items-center justify-center'>
           <img
            className='rounded w-40 sm:w-full'
-           src='/Caleb-Real.png'
+           src='/Caleb-Real.webp'
            alt=''
           />
          </div>
 
-         <div className='flex-1'>
+         <div className='flex-1 justify-between'>
           <div className='border-b-2 border-medium pb-2'>
            <div className='flex items-end justify-between space-x-4'>
             <Dialog.Title
@@ -310,7 +310,7 @@ function team() {
             Co-Founder & Software Developer
            </Dialog.Title>
           </div>
-          <div className='mt-2'>
+          <div className='mt-2 mb-8 xs:mb-0'>
            <p className='text-dark text-sm leading-5 sm:text-md sm:leading-6'>
             Graduating from Eckerd College with a Bachelor of Science in
             Computer Science and Economics, Blockchain technology has always
@@ -320,7 +320,7 @@ function team() {
            </p>
           </div>
 
-          <div className='mt-4'>
+          <div className='absolute bottom-4 right-4'>
            <button
             type='button'
             className='inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500'
@@ -374,7 +374,7 @@ function team() {
        <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big  rounded-2xl'>
         <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
          <div className='flex-1 flex items-center justify-center'>
-          <img className='rounded w-40 sm:w-full' src='/Matt-Real.png' alt='' />
+          <img className='rounded w-40 sm:w-full' src='/Matt-Real.webp' alt='' />
          </div>
 
          <div className='flex-1'>
@@ -415,7 +415,7 @@ function team() {
             Co-Founder & Software Developer
            </Dialog.Title>
           </div>
-          <div className='mt-2'>
+          <div className='mt-2 mb-8 xs:mb-0'>
            <p className='text-dark text-sm leading-5 sm:text-md sm:leading-6'>
             Matthew began his official digital exploration back in 2015 when he
             co-authored a book about digital marketing with Jay Berkowitz. In
@@ -425,7 +425,7 @@ function team() {
            </p>
           </div>
 
-          <div className='mt-4'>
+          <div className='absolute bottom-4 right-4'>
            <button
             type='button'
             className='inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500'

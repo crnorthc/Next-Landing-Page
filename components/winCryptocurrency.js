@@ -28,7 +28,7 @@ const winCryptocurrency = () => {
      </h2>
      <img
       width='800'
-      class='border-8 border-light medium-shadow-big rounded-md '
+      class='border-4 border-primary medium-shadow-big rounded-md '
       src='/WinCrypto.webp'
       alt=''
      />
