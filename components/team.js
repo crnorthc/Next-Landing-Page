@@ -273,12 +273,12 @@ function team() {
        leaveFrom='opacity-100 scale-100'
        leaveTo='opacity-0 scale-95'
       >
-       <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big  rounded-2xl'>
+       <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big rounded-2xl'>
         <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
          <div className='flex-1 flex items-center justify-center'>
           <img
            className='rounded w-40 sm:w-full'
-           src='/Caleb-Real.webp'
+           src='/Caleb-Real.png'
            alt=''
           />
          </div>
@@ -374,11 +374,7 @@ function team() {
        <div className='inline-block w-full max-w-3xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-light medium-shadow-big  rounded-2xl'>
         <div className='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
          <div className='flex-1 flex items-center justify-center'>
-          <img
-           className='rounded w-40 sm:w-full'
-           src='/Matt-Real.webp'
-           alt=''
-          />
+          <img className='rounded w-40 sm:w-full' src='/Matt-Real.png' alt='' />
          </div>
 
          <div className='flex-1'>
