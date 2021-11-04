@@ -7,24 +7,16 @@ const gameOverview = () => {
    id='gameOverview'
    className='bg-secondary pt-0 sm:pt-40 pb-10 sm:pb-20 px-5 sm:px-10 over-tokens '
   >
-   {/* <h2 className='text-light text-5xl sm:text-6xl pt-3 pb-10 text-center glory'>
-    Game Overview
-   </h2> */}
 
    {/* Bottom pipe */}
    <div className='absolute z-50 bottom-0 left-0 right-0  h-20 bg-medium xl:rounded-tr-2xl'>
-          <div className='absolute z-50 bottom-8 left-0 right-0 my-3 my-96 xl:right-10 h-3 bg-light pipe-fix pipe-shine'></div>
-   <div className='hidden xl:block absolute bottom-0 right-8 w-3 h-8 bg-light pipe-shine'></div>
+          <div className='absolute z-50 bottom-8 left-0 right-0 xl:right-10 h-3 bg-light pipe-shine'></div>
+          <div className='hidden xl:block absolute bottom-0 right-8 w-3 h-8 bg-light pipe-shine'></div>
    </div>
 
    {/* Robard */}
    <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 bg-medium '></div>
    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
-   <img
-    className='absolute bottom-32 pb-1 right-9 xl:right-44 w-20'
-    src='/robard-head-left-3D.png'
-    alt=''
-   />
 
    <div className='flex flex-col md:flex-row justify-center md:space-x-16 space-y-10 md:space-y-0 container max-w-6xl mx-auto pb-12'>
     <div class='block '>

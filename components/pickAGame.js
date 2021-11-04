@@ -21,7 +21,7 @@ const pickAGame = () => {
    <div className='absolute z-40 bottom-0 left-0 right-0 xl:right-20  h-20 bg-medium xl:border-r-8 xl:border-primary xl:rounded-tl-2xl'>
         <div className='absolute z-50 bottom-8 xl:left-8 right-0 xl:right-20 w-full h-3 bg-light pipe-shine'></div>         
         <div className='hidden z-50  xl:block absolute bottom-0 left-10 h-10 w-3 bg-light pipe-shine'></div> 
-    </div> 
+   </div> 
 
    {/* page content */}
    <div className='flex flex-col md:flex-row items-between md:items-start justify-between space-x-0 sm:space-x-8 lg:space-x-16 lg:-mb-20 space-y-10 md:space-y-0 container max-w-6xl mx-auto sm:pb-0'>
@@ -36,8 +36,8 @@ const pickAGame = () => {
        src='/newGames.webp'
        alt=''
       />
-      <div className='w-full flex xl:justify-center justify-start'>
-       <div className='hidden sm:flex md:hidden lg:flex flex-row justify-between max-w-4xl pt-10'>
+      <div className='w-full mb-20 md:mb-0 flex xl:justify-center justify-start'>
+       <div className='hidden sm:flex mb-40 sm:mb-0 md:hidden lg:flex flex-row justify-between max-w-4xl pt-10'>
         <img src='/LeagueTag.webp' className='tag' alt='' />
         <img src='/DurationTag.webp' className='tag' alt='' />
         <img src='/WinCryptoTag.webp' className='tag' alt='' />
