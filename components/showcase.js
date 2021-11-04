@@ -95,7 +95,7 @@ const showcase = () => {
     <link rel='shortcut icon' type='image/svg' href='vapur.svg' />
     <title>Vapur</title>
    </Head>
-   <div className='tokenCont'></div>
+
    <div className='sm:hidden'>
      <div className='absolute z-50 top-5 left-5'>
       <img className='w-20 block' src='FinalLogo.svg' alt='' />
@@ -104,19 +104,21 @@ const showcase = () => {
    <div className='hidden sm:block'>
     <Navbar />
    </div>
-   <div className='showcase'>
+   <div className='showcase py-10'>
     <div
      className='
      flex
      items-center
      justify-center
      flex-col
-     pt-40
+     mt-20
+     mb-40
      px-4
      space-y-3
      sm:space-y-6
      max-w-3xl
      mx-auto
+     h-1/2
     '
     >
      <h1 className='text-light text-5xl sm:text-8xl text-center z-10 glory'>
@@ -205,78 +207,6 @@ const showcase = () => {
       </div>
      )}
     </div>
-
-    {/* <div className='flex items-center justify-end pt-0 z-10 space-x-5 sm:space-x-10'>
-      <a
-       className='
-       w-7
-       sm:w-10
-       h-7
-       sm:h-10
-       transition
-       duration-150
-       ease-in-out
-       transform
-       hover:scale-125
-      '
-       href='https://t.me/joinchat/haNcc0MiOx4zMDNh'
-       target='_blank'
-      >
-       <img src='001-telegram.svg' alt='' />
-      </a>
-      <a
-       className='
-       w-7
-       sm:w-10
-       h-7
-       sm:h-10
-       transition
-       duration-150
-       ease-in-out
-       transform
-       hover:scale-125
-      '
-       href='https://www.instagram.com/vapurofficial/'
-       target='_blank'
-      >
-       <img src='002-instagram.svg' alt='' />
-      </a>
-
-      <a
-       className='
-       w-7
-       sm:w-10
-       h-7
-       sm:h-10
-       transition
-       duration-150
-       ease-in-out
-       transform
-       hover:scale-125
-      '
-       href='https://twitter.com/VapurOfficial'
-       target='_blank'
-      >
-       <img src='004-twitter.svg' alt='' />
-      </a>
-      <a
-       className='
-       w-7
-       sm:w-10
-       h-7
-       sm:h-10
-       transition
-       duration-150
-       ease-in-out
-       transform
-       hover:scale-125
-      '
-       href='https://www.linkedin.com/company/vapur'
-       target='_blank'
-      >
-       <img src='005-linkedin.svg' alt='' />
-      </a>
-     </div> */}
 
     <div
      className='
