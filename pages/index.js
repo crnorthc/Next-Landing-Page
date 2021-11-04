@@ -8,11 +8,9 @@ import ChooseATier from "../components/chooseATier";
 import CreateALineup from "../components/createALineup";
 import PortfolioCompete from "../components/portfolioCompete";
 import WinCryptocurrency from "../components/winCryptocurrency";
-import Features from "../components/features";
 import Roadmap from "../components/roadmap";
 import Team from "../components/team";
 import Footer from "../components/footer";
-import pickAGame from "../components/pickAGame.js";
 import { useEffect, useState } from "react";
 
 export default function Home() {

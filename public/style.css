@@ -604,17 +604,6 @@ section .low-3 {
  background-size: 1000px 100px;
  z-index: 5 !important;
 }
-/* section .low-4 {
- position: absolute;
- bottom: 0;
- left: 0;
- width: 100%;
- height: 130px;
- background: rgba(146, 146, 146, 0.1);
- filter: blur(30px);
- background-size: 1000px 100px;
- z-index: 6;
-} */
 
 @keyframes animate {
  0% {
@@ -768,24 +757,6 @@ section .low-3 {
   padding-right: 10px;
  }
 
- /* 
-@keyframes tokenAnimate {
- 0% {
-  transform: scale(.5) translateY(0) rotate(0deg);
-  opacity: 0;
- }
- 10% {
-  opacity: 1;
- }
- 80% {
-  opacity: 1;
- }
- 100% {
-  transform: scale(1) translateY(-300%) rotate(0deg);
-  opacity: 0;
-  opacity: 0;
- }
-} */
 }
 
 @media (max-width: 1280px) {
@@ -798,58 +769,3 @@ section .low-3 {
  }
 }
 
-/* section .step {
- position: absolute;
- bottom:0;
- width: 20vw;
- min-width: 200px;
- height: 150px;
- background: #FFB900;
-}
-section .step1 {
- z-index: 2000;
- left: 0;
- border-radius: 0 30px 0 0;
-}
-section .step2 {
- z-index: 2000;
- right: 0;
- border-radius: 30px 0 0 0;
-}
-section .vapur {
- position:absolute;
- bottom:0;
- display:flex;
- z-index:0;
- padding:0 20px;
-}
-section .vapur span {
- position:relative;
- bottom:0;
- display: block;
- margin: 0 2px 20px;
- min-width: 8px;
- height: 50px;
- padding:0 20px;
- background: #fff;
- border-radius: 50%;
- animation: vapurAnimate 8s linear infinite;
- opacity:1;
- filter: blur(20px);
- animation-delay: calc(var(--i) * -0.5s);
-}
-@keyframes vapurAnimate {
- 0%{
-  transform: translateY(0) scale(1);
-  opacity:1;
- }
- 15%{
-  opacity:1;
- }
- 50%{
-    transform: translateY(-400px) scale(5);
- }
- 100%{
-    transform: translateY(-800px) scale(10);
- }
-} */
