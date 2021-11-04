@@ -82,6 +82,10 @@ const showcase = () => {
     cookie.set("user_email", email, { maxAge: 31540000 });
    });
  };
+
+ const text_md = 'text-light poppins text-md sm:text-2xl text-center z-10 pb-2'
+ const text_sm = 'text-light poppins text-sm sm:text-2xl text-center z-10 pb-2'
+
  return (
   <div className=''>
    <Head>
@@ -92,6 +96,11 @@ const showcase = () => {
     <title>Vapur</title>
    </Head>
    <div className='tokenCont'></div>
+   <div className='sm:hidden'>
+     <div className='absolute z-50 top-5 left-5'>
+      <img className='w-20 block' src='FinalLogo.svg' alt='' />
+    </div>
+   </div>
    <div className='hidden sm:block'>
     <Navbar />
    </div>
@@ -116,18 +125,7 @@ const showcase = () => {
       Investor Win!
      </h1>
      <p
-      className='
-      text-light
-      poppins
-      text-sm
-      sm:text-2xl
-      text-center
-      z-10
-  
-      pb-2 
-      
-     
-     '
+      className={hasJoined ? text_sm : text_md}
      >
       Vapur will be the largest fantasy financial trading platform in the world,
       disrupting the market with cryptocurrency wagers.

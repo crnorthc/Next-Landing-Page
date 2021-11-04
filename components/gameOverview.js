@@ -14,7 +14,7 @@ const gameOverview = () => {
           <div className='hidden xl:block absolute bottom-0 right-8 w-3 h-8 bg-light pipe-shine'></div>
    </div>
 
-   <div className='absolute bottom-10 left-0 w-10 h-3 bg-ocean pipe-shine'></div>
+   <div className='absolute top-0 left-0 w-10 h-3 bg-ocean pipe-shine'></div>
 
    {/* Robard */}
    <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 bg-medium '></div>
@@ -69,7 +69,7 @@ const gameOverview = () => {
           <p className=''>ETH</p>
          </div>
 
-         <div className='text-green flex flex-col items-end'>
+         <div className='text-red flex flex-col items-end'>
           <p className=''>$4,585</p>
           <p className=''>+$60</p>
          </div>

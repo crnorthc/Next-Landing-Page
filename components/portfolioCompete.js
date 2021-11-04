@@ -53,9 +53,10 @@ const portfolioCompete = () => {
      />
     </div>
    </div>
-   <div className='absolute bottom-52 xl:bottom-56 left-8 xl:left-40 w-5/6 xs:w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
+   <div className='absolute bottom-52 xl:bottom-56 left-8 xl:left-40 w-5/6 xs:w-2/4 sm:w-1/2 md:w-1/3 xl:w-1/4 pl-20'>
     <img className='' src='/PickATier.webp' alt='' />
    </div>
+   <div className='flex flex-row'>
    <ScrollAnimation
     animateIn='animate__fadeInUp'
     animateOut='animate__fadeOutDown'
@@ -67,6 +68,7 @@ const portfolioCompete = () => {
      alt=''
     />
    </ScrollAnimation>
+   </div>
   </section>
  );
 };

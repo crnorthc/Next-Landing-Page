@@ -6,20 +6,6 @@ const navbar = () => {
 
  return (
   <div>
-   <div className='sm:hidden'>
-    <div
-     className='
-                relative
-                p-5
-                flex
-                flex-col
-                '
-    >
-     <div className='flex flex-row w-full justify-between items-center'>
-      <img className='w-20 block' src='FinalLogo.svg' alt='' />
-     </div>
-    </div>
-   </div>
    <div className='fixed w-full z-20'>
     <div className='hidden sm:block'>
      <div
