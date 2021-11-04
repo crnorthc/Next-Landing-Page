@@ -146,7 +146,7 @@ const showcase = () => {
         Thanks for signing up! The top{" "}
         <span className='text-primary font-bold'> 10,000</span> players
         will be invited to early access! Move up{" "}
-        <span className='text-secondary font-bold'> 50</span> spots when someone
+        <span className='text-secondary font-bold'> 10</span> spots when someone
         signs up using your referral link.
         <br />
        </p>
