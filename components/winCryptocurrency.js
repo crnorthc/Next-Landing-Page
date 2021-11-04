@@ -19,7 +19,7 @@ const winCryptocurrency = () => {
 
    {/* Bottom pipe */}
    <div className='absolute bottom-0 z-50 left-0 right-0 xl:right-20 xl:border-r-8 border-primary  h-20 bg-medium'>
-   <div className='absolute w-full bottom-8 z-50 left-0 right-0 xl:right-12  h-3 bg-light pipe-shine'></div>
+   <div className='absolute w-full bottom-8 z-50 left-0 right-0 xl:right-12 h-3 bg-light pipe-shine'></div>
    </div>   
    
 

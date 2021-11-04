@@ -12,8 +12,8 @@ const gameOverview = () => {
    </h2> */}
 
    {/* Bottom pipe */}
-   <div className='absolute z-40 bottom-0 left-0 right-0  h-20 bg-medium xl:rounded-tr-2xl'>
-   <div className='absolute z-50  bottom-8 left-0 right-0 xl:right-10  h-3 bg-light pipe-shine'></div>
+   <div className='absolute z-50 bottom-0 left-0 right-0  h-20 bg-medium xl:rounded-tr-2xl'>
+          <div className='absolute z-50 bottom-8 left-0 right-0 my-3 my-96 xl:right-10 h-3 bg-light pipe-fix pipe-shine'></div>
    <div className='hidden xl:block absolute bottom-0 right-8 w-3 h-8 bg-light pipe-shine'></div>
    </div>
 
@@ -95,7 +95,7 @@ const gameOverview = () => {
        tournament.
       </p>
       <p className=''>
-       Wager cryptocurrency on each tournamnet you enter, for a chance to win
+       Wager cryptocurrency on each tournament you enter, for a chance to win
        the entire pot!
       </p>
      </div>

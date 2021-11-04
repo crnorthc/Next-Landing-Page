@@ -56,7 +56,7 @@ const roadmap = () => {
       </div>
       <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Pre-Seed Allocation</p>
       <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Consolidate Developers</p>
-      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Partner witha Market Data Provider</p>
+      <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Partner with a Market Data Provider</p>
       <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Complete Vapur Devleopment</p>     
      </section>    
     </div>
@@ -99,7 +99,7 @@ const roadmap = () => {
         md:block
        '
       >
-       <img className='w-8 h-8 relative' src='rocket-launch.svg' alt='' />
+       <img className='w-8 h-8 invert relative' src='token.png' alt='' />
       </div>
       <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-dark px-10 py-5'>
        <h4 className='text-primary text-3xl'>Stage 3</h4>

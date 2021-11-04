@@ -40,17 +40,17 @@ const createALineup = () => {
      <div className='hidden md:flex items-start justify-center pb-10'>
       <img
        className='z-20 appleBlock w-24 lg:w-40'
-       src='/apple3D.webp'
+       src='/Apple3D.webp'
        alt=''
       />
       <img
        className='z-30 nikeBlock w-24 lg:w-44 -m-10 lg:-m-14'
-       src='/nike3D.webp'
+       src='/Nike3D.webp'
        alt=''
       />
       <img
        className='z-10 pepsiBlock w-24 lg:w-36'
-       src='/pepsi3D.webp'
+       src='/Pepsi3D.webp'
        alt=''
       />
      </div>

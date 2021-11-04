@@ -6,6 +6,10 @@
  animation: nav1 0.2s ease-in 1;
 }
 
+.pipe-fix {
+   transform: translate(.75rem, 24rem);
+}
+
 .nav-up {
  animation: nav2 0.2s ease-in 1;
 }

@@ -11,7 +11,7 @@ const showcase = () => {
  const [spot, setSpot] = useState(null); // a users spot on the waitlist
  const [total, setTotal] = useState(null); // total amount of people signed up
  const [referral_link, setReferralLink] = useState(null); // the link for users to share with friends
- const [referrals, setReferrals] = useState(null); // number of referrals person has
+ const [referrals, setReferrals] = useState(0); // number of referrals person has
  const [hasJoined, setJoined] = useState(false); // has joined waitlist
  const [submittedEmail, setSubmittedEmail] = useState("");
  const [copied, setCopied] = useState("Copy");
@@ -39,22 +39,22 @@ const showcase = () => {
    },
   };
 
-  // if ("user_email" in cookie) {
-  //  const body = JSON.stringify({
-  //   email: cookie["user_email"],
-  //   api_key: "QZ83SF",
-  //  });
-  //  setJoined(true);
+ if ("user_email" in cookie) {
+  const body = JSON.stringify({
+   email: cookie["user_email"],
+   api_key: "QZ83SF",
+  });
+  setJoined(true);
 
-  //  axios
-  //   .post("https://getwaitlist.com/api/v1/users/status", body, config)
-  //   .then((res) => {
-  //    setSpot(res.data.current_priority);
-  //    setTotal(res.data.total_users);
-  //    setReferralLink(res.data.referral_link);
-  //    setReferrals(res.data.total_referrals);
-  //   });
-  // }
+  axios
+   .post("https://getwaitlist.com/api/v1/users/status", body, config)
+   .then((res) => {
+    setSpot(res.data.current_priority);
+    setTotal(res.data.total_users);
+    setReferralLink(res.data.referral_link);
+    setReferrals(res.data.total_referrals);
+   });
+ }
  }, []);
 
  const addToWaitlist = (email) => {
@@ -74,9 +74,10 @@ const showcase = () => {
   axios
    .post("https://getwaitlist.com/api/v1/waitlists/submit", body, config)
    .then((res) => {
+     console.log(res.data)
     setSpot(res.data.current_priority);
     setTotal(res.data.total_users);
-    setReferralLink(res.data_referral_link);
+    setReferralLink(res.data.referral_link);
     const cookie = new Cookies();
     cookie.set("user_email", email, { maxAge: 31540000 });
    });
@@ -143,7 +144,7 @@ const showcase = () => {
       '
        >
         Thanks for signing up! The top{" "}
-        <span className='text-primary font-bold'> 10,000</span> peopplayersle
+        <span className='text-primary font-bold'> 10,000</span> players
         will be invited to early access! Move up{" "}
         <span className='text-secondary font-bold'> 50</span> spots when someone
         signs up using your referral link.
