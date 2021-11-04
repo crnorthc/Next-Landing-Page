@@ -36,7 +36,7 @@ const pickAGame = () => {
        src='/newGames.webp'
        alt=''
       />
-      <div className='w-full mb-20 md:mb-0 flex xl:justify-center justify-start'>
+      <div className='w-full sm:mb-20 md:mb-0 flex xl:justify-center justify-start'>
        <div className='hidden sm:flex mb-40 sm:mb-0 md:hidden lg:flex flex-row justify-between max-w-4xl pt-10'>
         <img src='/LeagueTag.webp' className='tag' alt='' />
         <img src='/DurationTag.webp' className='tag' alt='' />
