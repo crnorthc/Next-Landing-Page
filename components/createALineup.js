@@ -28,11 +28,11 @@ const createALineup = () => {
         </h2>
 
         <div className='flex lg:hidden  items-center justify-center '>
-         <div className='vapur-token-1 -mr-4   w-12 z-10'>
+         <div className='vapur-token-1 -mr-4   z-10'>
           <img width={50} height={50} src='/apple3D.webp' alt='' />
          </div>
 
-         <div className='vapur-token-2  -mb-10  w-16 z-20'>
+         <div className='vapur-token-2  -mb-10  z-20'>
           <img
            width={70}
            height={70}
@@ -42,7 +42,7 @@ const createALineup = () => {
           />
          </div>
 
-         <div className='vapur-token-3  -ml-5 -mb-16  w-8 z-0'>
+         <div className='vapur-token-3  -ml-5 -mb-16  z-0'>
           <img
            width={40}
            height={40}
