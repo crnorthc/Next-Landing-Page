@@ -92,9 +92,7 @@ const chooseATier = () => {
                static
                className='bg-white rounded-md py-1 px-2 mb-4 w-full'
               >
-               In Tiered Tournaments the percentage of the fee you use to enter
-               a tournament is the same percentage of the pot you are eligble to
-               win.
+               In Tiered Tournaments the tier you enter determines your wager and your share of the game's prize.
               </Disclosure.Panel>
              </Transition>
             </>
@@ -136,28 +134,13 @@ const chooseATier = () => {
                static
                className='bg-white rounded-md py-1 px-2 w-full'
               >
-               In Multiplier Tournaments the fee to enter these tournament is
-               the same for everyone.
+               In Multiplier Tournaments everyone's wager is the same and if win your prize is either 2x or 8x your wager!
               </Disclosure.Panel>
              </Transition>
             </>
            )}
           </Disclosure>
          </ScrollAnimation>
-         {/* <p className='bg-primary rounded-md py-1 px-2 mb-2 w-full'>
-          Tiered Tournaments
-         </p>
-         <p className='bg-white rounded-md py-1 px-2 mb-4 w-full'>
-          In Tiered Tournaments the percentage of the fee you use to enter a
-          tournament is the same percentage of the pot you are eligble to win.
-         </p>
-         <p className='bg-primary rounded-md py-1 px-2 mb-2 w-full'>
-          Multiplier Tournaments
-         </p>
-         <p className='bg-white rounded-md py-1 px-2 w-full'>
-          In Multiplier Tournaments the fee to enter these tournament is the
-          same for everyone.
-         </p> */}
         </div>
        </div>
       </div>
