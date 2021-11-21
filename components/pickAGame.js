@@ -68,7 +68,7 @@ const pickAGame = () => {
      </div>
     </div>
    </div>
-   <div className='absolute hidden md:block w-1/3 md:w-1/4 lg:w-1/4 xl:1/5 bottom-64 right-24 md:bottom-52 xl:right-60'>
+   <div className='absolute hidden md:block w-1/3 md:w-1/4 right-24 lg:w-1/4 xl:1/5 bottom-64 md:bottom-52 xl:right-60'>
     <img className='' src='/PickAGame.webp' alt='' />
    </div>
    <div className='flex flex-row hidden md:flex lg:hidden justify-start sm:justify-between lg:justify-end items-end'>
