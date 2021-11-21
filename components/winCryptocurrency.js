@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const winCryptocurrency = () => {
@@ -28,20 +27,13 @@ const winCryptocurrency = () => {
 
         <div className='flex lg:hidden  items-center justify-center '>
          <div className='vapur-token-1 -mr-4   w-12 z-10'>
-          <Image
-           width={35}
-           height={50}
-           quality='100'
-           src='/MoneyBag.png'
-           alt=''
-          />
+          <img width={35} height={50} src='/MoneyBag.png' alt='' />
          </div>
 
          <div className='vapur-token-2  -mb-10  w-16 z-20'>
-          <Image
+          <img
            width={55}
            height={70}
-           quality='100'
            className='  '
            src='/MoneyBag.png'
            alt=''
@@ -49,10 +41,9 @@ const winCryptocurrency = () => {
          </div>
 
          <div className='vapur-token-3  -ml-5 -mt-5  w-8 z-0'>
-          <Image
+          <img
            width={30}
            height={40}
-           quality='100'
            className='  '
            src='/MoneyBag.png'
            alt=''
@@ -62,12 +53,9 @@ const winCryptocurrency = () => {
        </div>
 
        <div className='medium-shadow-medium rounded-xl game-visual'>
-        <Image
+        <img
          width='1000'
          height='550'
-         quality='100'
-         priority
-         layout='responsive'
          class='rounded-xl'
          src='/WinCrypto.webp'
          alt=''
@@ -78,15 +66,15 @@ const winCryptocurrency = () => {
       <div className='w-full lg:w-1/3 flex-col items-center justify-center '>
        <div className='hidden lg:flex  items-center justify-center '>
         <div className=' -mr-10 vapur-token-1 z-10'>
-         <Image width={120} height={160} src='/MoneyBag.png' alt='' />
+         <img width={120} height={160} src='/MoneyBag.png' alt='' />
         </div>
 
         <div className=' -mb-20 vapur-token-2 z-30'>
-         <Image width={150} height={200} src='/MoneyBag.png' alt='' />
+         <img width={150} height={200} src='/MoneyBag.png' alt='' />
         </div>
 
         <div className=' -mt-20 -ml-16 vapur-token-3  z-0'>
-         <Image width={90} height={120} src='/MoneyBag.png' alt='' />
+         <img width={90} height={120} src='/MoneyBag.png' alt='' />
         </div>
        </div>
 

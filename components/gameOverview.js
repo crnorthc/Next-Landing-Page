@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+
 import ScrollAnimation from "react-animate-on-scroll";
 
 const gameOverview = () => {
@@ -88,8 +88,8 @@ const gameOverview = () => {
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex  items-center justify-center space-x-3 '>
-          <Image
-           className=' w-24 rounded-full bg-light'
+          <img
+           className=' rounded-full bg-light'
            height={60}
            width={60}
            src='/t-brady.png'
@@ -102,7 +102,7 @@ const gameOverview = () => {
          </div>
 
          <div className='flex flex-col items-center justify-center space-y-1'>
-          <Image src='/campfire.png' width={25} height={25}></Image>
+          <img src='/campfire.png' width={25} height={25} />
           <p className='text-sm'>30.67</p>
          </div>
         </div>
@@ -114,8 +114,8 @@ const gameOverview = () => {
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex  items-center justify-center space-x-3 '>
-          <Image
-           className=' w-24 rounded-full bg-light'
+          <img
+           className=' rounded-full bg-light'
            height={60}
            width={60}
            src='/antonio-brown.png'
@@ -128,7 +128,7 @@ const gameOverview = () => {
          </div>
 
          <div className='flex flex-col items-center justify-center space-y-1'>
-          <Image src='/campfire.png' width={25} height={25}></Image>
+          <img src='/campfire.png' width={25} height={25} />
           <p className='text-sm'>27.84</p>
          </div>
         </div>
@@ -140,8 +140,8 @@ const gameOverview = () => {
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex  items-center justify-center space-x-3 '>
-          <Image
-           className=' w-24 rounded-full bg-light'
+          <img
+           className=' rounded-full bg-light'
            height={60}
            width={60}
            src='/cody-parkey.png'
@@ -154,7 +154,7 @@ const gameOverview = () => {
          </div>
 
          <div className='flex flex-col items-center justify-center space-y-1'>
-          <Image src='/campfire.png' width={25} height={25}></Image>
+          <img src='/campfire.png' width={25} height={25} />
           <p className='text-sm'>23.91</p>
          </div>
         </div>
@@ -166,8 +166,8 @@ const gameOverview = () => {
          }  hidden md:flex lg:hidden items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex  items-center justify-center space-x-3 '>
-          <Image
-           className=' w-24 rounded-full bg-light'
+          <img
+           className=' rounded-full bg-light'
            height={60}
            width={60}
            src='/jacob-martin.jpg'
@@ -180,7 +180,7 @@ const gameOverview = () => {
          </div>
 
          <div className='flex flex-col items-center justify-center space-y-1'>
-          <Image src='/campfire.png' width={25} height={25}></Image>
+          <img src='/campfire.png' width={25} height={25} />
           <p className='text-sm'>23.11</p>
          </div>
         </div>
@@ -192,8 +192,8 @@ const gameOverview = () => {
          }   items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex items-center justify-center space-x-3 '>
-          <Image
-           className=' w-24 rounded-full bg-light'
+          <img
+           className=' rounded-full bg-light'
            height={60}
            width={60}
            src='/chase-roullier.png'
@@ -206,7 +206,7 @@ const gameOverview = () => {
          </div>
 
          <div className='flex flex-col items-center justify-center space-y-1'>
-          <Image src='/campfire.png' width={25} height={25}></Image>
+          <img src='/campfire.png' width={25} height={25} />
           <p className='text-sm'>22.37</p>
          </div>
         </div>
@@ -218,7 +218,7 @@ const gameOverview = () => {
            : `${lineupOut}-1 ${initiallyHidden}`
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
-         <Image width={60} height={60} src='/001-bitcoin.png' alt='' />
+         <img width={60} height={60} src='/001-bitcoin.png' alt='' />
 
          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
           <div className=''>
@@ -239,7 +239,7 @@ const gameOverview = () => {
            : `${lineupOut}-2 ${initiallyHidden}`
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
-         <Image width={60} height={60} src='/004-apple.png' alt='' />
+         <img width={60} height={60} src='/004-apple.png' alt='' />
 
          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
           <div className=''>
@@ -260,7 +260,7 @@ const gameOverview = () => {
            : `${lineupOut}-3 ${initiallyHidden}`
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
-         <Image width={60} height={60} src='/003-paypal.png' alt='' />
+         <img width={60} height={60} src='/003-paypal.png' alt='' />
 
          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
           <div className=''>
@@ -281,7 +281,7 @@ const gameOverview = () => {
            : `${lineupOut}-4 md:${initiallyHidden}`
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
-         <Image width={60} height={60} src='/005-ethereum.png' alt='' />
+         <img width={60} height={60} src='/005-ethereum.png' alt='' />
 
          <div className='flex flex-1 items-center justify-between pl-4 pr-2'>
           <div className=''>
@@ -302,7 +302,7 @@ const gameOverview = () => {
            : `${lineupOut}-5 md:${initiallyHidden}`
          }   items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
-         <Image width={60} height={60} src='/002-netflix.png' alt='' />
+         <img width={60} height={60} src='/002-netflix.png' alt='' />
 
          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
           <div className=''>
@@ -385,7 +385,7 @@ const gameOverview = () => {
        <div className='flex flex-col lg:flex-row items-center justify-center p-5  space-y-4 lg:space-y-0 space-x-0 lg:space-x-3 xl:space-x-4'>
         <div className='flex flex-col items-center justify-center pb-4 lg:pb-0 border-primary border-b-4 lg:border-0 '>
          <div className='flex items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-light light-shadow-small p-2 rounded-xl compare1'>
-          <Image src='/fantasy-football.webp' width={150} height={150} />
+          <img src='/fantasy-football.webp' width={150} height={150} />
          </div>
         </div>
 
@@ -420,19 +420,19 @@ const gameOverview = () => {
         <div className='flex flex-col items-center justify-center  '>
          <div className='flex flex-col items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-primary light-shadow-small  rounded-xl compare5'>
           <div className='flex items-center justify-start bg-primary px-2 py-1 rounded-t-xl w-full space-x-2'>
-           <Image src='/football-helmet.png' height={20} width={20} />
+           <img src='/football-helmet.png' height={20} width={20} />
            <p className='flex items-start justify-center glory text-light text-sm xl:text-lg text-center'>
             Brady
            </p>
           </div>
           <div className='flex items-center justify-start bg-primaryDarker px-2 py-1  w-full space-x-2'>
-           <Image src='/football-helmet.png' height={20} width={20} />
+           <img src='/football-helmet.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-light text-sm xl:text-lg text-center'>
             Brown
            </p>
           </div>
           <div className='flex items-center justify-start bg-primary px-2 py-1 rounded-b-xl w-full space-x-2'>
-           <Image src='/football-helmet.png' height={20} width={20} />
+           <img src='/football-helmet.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-light text-sm xl:text-lg text-center'>
             Parkey
            </p>
@@ -445,19 +445,19 @@ const gameOverview = () => {
         <div className='flex flex-col items-center justify-center   '>
          <div className='flex flex-col items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-light light-shadow-small rounded-xl compare7'>
           <div className='flex items-center justify-start bg-light px-2 py-1  rounded-t-xl w-full space-x-2'>
-           <Image src='/overview-man-1.png' height={20} width={20} />
+           <img src='/overview-man-1.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-primaryDarker text-sm xl:text-lg text-center'>
             1. You
            </p>
           </div>
           <div className='flex items-center justify-start bg-white px-2 py-1   w-full space-x-2'>
-           <Image src='/overview-woman-1.png' height={20} width={20} />
+           <img src='/overview-woman-1.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-dark text-sm xl:text-lg text-center'>
             2. Jess
            </p>
           </div>
           <div className='flex items-center justify-start bg-light px-2 py-1  rounded-b-xl w-full space-x-2'>
-           <Image src='/overview-man-2.png' height={20} width={20} />
+           <img src='/overview-man-2.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-dark text-sm xl:text-lg text-center'>
             3. Tim
            </p>
@@ -469,7 +469,7 @@ const gameOverview = () => {
 
         <div className='flex flex-col items-center justify-center  '>
          <div className='flex items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-light light-shadow-small p-1 rounded-xl compare9'>
-          <Image src='/usd-box.png' height={128} width={128} />
+          <img src='/usd-box.png' height={128} width={128} />
          </div>
         </div>
        </div>
@@ -555,19 +555,19 @@ const gameOverview = () => {
         <div className='flex flex-col items-center justify-center  '>
          <div className='flex flex-col items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-secondary light-shadow-small  rounded-xl lowerCompare5'>
           <div className='flex items-center justify-start bg-secondary px-2 py-1 rounded-t-xl w-full space-x-2'>
-           <Image src='/overview-apple.png' height={20} width={20} />
+           <img src='/overview-apple.png' height={20} width={20} />
            <p className='flex items-start justify-center glory text-light text-sm xl:text-lg text-center'>
             Apple
            </p>
           </div>
           <div className='flex items-center justify-start bg-secondaryDarker px-2 py-1  w-full space-x-2'>
-           <Image src='/overview-bitcoin.png' height={20} width={20} />
+           <img src='/overview-bitcoin.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-light text-sm xl:text-lg text-center'>
             Bitcoin
            </p>
           </div>
           <div className='flex items-center justify-start bg-secondary px-2 py-1 rounded-b-xl w-full space-x-2'>
-           <Image src='/overview-google.png' height={20} width={20} />
+           <img src='/overview-google.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-light text-sm xl:text-lg text-center'>
             Google
            </p>
@@ -580,19 +580,19 @@ const gameOverview = () => {
         <div className='flex flex-col items-center justify-center   '>
          <div className='flex flex-col items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-light light-shadow-small rounded-xl lowerCompare7'>
           <div className='flex items-center justify-start bg-light px-2 py-1 rounded-t-xl w-full space-x-2'>
-           <Image src='/overview-man-1.png' height={20} width={20} />
+           <img src='/overview-man-1.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-primaryDarker text-sm xl:text-lg text-center'>
             1. You
            </p>
           </div>
           <div className='flex items-center justify-start bg-white px-2 py-1  w-full space-x-2'>
-           <Image src='/overview-woman-1.png' height={20} width={20} />
+           <img src='/overview-woman-1.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-dark text-sm xl:text-lg text-center'>
             2. Jess
            </p>
           </div>
           <div className='flex items-center justify-start bg-light px-2 py-1 rounded-b-xl w-full space-x-2'>
-           <Image src='/overview-man-2.png' height={20} width={20} />
+           <img src='/overview-man-2.png' height={20} width={20} />
            <p className='flex items-start justify-center  glory text-dark text-sm xl:text-lg text-center'>
             3. Tim
            </p>
@@ -604,7 +604,7 @@ const gameOverview = () => {
 
         <div className='flex flex-col items-center justify-center  '>
          <div className='flex items-center justify-center w-20 h-20 xl:w-28 xl:h-28 bg-light light-shadow-small p-1 rounded-xl lowerCompare9'>
-          <Image src='/crypto-box.png' height={128} width={128} />
+          <img src='/crypto-box.png' height={128} width={128} />
          </div>
         </div>
        </div>
