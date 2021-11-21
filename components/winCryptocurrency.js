@@ -99,7 +99,7 @@ const winCryptocurrency = () => {
           animateOnce
           animateIn='animate__fadeInUp'
           duration={0.5}
-          delay={1000}
+          delay={100}
           className='w-full'
          >
           <p className='bg-light rounded-lg p-2'>
