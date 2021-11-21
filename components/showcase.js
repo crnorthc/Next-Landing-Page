@@ -202,10 +202,6 @@ const showcase = () => {
             {copied}
            </button>
           </CopyToClipboard>
-
-          {/* {this.state.copied ? (
-         <span style={{ color: "red" }}>Copied.</span>
-        ) : null} */}
          </div>
         </div>
        </div>
