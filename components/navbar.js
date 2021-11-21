@@ -35,19 +35,20 @@ const navbar = () => {
        >
         Roadmap
        </a>
-       <a
-        className='transition-colors duration-100 hover:text-primary glory'
-        target='_blank'
-        rel='noopener noreferrer'
-        href='/WhitePaper.pdf'
-       >
-        White Paper
-       </a>
+
        <a
         className='transition-colors duration-100 hover:text-primary glory'
         href='#team'
        >
         Team
+       </a>
+       <a
+        className='transition-colors duration-100 hover:text-primary glory text-dark bg-light rounded-full px-2 py-1 '
+        target='_blank'
+        rel='noopener noreferrer'
+        href='/WhitePaper.pdf'
+       >
+        White Paper
        </a>
       </div>
      </div>

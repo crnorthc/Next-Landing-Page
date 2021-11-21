@@ -6,7 +6,7 @@ module.exports = {
  theme: {
   screens: {
    pics: "1080px",
-   xs: '460px',
+   xs: "460px",
    ...defaultTheme.screens,
   },
   colors: {
@@ -18,8 +18,11 @@ module.exports = {
    medium50: "#34424679",
    dark: "#1E292A",
    primary: "#FFB900",
+   primaryLight: "#ffbb0044",
+   primaryDarker: "#ecad00",
    primaryTransition: "#ffc31f",
    secondary: "#00C2EF",
+   secondaryDarker: "#00a0c4",
    ocean: "#0092b3",
    red: "#FF0000",
    green: "#00ff00",
