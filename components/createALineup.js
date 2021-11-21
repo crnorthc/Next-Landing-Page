@@ -29,7 +29,7 @@ const createALineup = () => {
 
         <div className='flex lg:hidden  items-center justify-center '>
          <div className='vapur-token-1 -mr-4   w-12 z-10'>
-          <img width={50} height={50} src='/apple3D.webp' alt='' />
+          <img width={50} height={50} src='/Apple3D.webp' alt='' />
          </div>
 
          <div className='vapur-token-2  -mb-10  w-16 z-20'>
@@ -68,7 +68,7 @@ const createALineup = () => {
       <div className='w-full lg:w-1/3 flex-col items-center justify-center '>
        <div className='hidden lg:flex  items-center justify-center '>
         <div className=' -mr-10 vapur-token-1 z-10'>
-         <img width={160} height={160} src='/apple3D.webp' alt='' />
+         <img width={160} height={160} src='/Apple3D.webp' alt='' />
         </div>
 
         <div className=' -mb-28 vapur-token-2 z-30'>
