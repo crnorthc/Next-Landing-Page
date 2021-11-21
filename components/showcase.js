@@ -118,21 +118,39 @@ const showcase = () => {
      h-1/2
     '
     >
-       <div className='z-10'>
+     <ScrollAnimation
+      animateOnce
+      animateIn='animate__fadeInUp'
+      duration={0.5}
+      delay={0}
+      className='z-10'
+     >
       <h1 className='text-light text-5xl sm:text-8xl text-center  glory'>
        May The Best
        <br />
        Investor Win!
       </h1>
-      </div>
+     </ScrollAnimation>
 
-      <div className='z-10'>
+     <ScrollAnimation
+      animateOnce
+      animateIn='animate__fadeInUp'
+      duration={0.5}
+      delay={200}
+      className='z-10'
+     >
       <p className={hasJoined ? text_sm : text_md}>
        Vapur will be the largest fantasy financial trading platform in the
        world, disrupting the market with cryptocurrency wagers.
       </p>
-     </div>
-     <div className='z-10'>
+     </ScrollAnimation>
+     <ScrollAnimation
+      animateOnce
+      animateIn='animate__fadeInUp'
+      duration={0.5}
+      delay={400}
+      className='z-10'
+     >
       {hasJoined ? (
        <div className='z-10 bg-medium p-4 rounded-xl medium-shadow-medium'>
         <p
@@ -184,6 +202,10 @@ const showcase = () => {
             {copied}
            </button>
           </CopyToClipboard>
+
+          {/* {this.state.copied ? (
+         <span style={{ color: "red" }}>Copied.</span>
+        ) : null} */}
          </div>
         </div>
        </div>
@@ -204,7 +226,7 @@ const showcase = () => {
         </button>
        </div>
       )}
-     </div>
+     </ScrollAnimation>
     </div>
 
     <div
