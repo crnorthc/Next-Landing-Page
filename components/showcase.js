@@ -116,62 +116,41 @@ const showcase = () => {
      max-w-3xl
      mx-auto
      h-1/2
+     z-10
     '
     >
-     <ScrollAnimation
-      animateOnce
-      animateIn='animate__fadeInUp'
-      duration={0.5}
-      delay={0}
-      className='z-10'
-     >
+     <div className='z-10'>
       <h1 className='text-light text-5xl sm:text-8xl text-center  glory'>
        May The Best
        <br />
        Investor Win!
       </h1>
-     </ScrollAnimation>
-
-     <ScrollAnimation
-      animateOnce
-      animateIn='animate__fadeInUp'
-      duration={0.5}
-      delay={200}
-      className='z-10'
-     >
-      <p className={hasJoined ? text_sm : text_md}>
-       Vapur will be the largest fantasy financial trading platform in the
-       world, disrupting the market with cryptocurrency wagers.
-      </p>
-     </ScrollAnimation>
-     <ScrollAnimation
-      animateOnce
-      animateIn='animate__fadeInUp'
-      duration={0.5}
-      delay={400}
-      className='z-10'
-     >
-      {hasJoined ? (
-       <div className='z-10 bg-medium p-4 rounded-xl medium-shadow-medium'>
-        <p
-         className='text-light
+     </div>
+     <p className={hasJoined ? text_sm : text_md}>
+      Vapur will be the largest fantasy financial trading platform in the world,
+      disrupting the market with cryptocurrency wagers.
+     </p>
+     {hasJoined ? (
+      <div className='z-10 bg-medium p-4 rounded-xl medium-shadow-medium'>
+       <p
+        className='text-light
       poppins
       text-xs
       sm:text-lg
       text-center
       pb-4
       '
-        >
-         Thanks for signing up! The top{" "}
-         <span className='text-primary font-bold'> 10,000</span> players will be
-         invited to early access! Move up{" "}
-         <span className='text-secondary font-bold'> 10</span> spots when
-         someone signs up using your referral link.
-         <br />
-        </p>
-        <div className='flex items-center justify-center flex-col sm:flex-row space-y-2 space-x-0 sm:space-x-10 '>
-         <p
-          className='
+       >
+        Thanks for signing up! The top{" "}
+        <span className='text-primary font-bold'> 10,000</span> players will be
+        invited to early access! Move up{" "}
+        <span className='text-secondary font-bold'> 10</span> spots when someone
+        signs up using your referral link.
+        <br />
+       </p>
+       <div className='flex items-center justify-center flex-col sm:flex-row space-y-2 space-x-0 sm:space-x-10 '>
+        <p
+         className='
          text-light
      
       poppins
@@ -179,54 +158,53 @@ const showcase = () => {
       sm:text-lg
       text-center
       '
+        >
+         Your position:
+         <span className='text-secondary font-bold'> {spot}</span> | Total
+         players:
+         <span className='text-primary font-bold'> {total}</span> <br />
+         You currently have{" "}
+         <span className='text-green font-bold'> {referrals}</span> referrals.
+        </p>
+        <div className='flex items-center justify-center rounded flex-1 bg-light'>
+         <input
+          className='p-4 rounded-l bg-light w-full text-xs sm:text-lg'
+          readOnly
+          type='text'
+          value={referral_link}
+         />
+         <CopyToClipboard
+          text={referral_link}
+          onCopy={() => setCopied("Copied!")}
          >
-          Your position:
-          <span className='text-secondary font-bold'> {spot}</span> | Total
-          players:
-          <span className='text-primary font-bold'> {total}</span> <br />
-          You currently have{" "}
-          <span className='text-green font-bold'> {referrals}</span> referrals.
-         </p>
-         <div className='flex items-center justify-center rounded flex-1 bg-light'>
-          <input
-           className='p-4 rounded-l bg-light w-full text-xs sm:text-lg'
-           readOnly
-           type='text'
-           value={referral_link}
-          />
-          <CopyToClipboard
-           text={referral_link}
-           onCopy={() => setCopied("Copied!")}
-          >
-           <button className='bg-primary w-24 py-4 text-xs sm:text-lg text-white rounded '>
-            {copied}
-           </button>
-          </CopyToClipboard>
+          <button className='bg-primary w-24 py-4 text-xs sm:text-lg text-white rounded '>
+           {copied}
+          </button>
+         </CopyToClipboard>
 
-          {/* {this.state.copied ? (
+         {/* {this.state.copied ? (
          <span style={{ color: "red" }}>Copied.</span>
         ) : null} */}
-         </div>
         </div>
        </div>
-      ) : (
-       <div className='flex items-start justify-center bg-white rounded-md z-10 w-full '>
-        <input
-         type='text'
-         onChange={(e) => setSubmittedEmail(e.target.value)}
-         className='rounded-l-md px-2 sm:px-4 text-xs sm:text-xl text-dark poppins h-12 flex-1'
-         placeholder='ex: elonmusk@spacex.com'
-        />
-        <button
-         type='submit'
-         onClick={() => handleSubmit()}
-         className='rounded-md px-2 sm:px-4 text-sm sm:text-xl  bg-primary text-white h-12 transition-colors duration-100 hover:bg-primaryTransition'
-        >
-         Get Early Access
-        </button>
-       </div>
-      )}
-     </ScrollAnimation>
+      </div>
+     ) : (
+      <div className='flex items-start justify-center bg-white rounded-md z-10 w-full '>
+       <input
+        type='text'
+        onChange={(e) => setSubmittedEmail(e.target.value)}
+        className='rounded-l-md px-2 sm:px-4 text-xs sm:text-xl text-dark poppins h-12 flex-1'
+        placeholder='ex: elonmusk@spacex.com'
+       />
+       <button
+        type='submit'
+        onClick={() => handleSubmit()}
+        className='rounded-md px-2 sm:px-4 text-sm sm:text-xl  bg-primary text-white h-12 transition-colors duration-100 hover:bg-primaryTransition'
+       >
+        Get Early Access
+       </button>
+      </div>
+     )}
     </div>
 
     <div
