@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const pickAGame = () => {
@@ -28,32 +27,24 @@ const pickAGame = () => {
         </h2>
 
         <div className='flex lg:hidden  items-center justify-center '>
-         <div className='vapur-token-1 -mr-4   w-12 z-10'>
-          <Image
-           width={50}
-           height={50}
-           quality='100'
-           src='/DarkLogo3D.webp'
-           alt=''
-          />
+         <div className='vapur-token-1 -mr-4  z-10'>
+          <img width={50} height={50} src='/DarkLogo3D.webp' alt='' />
          </div>
 
-         <div className='vapur-token-2  -mb-10  w-16 z-20'>
-          <Image
+         <div className='vapur-token-2  -mb-10  z-20'>
+          <img
            width={70}
            height={70}
-           quality='100'
            className='  '
            src='/LightLogo3D.webp'
            alt=''
           />
          </div>
 
-         <div className='vapur-token-3  -ml-5 -mt-5  w-8 z-0'>
-          <Image
+         <div className='vapur-token-3  -ml-5 -mt-5  z-0'>
+          <img
            width={40}
            height={40}
-           quality='100'
            className='  '
            src='/vapur-token-3.png'
            alt=''
@@ -63,12 +54,9 @@ const pickAGame = () => {
        </div>
 
        <div className='medium-shadow-medium rounded-xl game-visual'>
-        <Image
+        <img
          width='1000'
          height='550'
-         quality='100'
-         priority
-         layout='responsive'
          class='rounded-xl'
          src='/newGames.webp'
          alt=''
@@ -79,15 +67,15 @@ const pickAGame = () => {
       <div className='w-full lg:w-1/3 flex-col items-center justify-center '>
        <div className='hidden lg:flex  items-center justify-center '>
         <div className=' -mr-10 vapur-token-1 z-10'>
-         <Image width={160} height={160} src='/DarkLogo3D.webp' alt='' />
+         <img width={160} height={160} src='/DarkLogo3D.webp' alt='' />
         </div>
 
         <div className=' -mb-20 vapur-token-2 z-30'>
-         <Image width={200} height={200} src='/LightLogo3D.webp' alt='' />
+         <img width={200} height={200} src='/LightLogo3D.webp' alt='' />
         </div>
 
         <div className=' -mt-20 -ml-16 vapur-token-3  z-0'>
-         <Image width={120} height={120} src='/vapur-token-3.png' alt='' />
+         <img width={120} height={120} src='/vapur-token-3.png' alt='' />
         </div>
        </div>
 

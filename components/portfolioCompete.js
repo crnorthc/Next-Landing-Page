@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 import ScrollAnimation from "react-animate-on-scroll";
 
 const portfolioCompete = () => {
@@ -28,10 +28,9 @@ const portfolioCompete = () => {
         </h2>
 
         <div className='block lg:hidden generic-number -ml-5 -mt-5 z-0'>
-         <Image
+         <img
           width={90}
           height={90}
-          quality='100'
           className='  '
           src='/area-chart.png'
           alt=''
@@ -40,12 +39,9 @@ const portfolioCompete = () => {
        </div>
 
        <div className='medium-shadow-medium rounded-xl game-visual'>
-        <Image
+        <img
          width='1000'
          height='550'
-         quality='100'
-         priority
-         layout='responsive'
          class='rounded-xl'
          src='/portfolioCompete.webp'
          alt=''
@@ -56,7 +52,7 @@ const portfolioCompete = () => {
       <div className='w-full lg:w-1/3 flex-col items-center justify-center '>
        <div className='hidden lg:flex  items-center justify-center '>
         <div className=' generic-number '>
-         <Image width={220} height={220} src='/area-chart.png' alt='' />
+         <img width={220} height={220} src='/area-chart.png' alt='' />
         </div>
        </div>
 

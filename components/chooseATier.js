@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Image from "next/image";
+
 import ScrollAnimation from "react-animate-on-scroll";
 import { Disclosure, Transition } from "@headlessui/react";
 
@@ -30,24 +30,14 @@ const chooseATier = () => {
         </h2>
 
         <div className='block lg:hidden generic-number -ml-5 -mt-5 z-0'>
-         <Image
-          width={80}
-          height={80}
-          quality='100'
-          className='  '
-          src='/wallet.png'
-          alt=''
-         />
+         <img width={80} height={80} className='  ' src='/wallet.png' alt='' />
         </div>
        </div>
 
        <div className='medium-shadow-medium rounded-xl game-visual'>
-        <Image
+        <img
          width='1000'
          height='550'
-         quality='100'
-         priority
-         layout='responsive'
          class='rounded-xl'
          src='/chooseATier.webp'
          alt=''
@@ -58,7 +48,7 @@ const chooseATier = () => {
       <div className='w-full lg:w-1/3 flex-col items-center justify-center '>
        <div className='hidden lg:flex  items-center justify-center '>
         <div className=' generic-number '>
-         <Image width={200} height={200} src='/wallet.png' alt='' />
+         <img width={200} height={200} src='/wallet.png' alt='' />
         </div>
        </div>
 
@@ -80,10 +70,9 @@ const chooseATier = () => {
              <Disclosure.Button className='bg-primary rounded-lg py-1 px-2 mb-2 w-full'>
               <div className='flex items-center justify-between'>
                <p>Tiered Tournaments</p>
-               <Image
+               <img
                 width={20}
                 height={20}
-                quality='100'
                 src={open ? "/right-arrow.png" : "/down-arrow.png"}
                 alt=''
                />
@@ -126,10 +115,9 @@ const chooseATier = () => {
              <Disclosure.Button className='bg-primary rounded-lg py-1 px-2 mb-2 w-full'>
               <div className='flex itmes-center justify-between'>
                <p>Multiplier Tournaments</p>
-               <Image
+               <img
                 width={20}
                 height={20}
-                quality='100'
                 src={open ? "/right-arrow.png" : "/down-arrow.png"}
                 alt=''
                />
