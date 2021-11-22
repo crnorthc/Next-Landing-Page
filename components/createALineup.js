@@ -54,7 +54,7 @@ const createALineup = () => {
         </div>
        </div>
 
-       <div className='medium-shadow-medium rounded-xl game-visual'>
+       <div className='border-2 border-primary rounded-xl game-visual'>
         <img
          width='1000'
          height='550'
@@ -74,17 +74,13 @@ const createALineup = () => {
         <div className=' -mb-28 vapur-token-2 z-30'>
          <img width={200} height={200} src='/Pepsi3D.webp' alt='' />
         </div>
-
-        <div className=' -mb-64 -ml-16 vapur-token-3  z-0'>
-         <img width={120} height={120} src='/Nike3D.webp' alt='' />
-        </div>
        </div>
 
-       <div className='text-sm bg-light game-visual light-shadow-medium lg:mt-20 p-5 rounded-xl w-full'>
-        <p class='pb-4 text-dark text-xl'>
-         Choose the stocks and cryptos that you think will preform well!
+       <div className='text-sm bg-medium50 game-visual lg:mt-20 p-5 rounded-xl w-full'>
+        <p class='pb-4 text-light text-xl'>
+         Choose the stocks and cryptos that you think will perform well!
         </p>
-        <div className='flex flex-col justify-center items-start space-y-2 background-primary-secondary-vertical rounded-xl p-2'>
+        <div className='flex flex-col justify-center items-start space-y-2 bg-medium rounded-xl p-2'>
          <ScrollAnimation
           animateOnce
           animateIn='animate__fadeInUp'
@@ -92,22 +88,8 @@ const createALineup = () => {
           delay={0}
           className='w-full'
          >
-          <p className='bg-light rounded-lg p-2'>
-           You will have $100,000 of fantasy money for adding stocks and cryptos
-           to your lineup. *
-          </p>
-         </ScrollAnimation>
-         <ScrollAnimation
-          animateOnce
-          animateIn='animate__fadeInUp'
-          duration={0.5}
-          delay={100}
-          className='w-full'
-         >
-          <p className='bg-light rounded-lg p-2'>
-           Your lineup will compete against everyone elses in the tournament for
-           the pot of crypto, so make sure you choose stocks and cryptos you
-           think will moon!
+          <p className='text-light text-lg rounded-lg p-2'>
+           You will have $100,000 of fantasy money to allocate to your favorite stocks and cryptos.
           </p>
          </ScrollAnimation>
         </div>

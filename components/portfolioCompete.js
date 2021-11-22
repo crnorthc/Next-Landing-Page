@@ -38,7 +38,7 @@ const portfolioCompete = () => {
         </div>
        </div>
 
-       <div className='medium-shadow-medium rounded-xl game-visual'>
+       <div className='border-2 border-primary rounded-xl game-visual'>
         <img
          width='1000'
          height='550'
@@ -56,12 +56,12 @@ const portfolioCompete = () => {
         </div>
        </div>
 
-       <div className='text-sm bg-light game-visual light-shadow-medium lg:mt-5 p-5 rounded-xl w-full'>
-        <p class='pb-4 text-dark text-xl'>
-         Watch as you portfolio goes head to head against other's in the
+       <div className='text-sm bg-medium50 game-visual lg:mt-5 p-5 rounded-xl w-full'>
+        <p class='pb-4 text-light text-xl'>
+         Watch as you portfolio goes head to head against other players in the
          tournament!
         </p>
-        <div className='flex flex-col justify-center items-start  bg-secondary rounded-xl p-4 '>
+        <div className='flex flex-col justify-center items-start  bg-medium rounded-xl p-4 '>
          <ScrollAnimation
           animateOnce
           animateIn='animate__fadeInUp'
@@ -69,7 +69,7 @@ const portfolioCompete = () => {
           delay={0}
           className='w-full'
          >
-          <table class='table-auto bg-primary  w-full'>
+          <table class='table-auto bg-primary rounded-md w-full'>
            <thead className=''>
             <tr className='  rounded-lg'>
              <th className=' text-left p-2'>#</th>
@@ -77,7 +77,7 @@ const portfolioCompete = () => {
              <th className=' text-left p-2'>Score</th>
             </tr>
            </thead>
-           <tbody className='bg-white '>
+           <tbody className='bg-white'>
             <tr>
              <td className='p-2'>1</td>
              <td className='p-2'>You</td>
@@ -88,7 +88,7 @@ const portfolioCompete = () => {
              <td className='p-2'>Ella</td>
              <td className='p-2'>$136,273</td>
             </tr>
-            <tr>
+            <tr className="rounded-b-md">
              <td className='p-2'>3</td>
              <td className='p-2'>Cam</td>
              <td className='p-2'>$123,845</td>

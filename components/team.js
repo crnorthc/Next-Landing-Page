@@ -34,12 +34,14 @@ function team() {
 
      <div className='flex flex-col sm:flex-row space-y-10 items-center sm:items-end justify-evenly'>
       <div className='flex flex-col items-center justify-center'>
-       <img
-        onClick={openModal2}
-        className='cursor-pointer w-1/2 md:w-1/2 caleb-head pb-4'
-        src='/Caleb.webp'
-        alt=''
-       />
+      <div className="flex flex-row justify-center team-head">
+        <img
+            onClick={openModal2}
+            className='cursor-pointer team-head w-1/2 md:w-1/2 caleb-head pb-4'
+            src='/Caleb.webp'
+            alt=''
+        />
+       </div>
        <ScrollAnimation
         animateOnce
         animateIn='animate__fadeIn'
@@ -62,12 +64,14 @@ function team() {
        </ScrollAnimation>
       </div>
       <div className='flex flex-col items-center justify-center'>
-       <img
-        onClick={openModal}
-        className='cursor-pointer w-1/2 md:w-1/2 matt-head pb-4'
-        src='/Matt.webp'
-        alt=''
-       />
+        <div className="flex flex-row justify-center team-head">
+          <img
+            onClick={openModal}
+            className='cursor-pointer  w-1/2 md:w-1/2 matt-head pb-4'
+            src='/Matt.webp'
+            alt=''
+            />
+        </div>       
        <ScrollAnimation
         animateOnce
         animateIn='animate__fadeIn'
@@ -101,7 +105,7 @@ function team() {
       <div className='flex flex-row justify-between items-end'>
        <div className='flex-1 flex flex-col items-center justify-center'>
         <a
-         className='no-underline text-center display-none'
+         className='no-underline team-head text-center display-none'
          href='https://www.linkedin.com/in/jack-northcott-9ab709/'
          target='_blank'
         >
@@ -134,7 +138,7 @@ function team() {
        </div>
        <div className='flex-1 flex flex-col items-center justify-center'>
         <a
-         className='no-underline text-center'
+         className='no-underline team-head text-center'
          href='https://www.linkedin.com/in/hallzy/'
          target='_blank'
         >
@@ -168,7 +172,7 @@ function team() {
       </div>
       <div className='flex-1 flex flex-col items-center justify-center'>
        <a
-        className='no-underline text-center'
+        className='no-underline team-head text-center'
         href='https://www.linkedin.com/in/gschwartzman/'
         target='_blank'
        >
@@ -204,7 +208,7 @@ function team() {
      <div className='hidden md:flex flex-row space-y-10 items-end justify-evenly'>
       <div className='flex-1 flex flex-col items-center justify-center'>
        <a
-        className='no-underline text-center display-none'
+        className='no-underline team-head text-center display-none'
         href='https://www.linkedin.com/in/jack-northcott-9ab709/'
         target='_blank'
        >
@@ -223,7 +227,7 @@ function team() {
       </div>
       <div className='flex-1 flex flex-col items-center justify-center'>
        <a
-        className='no-underline text-center'
+        className='no-underline team-head text-center'
         href='https://www.linkedin.com/in/hallzy/'
         target='_blank'
        >
@@ -242,7 +246,7 @@ function team() {
       </div>
       <div className='flex-1 flex flex-col items-center justify-center'>
        <a
-        className='no-underline text-center'
+        className='no-underline team-head text-center'
         href='https://www.linkedin.com/in/gschwartzman/'
         target='_blank'
        >

@@ -34,7 +34,7 @@ const chooseATier = () => {
         </div>
        </div>
 
-       <div className='medium-shadow-medium rounded-xl game-visual'>
+       <div className='border-2 border-primary rounded-xl game-visual'>
         <img
          width='1000'
          height='550'
@@ -52,11 +52,11 @@ const chooseATier = () => {
         </div>
        </div>
 
-       <div className='text-sm bg-light game-visual light-shadow-medium lg:mt-5 p-5 rounded-xl w-full'>
-        <p class='pb-4 text-dark text-xl'>
-         There are 2 types of betting structures a tournament can have...
+       <div className='text-sm bg-medium50 game-visual lg:mt-5 p-5 rounded-xl w-full'>
+        <p class='pb-4 text-light text-xl'>
+         There are two main categories of tournaments
         </p>
-        <div className='flex flex-col justify-center items-start  bg-secondary rounded-xl p-2 '>
+        <div className='flex flex-col justify-center items-start  bg-medium rounded-xl p-2 '>
          <ScrollAnimation
           animateOnce
           animateIn='animate__fadeInUp'
@@ -67,15 +67,17 @@ const chooseATier = () => {
           <Disclosure>
            {({ open }) => (
             <>
-             <Disclosure.Button className='bg-primary rounded-lg py-1 px-2 mb-2 w-full'>
-              <div className='flex items-center justify-between'>
-               <p>Tiered Tournaments</p>
+             <Disclosure.Button className='rounded-lg py-1 px-2 mb-2 w-full'>
+              <div className='flex text-light text-xl items-center justify-between'>
+               <p>Tiered</p>
+               <div>
                <img
                 width={20}
                 height={20}
                 src={open ? "/right-arrow.png" : "/down-arrow.png"}
                 alt=''
                />
+               </div>         
               </div>
              </Disclosure.Button>
 
@@ -90,7 +92,7 @@ const chooseATier = () => {
              >
               <Disclosure.Panel
                static
-               className='bg-white rounded-md py-1 px-2 mb-4 w-full'
+               className='text-light rounded-md py-1 px-2 mb-4 w-full'
               >
                In Tiered Tournaments the tier you enter determines your wager and your share of the game's prize.
               </Disclosure.Panel>
@@ -110,15 +112,17 @@ const chooseATier = () => {
           <Disclosure>
            {({ open }) => (
             <>
-             <Disclosure.Button className='bg-primary rounded-lg py-1 px-2 mb-2 w-full'>
-              <div className='flex itmes-center justify-between'>
-               <p>Multiplier Tournaments</p>
+             <Disclosure.Button className='rounded-lg py-1 px-2 mb-2 w-full'>
+              <div className='flex text-light text-xl itmes-center justify-between'>
+               <p>Multiplier</p>
+               <div>
                <img
                 width={20}
                 height={20}
                 src={open ? "/right-arrow.png" : "/down-arrow.png"}
                 alt=''
                />
+               </div>               
               </div>
              </Disclosure.Button>
              <Transition
@@ -132,7 +136,7 @@ const chooseATier = () => {
              >
               <Disclosure.Panel
                static
-               className='bg-white rounded-md py-1 px-2 w-full'
+               className='text-light rounded-md py-1 px-2 w-full'
               >
                In Multiplier Tournaments everyone's wager is the same and if win your prize is either 2x or 8x your wager!
               </Disclosure.Panel>

@@ -11,7 +11,6 @@
  transform: rotate(45deg);
  border-radius: 3px;
 }
-
 /* Nav */
 .nav-down {
  animation: nav1 0.2s ease-in 1;
@@ -108,7 +107,7 @@
 }
 
 .background-primary-secondary-vertical {
- background-image: linear-gradient(-45deg, #00c2ef 50%, #ffb900 50%);
+ background-image: linear-gradient(-45deg, #00c2ef42 50%, #ffb90042 50%);
 }
 .background-primary-secondary-horizontal {
  background-image: linear-gradient(45deg, #00c2ef 50%, #ffb900 50%);
@@ -944,6 +943,14 @@ section .low-3 {
 .caleb-head {
  left: 35.5%;
  animation: CalebHead 6s 0s infinite alternate ease-in-out none running;
+}
+
+.team-head {
+  transition: all .2s ease-in-out
+}
+
+.team-head:hover {
+  transform: scale(1.1)
 }
 
 @keyframes CalebHead {

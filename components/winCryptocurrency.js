@@ -52,7 +52,7 @@ const winCryptocurrency = () => {
         </div>
        </div>
 
-       <div className='medium-shadow-medium rounded-xl game-visual'>
+       <div className='border-2 border-primary rounded-xl game-visual'>
         <img
          width='1000'
          height='550'
@@ -78,11 +78,11 @@ const winCryptocurrency = () => {
         </div>
        </div>
 
-       <div className='text-sm bg-light game-visual light-shadow-medium lg:mt-20 p-5 rounded-xl w-full'>
-        <p class='pb-4 text-dark text-xl'>
+       <div className='text-sm bg-medium50 game-visual lg:mt-20 p-5 rounded-xl w-full'>
+        <p class='pb-4 text-light text-xl'>
          If you win the tournament, you win the pot of cryptocurrency!
         </p>
-        <div className='flex flex-col justify-center items-start text-center space-y-2 background-primary-secondary-horizontal rounded-xl p-2'>
+        <div className='flex flex-col justify-center items-start text-center space-y-2 bg-medium rounded-xl p-2'>
          <ScrollAnimation
           animateOnce
           animateIn='animate__fadeInUp'
@@ -90,21 +90,8 @@ const winCryptocurrency = () => {
           delay={0}
           className='w-full'
          >
-          <p className='bg-light rounded-lg p-2'>
-           This is what it's all about! Win over $100,000 of crypto in a single
-           game!*{" "}
-          </p>
-         </ScrollAnimation>
-         <ScrollAnimation
-          animateOnce
-          animateIn='animate__fadeInUp'
-          duration={0.5}
-          delay={100}
-          className='w-full'
-         >
-          <p className='bg-light rounded-lg p-2'>
-           Players will be able to cash out their winnings in bitcoin, ethereum,
-           bnb, or any other major cryptocurrency!
+          <p className='text-light text-left text-lg rounded-lg p-2'>
+           Your score depends on the growth of your lineup and if your selection makes it to the top, you win!
           </p>
          </ScrollAnimation>
         </div>

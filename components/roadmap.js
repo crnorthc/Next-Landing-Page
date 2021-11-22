@@ -50,7 +50,7 @@ const roadmap = () => {
        </div>
        <div className='flex flex-col rounded-t-md justify-start items-center xs:items-start xl:flex-row xl:justify-between  mb-5 bg-secondary px-10 py-5'>
         <h4 className='text-light  text-3xl'>Stage 1</h4>
-        <h4 className='text-light text-xl xl:text-3xl'>Development</h4>
+        <h4 className='text-light text-xl xl:text-3xl'>Consolidation</h4>
        </div>
        <ScrollAnimation
         animateOnce
@@ -59,7 +59,7 @@ const roadmap = () => {
         delay={0}
        >
         <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>
-         Pre-Seed Allocation
+         Establish Vapur Community
         </p>
        </ScrollAnimation>
        <ScrollAnimation
@@ -69,7 +69,7 @@ const roadmap = () => {
         delay={100}
        >
         <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
-         Consolidate Developers
+         Deliver the MVP
         </p>
        </ScrollAnimation>
        <ScrollAnimation
@@ -79,17 +79,17 @@ const roadmap = () => {
         delay={200}
        >
         <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
-         Partner with a Market Data Provider
+         Strengthen the Network
         </p>
        </ScrollAnimation>
        <ScrollAnimation
         animateOnce
         animateIn='animate__fadeInUp'
         duration={0.5}
-        delay={400}
+        delay={200}
        >
         <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
-         Complete Vapur Devleopment
+         Launch the Vapur Token
         </p>
        </ScrollAnimation>
       </section>
@@ -111,7 +111,7 @@ const roadmap = () => {
        </div>
        <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-primary px-10 py-5'>
         <h4 className='text-light  text-3xl'>Stage 2</h4>
-        <h4 className='text-light text-xl xl:text-3xl'>Platform Release</h4>
+        <h4 className='text-light text-xl xl:text-3xl'>Pre-Seed</h4>
        </div>
        <ScrollAnimation
         animateOnce
@@ -119,7 +119,7 @@ const roadmap = () => {
         duration={0.5}
         delay={0}
        >
-        <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Seed Allocation</p>
+        <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>Launch Beta</p>
        </ScrollAnimation>
        <ScrollAnimation
         animateOnce
@@ -128,7 +128,7 @@ const roadmap = () => {
         delay={100}
        >
         <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
-         Launch Vapor Beta
+        Open Early Access
         </p>
        </ScrollAnimation>
        <ScrollAnimation
@@ -137,7 +137,7 @@ const roadmap = () => {
         duration={0.5}
         delay={200}
        >
-        <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Grow Community</p>
+        <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>Prepare for Launch</p>
        </ScrollAnimation>
       </section>
      </div>
@@ -158,7 +158,7 @@ const roadmap = () => {
        </div>
        <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-secondary px-10 py-5'>
         <h4 className='text-light text-3xl'>Stage 3</h4>
-        <h4 className='text-light text-xl xl:text-3xl'>Vapur Token</h4>
+        <h4 className='text-light text-xl xl:text-3xl'>Seed</h4>
        </div>
        <div className='text-left'>
         <ScrollAnimation
@@ -168,7 +168,7 @@ const roadmap = () => {
          delay={0}
         >
          <p className='text-l xs:text-xl px-5 xs:px-10 pt-3'>
-          Reach Target Circulating Supply
+          Launch Vapur Platform
          </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -178,7 +178,17 @@ const roadmap = () => {
          delay={100}
         >
          <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
-          Partner with Exchanges
+          Finance GTM Strategy
+         </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+         animateOnce
+         animateIn='animate__fadeInUp'
+         duration={0.5}
+         delay={100}
+        >
+         <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
+          Grow User Base
          </p>
         </ScrollAnimation>
        </div>
@@ -201,7 +211,7 @@ const roadmap = () => {
        </div>
        <div className='flex flex-col justify-start items-center xs:items-start xl:flex-row xl:justify-between rounded-t-md mb-5 bg-primary px-10 py-5'>
         <h4 className='text-light  text-3xl'>Stage 4</h4>
-        <h4 className='text-light text-xl xl:text-3xl'>Go Public</h4>
+        <h4 className='text-light text-xl xl:text-3xl'>Expansion</h4>
        </div>
        <ScrollAnimation
         animateOnce
@@ -218,7 +228,7 @@ const roadmap = () => {
         delay={100}
        >
         <p className='text-l xs:text-xl px-5 xs:px-10 pt-2'>
-         Begin Series A Funding
+         New Feature Launch
         </p>
        </ScrollAnimation>
       </section>

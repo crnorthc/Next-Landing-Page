@@ -131,7 +131,7 @@ const showcase = () => {
       disrupting the market with cryptocurrency wagers.
      </p>
      {hasJoined ? (
-      <div className='z-10 bg-medium p-4 rounded-xl medium-shadow-medium'>
+      <div className='z-10 bg-medium p-4 rounded-xl'>
        <p
         className='text-light
       poppins

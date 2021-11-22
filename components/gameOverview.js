@@ -38,6 +38,7 @@ const gameOverview = () => {
    return () => clearTimeout(timer);
   }
  };
+ 
  return (
   <section id='gameOverview' className='background-ocean'>
    <div className='background-secondary pt-16 sm:pt-40 pb-10 sm:pb-20 px-5 over-tokens '>
@@ -51,11 +52,11 @@ const gameOverview = () => {
     <div className=' absolute  top-0 left-0 w-1 h-1 bg-ocean pipe-shine'></div>
 
     {/* page content */}
-    <div className='flex flex-col-reverse md:flex-row justify-center md:space-x-16  max-w-6xl mx-auto pb-12'>
+    <div id='features' className='flex flex-col-reverse md:flex-row justify-center md:space-x-16  max-w-6xl mx-auto pb-12'>
      <div class='block'>
       <div className='flex flex-col items-center justify-start bg-medium medium-shadow-big rounded-xl px-5 py-8 lineup-background-size lineup-box-animation space-y-5'>
        <div>
-        <h3 className='text-light text-center text-3xl glory'>Mach Lineups</h3>
+        <h3 className='text-light text-center text-3xl glory'>Mock Lineups</h3>
         <p className='text-light text-center text-md lg:text-lg poppins'>
          Similar concept. Different lineups.
         </p>
@@ -67,7 +68,7 @@ const gameOverview = () => {
           !isVapur ? " border-primary" : "border-medium"
          } border-b-4 sm:border-b-8 flex-1 text-md xs:text-lg sm:text-xl  glory text-light transition duration-400 ease-in-out transform hover:-translate-y-1 hover:scale-110 pb-2`}
         >
-         Fantasy Football
+         Vapur Trading
         </button>
         <button
          onClick={() => Vapur()}
@@ -75,7 +76,7 @@ const gameOverview = () => {
           isVapur ? " border-primary" : "border-medium"
          } border-b-4 sm:border-b-8 flex-1 text-md xs:text-lg sm:text-xl  glory text-light transition duration-400 ease-in-out transform hover:-translate-y-1 hover:scale-110 pb-2 `}
         >
-         Vapur Trading
+         Fantasy Football
         </button>
        </div>
        <div className='flex flex-col items-center justify-center poppins  w-full'>
@@ -87,7 +88,113 @@ const gameOverview = () => {
            : `${lineupIn}-1 ${hideAfterAnimation}`
          }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
         >
-         <div className='flex  items-center justify-center space-x-3 '>
+        <img width={60} height={60} src='/001-bitcoin.png' alt='' />
+
+        <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
+        <div className=''>
+          <p className=''>Bitcoin</p>
+          <p className=''>BTC</p>
+        </div>
+
+        <div className='text-green flex flex-col items-end'>
+          <p className=''>$60,254</p>
+          <p className=''>+0.20%</p>
+        </div>
+        </div>
+        </div>
+        <div
+         className={`${
+          isVapur
+           ? `${lineupOut}-2 ${hideAfterAnimation}`
+           : `${lineupIn}-2 ${hideAfterAnimation}`
+         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
+        >
+          <img width={60} height={60} src='/004-apple.png' alt='' />
+
+          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
+          <div className=''>
+            <p className=''>Apple</p>
+            <p className=''>APPL</p>
+          </div>
+
+          <div className='text-green flex flex-col items-end'>
+            <p className=''>$153.49</p>
+            <p className=''>+0.78%</p>
+          </div>
+          </div>
+        </div>
+        <div
+         className={`${
+          isVapur
+           ? `${lineupOut}-3 ${hideAfterAnimation}`
+           : `${lineupIn}-3 ${hideAfterAnimation}`
+         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
+        >
+          <img width={60} height={60} src='/003-paypal.png' alt='' />
+
+          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
+          <div className=''>
+            <p className=''>PayPal</p>
+            <p className=''>PYPL</p>
+          </div>
+
+          <div className='text-green flex flex-col items-end'>
+            <p className=''>$209.65</p>
+            <p className=''>+1.34%</p>
+          </div>
+          </div>
+        </div>
+        <div
+         className={` hidden md:flex lg:hidden ${
+          isVapur
+           ? `${lineupOut}-4 md:${hideAfterAnimation} ${hideAfterAnimation}`
+           : `${lineupIn}-4 md:${hideAfterAnimation} ${hideAfterAnimation}`
+         }  hidden md:flex lg:hidden items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
+        >
+          <img width={60} height={60} src='/005-ethereum.png' alt='' />
+
+          <div className='flex flex-1 items-center justify-between pl-4 pr-2'>
+          <div className=''>
+            <p className=''>Ethereum</p>
+            <p className=''>ETH</p>
+          </div>
+
+          <div className='text-green flex flex-col items-end'>
+            <p className=''>$4,341.06</p>
+            <p className=''>+4.12%</p>
+          </div>
+          </div>
+        </div>
+        <div
+         className={` hidden md:flex lg:hidden ${
+          isVapur
+           ? `${lineupOut}-5 md:${hideAfterAnimation} ${hideAfterAnimation}`
+           : `${lineupIn}-5 md:${hideAfterAnimation} ${hideAfterAnimation}`
+         }   items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
+        >
+          <img width={60} height={60} src='/002-netflix.png' alt='' />
+
+          <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
+          <div className=''>
+            <p className=''>Netflix</p>
+            <p className=''>NFLX</p>
+          </div>
+
+          <div className='text-green flex flex-col items-end'>
+            <p className=''>$690.01</p>
+            <p className=''>+0.51%</p>
+          </div>
+          </div>
+        </div>
+        {/* Vapur */}
+        <div
+         className={`${
+          isVapur
+           ? `${lineupIn}-1 ${initiallyHidden}`
+           : `${lineupOut}-1 ${initiallyHidden}`
+         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
+        >
+          <div className='flex  items-center justify-center space-x-3 '>
           <img
            className=' rounded-full bg-light'
            height={60}
@@ -105,13 +212,14 @@ const gameOverview = () => {
           <img src='/campfire.png' width={25} height={25} />
           <p className='text-sm'>30.67</p>
          </div>
+         
         </div>
         <div
          className={`${
           isVapur
-           ? `${lineupOut}-2 ${hideAfterAnimation}`
-           : `${lineupIn}-2 ${hideAfterAnimation}`
-         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
+           ? `${lineupIn}-2 ${initiallyHidden}`
+           : `${lineupOut}-2 ${initiallyHidden}`
+         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex  items-center justify-center space-x-3 '>
           <img
@@ -135,10 +243,10 @@ const gameOverview = () => {
         <div
          className={`${
           isVapur
-           ? `${lineupOut}-3 ${hideAfterAnimation}`
-           : `${lineupIn}-3 ${hideAfterAnimation}`
-         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
-        >
+           ? `${lineupIn}-3 ${initiallyHidden}`
+           : `${lineupOut}-3 ${initiallyHidden}`
+         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
+        >        
          <div className='flex  items-center justify-center space-x-3 '>
           <img
            className=' rounded-full bg-light'
@@ -161,10 +269,10 @@ const gameOverview = () => {
         <div
          className={` hidden md:flex lg:hidden ${
           isVapur
-           ? `${lineupOut}-4 md:${hideAfterAnimation} ${hideAfterAnimation}`
-           : `${lineupIn}-4 md:${hideAfterAnimation} ${hideAfterAnimation}`
-         }  hidden md:flex lg:hidden items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
-        >
+           ? `${lineupIn}-4 md:${initiallyHidden}`
+           : `${lineupOut}-4 md:${initiallyHidden}`
+         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
+        >        
          <div className='flex  items-center justify-center space-x-3 '>
           <img
            className=' rounded-full bg-light'
@@ -187,9 +295,9 @@ const gameOverview = () => {
         <div
          className={` hidden md:flex lg:hidden ${
           isVapur
-           ? `${lineupOut}-5 md:${hideAfterAnimation} ${hideAfterAnimation}`
-           : `${lineupIn}-5 md:${hideAfterAnimation} ${hideAfterAnimation}`
-         }   items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4  medium-shadow-small text-white poppins mb-5`}
+           ? `${lineupIn}-5 md:${initiallyHidden}`
+           : `${lineupOut}-5 md:${initiallyHidden}`
+         }   items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
         >
          <div className='flex items-center justify-center space-x-3 '>
           <img
@@ -210,112 +318,6 @@ const gameOverview = () => {
           <p className='text-sm'>22.37</p>
          </div>
         </div>
-        {/* Vapur */}
-        <div
-         className={`${
-          isVapur
-           ? `${lineupIn}-1 ${initiallyHidden}`
-           : `${lineupOut}-1 ${initiallyHidden}`
-         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
-        >
-         <img width={60} height={60} src='/001-bitcoin.png' alt='' />
-
-         <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
-          <div className=''>
-           <p className=''>Bitcoin</p>
-           <p className=''>BTC</p>
-          </div>
-
-          <div className='text-green flex flex-col items-end'>
-           <p className=''>$60,254</p>
-           <p className=''>+0.20%</p>
-          </div>
-         </div>
-        </div>
-        <div
-         className={`${
-          isVapur
-           ? `${lineupIn}-2 ${initiallyHidden}`
-           : `${lineupOut}-2 ${initiallyHidden}`
-         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
-        >
-         <img width={60} height={60} src='/004-apple.png' alt='' />
-
-         <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
-          <div className=''>
-           <p className=''>Apple</p>
-           <p className=''>APPL</p>
-          </div>
-
-          <div className='text-green flex flex-col items-end'>
-           <p className=''>$153.49</p>
-           <p className=''>+0.78%</p>
-          </div>
-         </div>
-        </div>
-        <div
-         className={`${
-          isVapur
-           ? `${lineupIn}-3 ${initiallyHidden}`
-           : `${lineupOut}-3 ${initiallyHidden}`
-         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
-        >
-         <img width={60} height={60} src='/003-paypal.png' alt='' />
-
-         <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
-          <div className=''>
-           <p className=''>PayPal</p>
-           <p className=''>PYPL</p>
-          </div>
-
-          <div className='text-green flex flex-col items-end'>
-           <p className=''>$209.65</p>
-           <p className=''>+1.34%</p>
-          </div>
-         </div>
-        </div>
-        <div
-         className={` hidden md:flex lg:hidden ${
-          isVapur
-           ? `${lineupIn}-4 md:${initiallyHidden}`
-           : `${lineupOut}-4 md:${initiallyHidden}`
-         }  flex  items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
-        >
-         <img width={60} height={60} src='/005-ethereum.png' alt='' />
-
-         <div className='flex flex-1 items-center justify-between pl-4 pr-2'>
-          <div className=''>
-           <p className=''>Ethereum</p>
-           <p className=''>ETH</p>
-          </div>
-
-          <div className='text-green flex flex-col items-end'>
-           <p className=''>$4,341.06</p>
-           <p className=''>+4.12%</p>
-          </div>
-         </div>
-        </div>
-        <div
-         className={` hidden md:flex lg:hidden ${
-          isVapur
-           ? `${lineupIn}-5 md:${initiallyHidden}`
-           : `${lineupOut}-5 md:${initiallyHidden}`
-         }   items-center justify-between rounded-xl w-full md:w-80 xl:w-92 bg-dark px-2 xs:px-4 py-4 medium-shadow-small text-white poppins mb-5`}
-        >
-         <img width={60} height={60} src='/002-netflix.png' alt='' />
-
-         <div className='flex flex-1 items-center justify-between pl-4 pr-2 '>
-          <div className=''>
-           <p className=''>Netflix</p>
-           <p className=''>NFLX</p>
-          </div>
-
-          <div className='text-green flex flex-col items-end'>
-           <p className=''>$690.01</p>
-           <p className=''>+0.51%</p>
-          </div>
-         </div>
-        </div>
        </div>
       </div>
      </div>
@@ -325,7 +327,7 @@ const gameOverview = () => {
        <span className='text-primary glory bg-light rounded-xl px-2'>
         Vapur
        </span>{" "}
-       is like Fantasy Football of the Stock and Crypto Markets...
+       is the fantasy football of the stock and crypto markets
       </h2>
 
       <div className='flex lg:flex-col items-start justify-center w-full '>

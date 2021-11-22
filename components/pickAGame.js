@@ -53,7 +53,7 @@ const pickAGame = () => {
         </div>
        </div>
 
-       <div className='medium-shadow-medium rounded-xl game-visual'>
+       <div className='border-2 border-primary rounded-xl game-visual'>
         <img
          width='1000'
          height='550'
@@ -79,19 +79,19 @@ const pickAGame = () => {
         </div>
        </div>
 
-       <div className='text-sm bg-light game-visual light-shadow-medium lg:mt-20 p-5 rounded-xl w-full'>
-        <p class='pb-4 text-dark text-xl'>
-         There are many different tournaments to play in!
+       <div className='text-sm h-full text-center bg-medium game-visual lg:mt-20 p-5 rounded-xl w-full'>
+        <p class='text-secondary text-3xl glory'>
+         Tournament Variations
         </p>
-        <div className='flex justify-center items-start text-center space-x-2 bg-secondary rounded-xl p-2'>
-         <div className='flex-1 flex flex-col items-center justify-center space-y-1'>
-          <p className='bg-primary p-1 rounded-lg w-full'>League</p>
+        <div className='flex justify-around rounded-md items-start text-center space-x-2 rounded-xl p-2'>
+         <div className='flex flex-col px-4 bg-secondaryHue pb-2 rounded-md flex-col items-center justify-center'>
+          <p className='text-light text-xl p-1 rounded-lg glory w-full'>Leagues</p>
           <ScrollAnimation
            animateOnce
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={100}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
            <p>Stocks</p>
           </ScrollAnimation>
@@ -100,7 +100,7 @@ const pickAGame = () => {
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={200}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
            <p>Cryptos</p>
           </ScrollAnimation>
@@ -109,67 +109,19 @@ const pickAGame = () => {
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={300}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
-           <p>Stocks & Cryptos</p>
+           <p>Combo</p>
           </ScrollAnimation>
          </div>
-         <div className='flex-1 flex flex-col items-center justify-center space-y-1'>
-          <p className='bg-primary p-1 rounded-lg w-full'>Win Splits</p>
+         <div className='bg-secondaryHue px-4 pb-2 h-full rounded-md flex flex-col items-center justify-center'>
+          <p className='text-light text-xl glory p-1 rounded-lg w-full'>Durations</p>
           <ScrollAnimation
            animateOnce
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={100}
-           className='bg-light p-1 rounded-lg w-full'
-          >
-           <p>Top 1</p>
-          </ScrollAnimation>
-          <ScrollAnimation
-           animateOnce
-           animateIn='animate__fadeInUp'
-           duration={0.5}
-           delay={200}
-           className='bg-light p-1 rounded-lg w-full'
-          >
-           <p>Top 3</p>
-          </ScrollAnimation>
-          <ScrollAnimation
-           animateOnce
-           animateIn='animate__fadeInUp'
-           duration={0.5}
-           delay={300}
-           className='bg-light p-1 rounded-lg w-full'
-          >
-           <p>Top 10</p>
-          </ScrollAnimation>
-          <ScrollAnimation
-           animateOnce
-           animateIn='animate__fadeInUp'
-           duration={0.5}
-           delay={400}
-           className='bg-light p-1 rounded-lg w-full'
-          >
-           <p>Top 10%</p>
-          </ScrollAnimation>
-          <ScrollAnimation
-           animateOnce
-           animateIn='animate__fadeInUp'
-           duration={0.5}
-           delay={500}
-           className='bg-light p-1 rounded-lg w-full'
-          >
-           <p>Top 40%</p>
-          </ScrollAnimation>
-         </div>
-         <div className='flex-1 flex flex-col items-center justify-center space-y-1'>
-          <p className='bg-primary p-1 rounded-lg w-full'>Durations</p>
-          <ScrollAnimation
-           animateOnce
-           animateIn='animate__fadeInUp'
-           duration={0.5}
-           delay={100}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
            <p>Hour</p>
           </ScrollAnimation>
@@ -178,7 +130,7 @@ const pickAGame = () => {
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={200}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
            <p>Day</p>
           </ScrollAnimation>
@@ -187,7 +139,7 @@ const pickAGame = () => {
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={300}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
            <p>Week</p>
           </ScrollAnimation>
@@ -196,7 +148,7 @@ const pickAGame = () => {
            animateIn='animate__fadeInUp'
            duration={0.5}
            delay={400}
-           className='bg-light p-1 rounded-lg w-full'
+           className='text-light p-1 rounded-lg w-full'
           >
            <p>Quarter</p>
           </ScrollAnimation>
