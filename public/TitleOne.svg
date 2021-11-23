@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="295.33142mm"
+   height="18.467089mm"
+   viewBox="0 0 295.33142 18.467089"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="TitleOne.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   inkscape:export-filename="/Users/calebnorthcott/Desktop/Vapur/NextLandingPage/public/SubTitleOne.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.78741022"
+     inkscape:cx="586.09856"
+     inkscape:cy="0.63499303"
+     inkscape:window-width="1934"
+     inkscape:window-height="1027"
+     inkscape:window-x="1970"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(26.496885,-150.25079)">
+    <g
+       id="g54453">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Kohinoor Gujarati';-inkscape-font-specification:'Kohinoor Gujarati, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eeeeee;stroke-width:0.264583"
+         x="23.319983"
+         y="168.71788"
+         id="text28283"><tspan
+           sodipodi:role="line"
+           id="tspan28281"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Kohinoor Gujarati';-inkscape-font-specification:'Kohinoor Gujarati, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eeeeee;stroke-width:0.264583"
+           x="23.319983"
+           y="168.71788">AY THE MARKET</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Kohinoor Gujarati';-inkscape-font-specification:'Kohinoor Gujarati, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eeeeee;stroke-width:0.264583"
+         x="-12.673296"
+         y="168.71788"
+         id="text28283-0"><tspan
+           sodipodi:role="line"
+           id="tspan28281-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Kohinoor Gujarati';-inkscape-font-specification:'Kohinoor Gujarati, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eeeeee;stroke-width:0.264583"
+           x="-12.673296"
+           y="168.71788">PL</tspan></text>
+    </g>
+    <circle
+       style="fill:#00c2ef;fill-rule:evenodd;stroke-width:0.271593"
+       id="path48060"
+       cx="-22.746885"
+       cy="159.48433"
+       r="3.75" />
+    <circle
+       style="fill:#00c2ef;fill-rule:evenodd;stroke-width:0.271593"
+       id="path48060-9"
+       cx="265.08453"
+       cy="159.48433"
+       r="3.75" />
+  </g>
+</svg>

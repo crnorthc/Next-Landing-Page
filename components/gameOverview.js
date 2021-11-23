@@ -42,14 +42,6 @@ const gameOverview = () => {
  return (
   <section id='gameOverview' className='background-ocean'>
    <div className='background-secondary pt-16 sm:pt-40 pb-10 sm:pb-20 px-5 over-tokens '>
-    {/* Bottom pipe */}
-    <div className='absolute z-50 bottom-0 left-0 right-0 h-20 bg-medium xl:rounded-tr-2xl'>
-     <div className='absolute z-50 bottom-8 left-0 right-0 xl:right-10 h-3 bg-light pipe-shine'></div>
-     <div className='hidden xl:block absolute bottom-0 right-8 w-3 h-8 bg-light pipe-shine'></div>
-    </div>
-
-    {/* blur bug fix */}
-    <div className=' absolute  top-0 left-0 w-1 h-1 bg-ocean pipe-shine'></div>
 
     {/* page content */}
     <div id='features' className='flex flex-col-reverse md:flex-row justify-center md:space-x-16  max-w-6xl mx-auto pb-12'>
@@ -612,24 +604,6 @@ const gameOverview = () => {
        </div>
       </div>
      </div>
-    </div>
-
-    {/* Robard */}
-    <div className='absolute z-50 bottom-20 right-5 xl:right-40 w-28 h-12 bg-medium '></div>
-    <div className='absolute bottom-32 right-5 xl:right-40 w-28 h-4 rounded-full bg-black border-4 border-primary pipe-primary-shadow'></div>
-    <div className='z-50  robard-bridge-right h-2 border-t-4 border-black absolute bottom-32 bg-primary '></div>
-    <div className='flex flex-row justify-end xl:mr-32'>
-     <ScrollAnimation
-      animateIn='animate__slideInUp'
-      animateOut='animate__slideOutDown'
-      duration={1}
-     >
-      <img
-       className='mb-24 sm:mb-12 sm:pb-2 z-40 relative mr-4 xl:mr-7 w-20'
-       src='/robard-head-left-3D.webp'
-       alt=''
-      />
-     </ScrollAnimation>
     </div>
    </div>
   </section>

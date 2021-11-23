@@ -8,6 +8,7 @@ import ChooseATier from "../components/chooseATier";
 import CreateALineup from "../components/createALineup";
 import PortfolioCompete from "../components/portfolioCompete";
 import WinCryptocurrency from "../components/winCryptocurrency";
+import Body from '../components/Body'
 import Roadmap from "../components/roadmap";
 import Team from "../components/team";
 import Footer from "../components/footer";
@@ -60,11 +61,7 @@ export default function Home() {
    <Navbar />
    <Showcase />
    <GameOverview />
-   <PickAGame />
-   <ChooseATier />
-   <CreateALineup />
-   <PortfolioCompete />
-   <WinCryptocurrency />
+   <Body />
    <Roadmap />
    <Team />
    <Footer />

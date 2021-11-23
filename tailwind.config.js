@@ -25,6 +25,7 @@ module.exports = {
    secondary: "#00C2EF",
    secondaryHue: "#00C2EF42",
    secondaryDarker: "#00a0c4",
+   secondaryLight: "#08d2ff",
    ocean: "#0092b3",
    red: "#FF0000",
    green: "#00ff00",

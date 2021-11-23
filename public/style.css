@@ -470,15 +470,18 @@
   transform: translateY(0);
  }
 }
-
 /* Pick a Tournament */
 
-.background-ocean {
- background-image: url("cunt.gif");
- background-repeat: no-repeat;
- background-position: center center;
- background-size: cover;
+.nuts {
+  background-image: url('/Background.png');
+  background-size: cover;
 }
+
+.nuts2 {
+  background-image: url('/BackgroundTwo.png');
+  background-size: cover;
+}
+
 .background-dark {
  background-color: hsla(185, 17%, 14%, 0.975);
 }
